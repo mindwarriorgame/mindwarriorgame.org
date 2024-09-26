@@ -1,5 +1,5 @@
-const FAQ_QUESTIONS_MENU_ITEM_ELTS = document.querySelectorAll("#sidebar li[data-target]");
-const FAQ_CONTENT_ELT = document.querySelector(".content");
+const FAQ_MENU_ITEM_ELTS = document.querySelectorAll("#sidebar li[data-target]");
+const CONTENT_ELT = document.querySelector(".content");
 
 class ActiveMenuItemUpdater {
     constructor() {
@@ -14,28 +14,28 @@ class ActiveMenuItemUpdater {
         this.activeMenuItemElt = menuItemElt;
     }
 
-    startListenFaqContentScrolling() {
-        if (this._onScrollCallback) {
+    startListenContentScrolling() {
+        if (this._onContentScrollCallback) {
             return;
         }
-        this._onScrollCallback = this._onScroll.bind(this);
-        FAQ_CONTENT_ELT.addEventListener("scroll", this._onScrollCallback);
+        this._onContentScrollCallback = this._onContentScroll.bind(this);
+        CONTENT_ELT.addEventListener("scroll", this._onContentScrollCallback);
     }
 
     stopListenFaqContentScrolling() {
-        FAQ_CONTENT_ELT.removeEventListener("scroll", this._onScrollCallback);
+        CONTENT_ELT.removeEventListener("scroll", this._onContentScrollCallback);
         this._onScrollCallback = null;
     }
 
-    _onScroll() {
-        for (let idx = 0; idx < FAQ_QUESTIONS_MENU_ITEM_ELTS.length; idx++) {
-            const faqMenuItemElt = FAQ_QUESTIONS_MENU_ITEM_ELTS[idx];
+    _onContentScroll() {
+        for (let idx = 0; idx < FAQ_MENU_ITEM_ELTS.length; idx++) {
+            const faqMenuItemElt = FAQ_MENU_ITEM_ELTS[idx];
             const targetQuestionSelector = '#smooth-' + faqMenuItemElt.getAttribute("data-target").substring(1);
-            const targetQuestionElt = FAQ_CONTENT_ELT.querySelector(targetQuestionSelector);
+            const targetQuestionElt = CONTENT_ELT.querySelector(targetQuestionSelector);
 
-            const nextQuestionElt = idx < FAQ_QUESTIONS_MENU_ITEM_ELTS.length - 1 ? FAQ_QUESTIONS_MENU_ITEM_ELTS[idx + 1] : undefined;
+            const nextQuestionElt = idx < FAQ_MENU_ITEM_ELTS.length - 1 ? FAQ_MENU_ITEM_ELTS[idx + 1] : undefined;
             const nextTargetSelector = nextQuestionElt ? nextQuestionElt.getAttribute("data-target") : undefined
-            const nextTargetElement = nextQuestionElt ? FAQ_CONTENT_ELT.querySelector(nextTargetSelector) : undefined;
+            const nextTargetElement = nextQuestionElt ? CONTENT_ELT.querySelector(nextTargetSelector) : undefined;
 
             if (targetQuestionElt) {
                 const targetRect = targetQuestionElt.getBoundingClientRect();
@@ -59,7 +59,7 @@ class ActiveMenuItemUpdater {
 const activeMenuItemUpdater = new ActiveMenuItemUpdater();
 
 function initFaqQuestionsLinks() {
-    FAQ_QUESTIONS_MENU_ITEM_ELTS.forEach((question) => {
+    FAQ_MENU_ITEM_ELTS.forEach((question) => {
         const targetId = question.getAttribute("data-target");
         question.addEventListener("click", () => {
             window.location.hash = targetId;
@@ -83,7 +83,7 @@ function onAnchorChanged(anchor) {
 
     activeMenuItemUpdater.stopListenFaqContentScrolling();
     setTimeout(() => {
-        activeMenuItemUpdater.startListenFaqContentScrolling();
+        activeMenuItemUpdater.startListenContentScrolling();
     }, 2000);
 }
 
@@ -100,4 +100,4 @@ function watchAnchorChanges() {
 
 initFaqQuestionsLinks();
 watchAnchorChanges();
-activeMenuItemUpdater.startListenFaqContentScrolling();
+activeMenuItemUpdater.startListenContentScrolling();

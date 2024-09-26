@@ -3,6 +3,7 @@
 return array(
     'quick-start' => 'Quick start',
     'shared-letters' => 'Shared letters',
+    'privacy-policy' => 'Privacy policy',
     'faq' => 'FAQ',
     'purpose' => 'What is the purpose of the game?',
     'letter' => 'What should I write in my Letter?',
@@ -15,6 +16,5 @@ return array(
     'name' => 'Why the game is called "MindWarrior"?',
     'letter-example' => 'Can I see Letters of other players?',
     'share' => 'Can I share my letter with others players?',
-    'privacy' => 'Who could see my Letter?',
-    'privacy-policy' => 'Privacy Policy'
+    'privacy' => 'Who could see my Letter?'
 );

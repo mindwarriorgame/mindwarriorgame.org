@@ -24,7 +24,7 @@
         <ul>
             <li><a href="/quick-start.<?=$LANG;?>.<?=getenv('LINK_EXT');?>"><?=$MENU['quick-start']; ?></a></li>
             <li><a href="/shared-letters.<?=$LANG;?>.<?=getenv('LINK_EXT');?>"><?=$MENU['shared-letters']; ?></a></li>
-            <li><a href=""/privacy.<?=$LANG;?>.<?=getenv('LINK_EXT');?>">Privacy Policy</a></li>
+            <li><a href="/privacy.<?=$LANG;?>.<?=getenv('LINK_EXT');?>"><?=$MENU['privacy-policy']; ?></a></li>
         </ul>
         <h2><?=$MENU['faq']; ?></h2>
         <ul id="faq-questions">
