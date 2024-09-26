@@ -26,9 +26,9 @@
         </p>
 
         <div class="images">
-            <a href="/images/faq_en/res1.jpg" class="image-link" target="_blank>"><img src="/images/faq_en/res1.jpg" width="300" style="border: 1px solid grey" /></a>
-            <a href="/images/faq_en/res2.png" class="image-link" target="_blank>"><img src="/images/faq_en/res2.png" width="300" style="border: 1px solid grey" /></a>
-            <a href="/images/faq_en/res3.jpg" class="image-link" target="_blank>"><img src="/images/faq_en/res3.jpg" width="300" style="border: 1px solid grey" /></a>
+            <a href="/images/faq_en/res1.jpg" class="image-link" target="_blank"><img src="/images/faq_en/res1.jpg" width="300" style="border: 1px solid grey" /></a>
+            <a href="/images/faq_en/res2.png" class="image-link" target="_blank"><img src="/images/faq_en/res2.png" width="300" style="border: 1px solid grey" /></a>
+            <a href="/images/faq_en/res3.jpg" class="image-link" target="_blank"><img src="/images/faq_en/res3.jpg" width="300" style="border: 1px solid grey" /></a>
         </div>
 
         <p>
