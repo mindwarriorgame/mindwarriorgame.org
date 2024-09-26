@@ -60,7 +60,7 @@
 
     <p>
         Spiritually, when you review your <i>Letter</i> with 💫 <span class="pre">/review</span> command, it
-        brings your mind back to what truly matters, pulling you away from distractions and dullness
+        brings your mind back to what truly matters, pulling you away from distractions and nonsense
         of everyday life.
     </p>
 
