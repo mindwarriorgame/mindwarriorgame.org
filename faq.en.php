@@ -306,7 +306,7 @@
     <p>
         We respect your privacy. The game stores your <i>Letter</i> locally on your device and never copies
         or sends it to its servers.
-        Please check our <a href="privacy.en.html" target="_blank">Privacy Policy</a> for more details.
+        Please check our <a href="/privacy.en.<?=getenv('LINK_EXT');?>" target="_blank">Privacy Policy</a> for more details.
     </p>
 
     <p>
