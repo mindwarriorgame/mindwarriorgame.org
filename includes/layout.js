@@ -29,7 +29,7 @@ sidebar.querySelectorAll('li').forEach((li) => {
     li.addEventListener('click', () => {
         const linkInside = li.querySelector('a');
         if (linkInside) {
-            location.href=linkInside.href;
+            linkInside.click();
         }
     });
 });

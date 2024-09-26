@@ -69,7 +69,7 @@ class ActiveMenuItemUpdater {
         if (!menuElt) {
             return undefined;
         }
-        const targetQuestionSelector = '#smooth-' + menuElt.getAttribute("data-target").substring(1);
+        const targetQuestionSelector = '#smooth-' + menuElt.getAttribute("data-target");
         return CONTENT_ELT.querySelector(targetQuestionSelector);
     }
 }
@@ -79,14 +79,16 @@ const activeMenuItemUpdater = new ActiveMenuItemUpdater();
 function initFaqQuestionsLinks() {
     FAQ_MENU_ITEM_ELTS.forEach((question) => {
         const targetId = question.getAttribute("data-target");
-        question.addEventListener("click", () => {
+        question.querySelector('a').addEventListener("click", (e) => {
+            e.preventDefault();
+            e.stopPropagation();
             window.location.hash = targetId;
         });
     });
 }
 
 function onAnchorChanged(anchor) {
-    const questionMenuItemElt = document.querySelector(`#sidebar li[data-target="${anchor}"]`);
+    const questionMenuItemElt = document.querySelector(`#sidebar li[data-target="${anchor.split('#').join('')}"]`);
     if (!questionMenuItemElt) {
         console.log("Cannot find FAQ question", anchor);
         return;

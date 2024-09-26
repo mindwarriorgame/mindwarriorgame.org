@@ -16,6 +16,9 @@
     ?>
 </head>
 <body>
+<?php
+    $LINK_EXT = getenv('LINK_EXT');
+?>
 <button class="menu-btn">☰</button>
 
 <div class="container">
@@ -28,18 +31,13 @@
         </ul>
         <h2><?=$MENU['faq']; ?></h2>
         <ul id="faq-questions">
-            <li data-target="#purpose"><?=$MENU['purpose'];?></li>
-            <li data-target="#letter"><?=$MENU['letter'];?></li>
-            <li data-target="#review"><?=$MENU['review'];?></li>
-            <li data-target="#forgot"><?=$MENU['forgot'];?></li>
-            <li data-target="#difficulty"><?=$MENU['difficulty'];?></li>
-            <li data-target="#pause"><?=$MENU['pause'];?></li>
-            <li data-target="#letter-formatting"><?=$MENU['letter-formatting'];?></li>
-            <li data-target="#controls"><?=$MENU['controls'];?></li>
-            <li data-target="#name"><?=$MENU['name'];?></li>
-            <li data-target="#letter-example"><?=$MENU['letter-example'];?></li>
-            <li data-target="#share"><?=$MENU['share'];?></li>
-            <li data-target="#privacy"><?=$MENU['privacy'];?></li>
+            <?php
+                $menuKeys = ['purpose', 'letter', 'review', 'forgot', 'difficulty', 'pause', 'letter-formatting', 'controls', 'name', 'letter-example', 'share', 'privacy'];
+
+                foreach ($menuKeys as $key) {
+                    echo "<li data-target='{$key}'><a href=\"/faq.{$LANG}.{$LINK_EXT}#{$key}\">{$MENU[$key]}</a></li>";
+                }
+            ?>
         </ul>
     </div>
 
