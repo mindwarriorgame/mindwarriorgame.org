@@ -13,7 +13,7 @@
 
     <p>
         Each time you 💫 review the <i>Letter</i>, your thoughts are brought back to what is really important to you.
-        This routine will help to keep your mind clear and focused, pulling you away from the dullness of everyday life's noise and distractions.
+        This practice will help to keep your mind clear and focused, pulling you away from the dullness of everyday life's noise and distractions.
     </p>
 
     <div style="display:none">
@@ -270,11 +270,12 @@
         the game never copies or sends it to its servers.
         Therefore, it is physically impossible to see a <i>Letter</i> of a
         random player simply because the game doesn't have access to it.
+        (Please check our <a href="/privacy.en.<?=getenv('LINK_EXT');?>" target="_blank">Privacy Policy</a> for more details.)
     </p>
     <p>
-        The good news is that <strong>some players share their <i>Letters</i> voluntarily
-            on our website</strong>, which could be found
-        on "<a href="https://mindwarriorgame.org/shared-letters">Shared Letters</a>" page.
+        However, <strong>some players voluntarily shared their <i>Letters</i> in public
+            on our website</strong>. These letters could be found
+        on "<a href="https://mindwarriorgame.org/shared-letters.en.<?=getenv('LINK_EXT');?>">Shared Letters</a>" page.
         Please feel free to check it out!
     </p>
     <p>
@@ -284,16 +285,9 @@
 </div>
 
 
-
-
 <div id="smooth-share" class="faq-item">
     <h3>Can I share my letter with others players?</h3>
 
-    <p>
-        Yes! The game is an open source project, and you are welcome to contribute to it by
-        sharing your <i>Letter</i> with others. It will become a part of project's website and will be published
-        at "<a href="https://mindwarriorgame.org/shared-letters">Shared Letters</a>" page.
-    </p>
     <p>
         Please refer to <a href="#letter-example">the question above</a> for more details.
     </p>
@@ -304,18 +298,8 @@
     <h3>Who could see my Letter?</h3>
 
     <p>
-        We respect your privacy. The game stores your <i>Letter</i> locally on your device and never copies
-        or sends it to its servers.
-        Please check our <a href="/privacy.en.<?=getenv('LINK_EXT');?>" target="_blank">Privacy Policy</a> for more details.
+        Please refer to <a href="#letter-example">the question above</a> for more details.
     </p>
-
-    <p>
-        Because of the above, it is very important to store a private copy (backup) of your <i>Letter</i> elsewhere
-        (e.g. in "<a href="https://telegram.org/blog/new-saved-messages-and-9-more" target="_blank">Saved Messages</a>" on Telegram).
-        This backup copy will help you to restore your <i>Letter</i> in case of some unforeseeable event (such as losing
-        your device, or accidentally reinstalling Telegram app). Otherwise, it would be lost forever.
-    </p>
-
 </div>
 
 
