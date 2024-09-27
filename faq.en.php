@@ -326,7 +326,7 @@
     $LANG='en';
     $MENU = include("includes/menu.en.php");
 
-    $TITLE="MindWarrior: FAQ Page";
+    $TITLE="MindWarrior: FAQ";
 
     $CSS = ["/includes/faq_anchors.css"];
     $JS = ["/includes/faq_anchors.js"];
