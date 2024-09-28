@@ -41,7 +41,7 @@ EOF;
             "<br /><br /><br />Press \"<i>Start</i>\" button.",
         "Select your language.",
         "Press \"<i>Write \"Formula\" and start playing!</i>\" button.",
-        "Write your <a href='/faq.en.{$ext}#formula' target='_blank'><i>Formula of Firm resolution</i></a>. " .
+        "Write your <a href='/faq.en.{$ext}#formula' target='_blank'><i>Formula of firm resolution</i></a>. " .
             "<br /><br /><br />You can use <a href='https://www.markdownguide.org/cheat-sheet/' target='_blank'>markdown formatting</a>. Use \"eye\" button to preview the result.",
         "When you are happy with the outcome, press \"<i>Start game</i>\" button. " .
             "<br /><br /><br />Don't worry, you can always edit your <i>Formula</i> <a href='/faq.en.{$ext}#controls' target='_blank'>later</a>.",

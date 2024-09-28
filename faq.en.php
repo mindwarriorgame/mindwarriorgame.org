@@ -5,15 +5,15 @@
 <div id="smooth-purpose" class="faq-item">
     <h3>What is the purpose of the game?</h3>
     <p>
-        "MindWarrior" game was created to help with your personal growth and development.
-        To achieve that, it keeps you focused on your dreams and aspirations.
+        "MindWarrior" game was created to help you with your personal growth and development.
+        It achieves that by keeping you focused on your dreams and aspirations.
         The main concept of the game – 🧪️<a href="#formula"><i>Formula of firm resolution</i></a> – is your private inspirational message
-        that you write for yourself and then review it regularly during the day.
+        that you write for yourself and then review regularly during the day.
     </p>
 
     <p>
-        Each time you 💫 review the <i>Formula</i>, your thoughts are brought back to what is really important to you.
-        This practice will help to keep your mind clear and focused, pulling you away from the dullness of everyday life's noise and distractions.
+        Each time you 💫 review the <i>Formula</i>, your thoughts are returned back to what really matters to you.
+        This practice will help you to keep your mind clear and focused, pulling it away from the dullness of everyday life's noise and distractions.
     </p>
 
     <div style="display:none">
@@ -41,10 +41,10 @@
     <h3>What should I write in my Formula?</h3>
 
     <p>
-        <i>"Formula of firm resolution"</i> is a private freeform text message, where you can
+        <i>Formula of firm resolution</i> is a private freeform text message, where you can
         express anything that is meaningful to you. It could be your favorite quotes, mantras, reminders, wise thoughts
-        and observations, or anything else, you are the one to decide! The only guidance is that it
-        should motivate you towards personal growth and development.
+        and observations, or anything else, you decide! The only guidance is that it
+        should motivate you towards your personal growth and development.
     </p>
     <p>
         A strong <i>Formula</i> <a href="#review">will keep you focused, motivated, and disciplined</a>. It must support you on your life journey and help
@@ -59,7 +59,7 @@
     <h3>What happens when I review my Formula?</h3>
 
     <p>
-        Spiritually, when you review your "<i>Formula of firm resolution</i>" with 💫 <span class="pre">/review</span> command, it
+        Spiritually, when you review your <i>Formula of firm resolution</i> with 💫 <span class="pre">/review</span> command, it
         brings your mind back to what truly matters, pulling you away from distractions and nonsense
         of everyday life.
     </p>
@@ -82,7 +82,7 @@
     </p>
 
     <p>
-        You can review your <i>Formula</i> as often as you'd like, however only the reviews performed at least
+        You can review your <i>Formula</i> as often as you'd like, however only reviews that were performed at least
         5 minutes apart from each other will be rewarded ("cool-down" rule).
     </p>
 
@@ -93,7 +93,7 @@
 
     <p>
         If you forget to review your <i>Formula of firm resolution</i> in time, the game will remind you with a message,
-        but you will lose a gaming score 📉.
+        but you will lose gaming scores 📉.
     </p>
 
     <p>
@@ -147,7 +147,7 @@
     </p>
 
     <p>
-        During the pause, you won't receive any notifications or lose any gaming scores.
+        The paused game won't send you any notifications or change your game scores.
         The active play time counter won't be counting, too.
     </p>
 
@@ -161,7 +161,7 @@
     <h3>Can I use text formatting in Formula?</h3>
 
     <p>
-        The editor of "<i>Formula</i>" supports <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">Markdown syntax</a>.
+        <i>Formula</i> editor supports <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">markdown syntax</a>.
     </p>
     <p>
         <a href="/images/faq_en/markdown.png" class="image-link" target="_blank>"><img src="/images/faq_en/markdown.png" width="300" style="border: 1px solid grey" /></a>
@@ -216,12 +216,11 @@
 
     <p>
         "Mind" part is about "inner self" and personal thoughts.
-        To make a change in life, first one needs to make a change in their mind.
+        To make a change in life, first you have to make a change in your mind.
     </p>
 
     <p>
         "Warrior" part is about action and persistent effort. The change doesn't happen magically by itself.
-        Also, the outcome of any action affects not only your life, but everyone around as well.
     </p>
 
     <div class="quote">
@@ -246,7 +245,7 @@
     </div>
 
     <p>
-        We (the creators of the game) strongly believe that everyone could make a difference in the world.
+        We (creators of the game) strongly believe that everyone could make a difference in the world.
         By changing ourselves, we contribute in making the world a better place.
         Becoming better versions of ourselves leads us to better decisions, which result in better actions and
         outcomes for everyone to enjoy.
@@ -270,16 +269,16 @@
         the game never copies or sends it to its servers.
         Therefore, it is physically impossible to see a <i>Formula</i> of a
         random player simply because the game doesn't have access to it.
-        (Please check our <a href="/privacy.en.<?=getenv('LINK_EXT');?>" target="_blank">Privacy Policy</a> for more details.)
+        (Please check our <a href="/privacy-policy.en.<?=getenv('LINK_EXT');?>" target="_blank">Privacy policy</a> for more details.)
     </p>
     <p>
         However, <strong>some players voluntarily shared their <i>Formulas</i> in public
             on our website</strong>. These formulas could be found
-        on "<a href="https://mindwarriorgame.org/public-formulas.en.<?=getenv('LINK_EXT');?>">Public Formulas</a>" page.
-        Please feel free to check it out!
+        on "<a href="/public-formulas.en.<?=getenv('LINK_EXT');?>">Public Formulas</a>" page.
+        Please feel free to check them out!
     </p>
     <p>
-        If you'd like to help inspiring other players and share your own <i>Formula</i>, please follow
+        If you'd like to help inspiring other players by sharing your own <i>Formula</i>, please follow
         <a href="https://github.com/mindwarriorgame/public-formulas/blob/main/README.md" target="_blank">these instructions</a>.
     </p>
 </div>
