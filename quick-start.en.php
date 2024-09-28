@@ -40,11 +40,11 @@ EOF;
         "Use <a href='https://telegram.me/MindWarriorGame_bot' target='_blank'>this link</a> to open MindWarrior game bot. " .
             "<br /><br /><br />Press \"<i>Start</i>\" button.",
         "Select your language.",
-        "Press \"<i>Write you Letter and start playing!</i>\" button.",
-        "Write <a href='/faq.en.{$ext}#letter' target='_blank'><i>Letter to yourself</i></a>. " .
+        "Press \"<i>Write \"Formula\" and start playing!</i>\" button.",
+        "Write your <a href='/faq.en.{$ext}#formula' target='_blank'><i>Formula of Firm resolution</i></a>. " .
             "<br /><br /><br />You can use <a href='https://www.markdownguide.org/cheat-sheet/' target='_blank'>markdown formatting</a>. Use \"eye\" button to preview the result.",
         "When you are happy with the outcome, press \"<i>Start game</i>\" button. " .
-            "<br /><br /><br />Don't worry, you can always edit your <i>Letter</i> <a href='/faq.en.{$ext}#controls' target='_blank'>later</a>.",
+            "<br /><br /><br />Don't worry, you can always edit your <i>Formula</i> <a href='/faq.en.{$ext}#controls' target='_blank'>later</a>.",
     ]);
 ?>
 
@@ -64,7 +64,7 @@ EOF;
     <?php
     renderSteps([
             "When you are back, use \"<i>/review</i>\" command ...",
-            "... and then click any button to review your  \"<i>Letter</i>\".",
+            "... and then click any button to review your  \"<i>Formula</i>\".",
             "When you finish reviewing, press \"<i>Get Reward</i>\" button.",
             "Enjoy your reward! " .
                 "<br /><br /><br />Don't forget to come back soon to perform another review." .

@@ -7,12 +7,12 @@
     <p>
         "MindWarrior" game was created to help with your personal growth and development.
         To achieve that, it keeps you focused on your dreams and aspirations.
-        The main concept of the game – ✍️<a href="#letter"><i>Letter to Yourself</i></a> – is your private inspirational message
+        The main concept of the game – 🧪️<a href="#formula"><i>Formula of firm resolution</i></a> – is your private inspirational message
         that you write for yourself and then review it regularly during the day.
     </p>
 
     <p>
-        Each time you 💫 review the <i>Letter</i>, your thoughts are brought back to what is really important to you.
+        Each time you 💫 review the <i>Formula</i>, your thoughts are brought back to what is really important to you.
         This practice will help to keep your mind clear and focused, pulling you away from the dullness of everyday life's noise and distractions.
     </p>
 
@@ -37,29 +37,29 @@
     </div>
 </div>
 
-<div id="smooth-letter" class="faq-item">
-    <h3>What should I write in my Letter?</h3>
+<div id="smooth-formula" class="faq-item">
+    <h3>What should I write in my Formula?</h3>
 
     <p>
-        <i>"Letter to yourself"</i> is a private freeform text message, where you can
+        <i>"Formula of firm resolution"</i> is a private freeform text message, where you can
         express anything that is meaningful to you. It could be your favorite quotes, mantras, reminders, wise thoughts
         and observations, or anything else, you are the one to decide! The only guidance is that it
         should motivate you towards personal growth and development.
     </p>
     <p>
-        A strong <i>Letter</i> <a href="#review">will keep you focused, motivated, and disciplined</a>. It must support you on your life journey and help
+        A strong <i>Formula</i> <a href="#review">will keep you focused, motivated, and disciplined</a>. It must support you on your life journey and help
         staying engaged
         and committed. If you find yourself receiving constant reminders from the game about missed reviews, or you are thinking of quitting the game,
-        it might be a sign that your <i>Letter</i> requires a revision.
+        it might be a sign that your <i>Formula</i> requires a revision.
     </p>
 
 </div>
 
 <div id="smooth-review" class="faq-item">
-    <h3>What happens when I review my Letter?</h3>
+    <h3>What happens when I review my Formula?</h3>
 
     <p>
-        Spiritually, when you review your <i>Letter</i> with 💫 <span class="pre">/review</span> command, it
+        Spiritually, when you review your "<i>Formula of firm resolution</i>" with 💫 <span class="pre">/review</span> command, it
         brings your mind back to what truly matters, pulling you away from distractions and nonsense
         of everyday life.
     </p>
@@ -82,17 +82,17 @@
     </p>
 
     <p>
-        You can review your <i>Letter</i> as often as you'd like, however only the reviews performed at least
+        You can review your <i>Formula</i> as often as you'd like, however only the reviews performed at least
         5 minutes apart from each other will be rewarded ("cool-down" rule).
     </p>
 
 </div>
 
 <div id="smooth-forgot" class="faq-item">
-    <h3>What happens if I forget to review my Letter?</h3>
+    <h3>What happens if I forget to review my Formula?</h3>
 
     <p>
-        If you forget to review your <i>Letter</i> in time, the game will remind you with a message,
+        If you forget to review your <i>Formula of firm resolution</i> in time, the game will remind you with a message,
         but you will lose a gaming score 📉.
     </p>
 
@@ -108,7 +108,7 @@
 </div>
 
 <div id="smooth-difficulty" class="faq-item">
-    <h3>How often do I need to review my Letter?</h3>
+    <h3>How often do I need to review my Formula?</h3>
 
     <p>
         The frequency of reviews is determined by the difficulty level of the game. The default
@@ -152,16 +152,16 @@
     </p>
 
     <p>
-        To resume the game, simply review your <i>Letter</i> as usually with
+        To resume the game, simply review your <i>Formula</i> as usually with
         💫 <span class="pre">/review</span> command.
     </p>
 </div>
 
-<div id="smooth-letter-formatting" class="faq-item">
-    <h3>Can I use text formatting in Letter?</h3>
+<div id="smooth-formula-formatting" class="faq-item">
+    <h3>Can I use text formatting in Formula?</h3>
 
     <p>
-        The editor for <i>Letter</i> supports <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">Markdown syntax</a>.
+        The editor of "<i>Formula</i>" supports <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">Markdown syntax</a>.
     </p>
     <p>
         <a href="/images/faq_en/markdown.png" class="image-link" target="_blank>"><img src="/images/faq_en/markdown.png" width="300" style="border: 1px solid grey" /></a>
@@ -174,8 +174,8 @@
         To start playing, you only need 3 basic commands:
     </p>
     <ul>
-        <li><strong><span class="pre">/letter</span></strong> - ✍️ open your <a href="#letter"><i>Letter</i></a> in editor</li>
-        <li><strong><span class="pre">/review</span></strong> - 💫 <a href="#review">review</a> your <i>Letter</i>
+        <li><strong><span class="pre">/formula</span></strong> - 🧪 open your <a href="#formula"><i>Formula</i></a> in editor</li>
+        <li><strong><span class="pre">/review</span></strong> - 💫 <a href="#review">review</a> your <i>Formula</i>
         <li><strong><span class="pre">/pause</span></strong> - ⏸️ <a href="#pause">pause</a> the game</li>
     </ul>
     <p>
@@ -253,7 +253,7 @@
     </p>
 
     <p>
-        Therefore, every time you review your <a href="#letter"><i>Letter to yourself</i></a>, you're not only improving your life,
+        Therefore, every time you review your <a href="#formula"><i>Formula of firm resolution</i></a>, you're not only improving your life,
         but also making the world a better place for everyone! 🙌
     </p>
 
@@ -261,44 +261,44 @@
 
 </div>
 
-<div id="smooth-letter-example" class="faq-item">
-    <h3>Can I see Letters of other players?</h3>
+<div id="smooth-formula-example" class="faq-item">
+    <h3>Can I see Formulas of other players?</h3>
 
     <p>
         "MindWarrior" game takes privacy of the players very seriously.
-        Your <i>Letter</i> is stored locally on your device and
+        Your <i>Formula of firm resolution</i> is stored locally on your device and
         the game never copies or sends it to its servers.
-        Therefore, it is physically impossible to see a <i>Letter</i> of a
+        Therefore, it is physically impossible to see a <i>Formula</i> of a
         random player simply because the game doesn't have access to it.
         (Please check our <a href="/privacy.en.<?=getenv('LINK_EXT');?>" target="_blank">Privacy Policy</a> for more details.)
     </p>
     <p>
-        However, <strong>some players voluntarily shared their <i>Letters</i> in public
-            on our website</strong>. These letters could be found
-        on "<a href="https://mindwarriorgame.org/shared-letters.en.<?=getenv('LINK_EXT');?>">Shared Letters</a>" page.
+        However, <strong>some players voluntarily shared their <i>Formulas</i> in public
+            on our website</strong>. These formulas could be found
+        on "<a href="https://mindwarriorgame.org/public-formulas.en.<?=getenv('LINK_EXT');?>">Public Formulas</a>" page.
         Please feel free to check it out!
     </p>
     <p>
-        If you'd like to help inspiring other players and share your own <i>Letter</i>, please follow
-        <a href="https://github.com/mindwarriorgame/shared-letters/blob/main/README.md" target="_blank">these instructions</a>.
+        If you'd like to help inspiring other players and share your own <i>Formula</i>, please follow
+        <a href="https://github.com/mindwarriorgame/public-formulas/blob/main/README.md" target="_blank">these instructions</a>.
     </p>
 </div>
 
 
 <div id="smooth-share" class="faq-item">
-    <h3>Can I share my letter with others players?</h3>
+    <h3>Can I share my Formula with others players?</h3>
 
     <p>
-        Please refer to <a href="#letter-example">the question above</a> for more details.
+        Please refer to <a href="#formula-example">the question above</a> for more details.
     </p>
 
 </div>
 
 <div id="smooth-privacy" class="faq-item">
-    <h3>Who could see my Letter?</h3>
+    <h3>Who could see my Formula?</h3>
 
     <p>
-        Please refer to <a href="#letter-example">the question above</a> for more details.
+        Please refer to <a href="#formula-example">the question above</a> for more details.
     </p>
 </div>
 

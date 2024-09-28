@@ -26,13 +26,13 @@
         <div id="logo"><img src="/images/layout/ai-generated-8707933_1280-modified-small.png" alt="MindWarrior" title="MindWarrior" /></div>
         <ul>
             <li><a href="/quick-start.<?=$LANG;?>.<?=getenv('LINK_EXT');?>"><?=$MENU['quick-start']; ?></a></li>
-            <li><a href="/shared-letters.<?=$LANG;?>.<?=getenv('LINK_EXT');?>"><?=$MENU['shared-letters']; ?></a></li>
+            <li><a href="/public-formulas.<?=$LANG;?>.<?=getenv('LINK_EXT');?>"><?=$MENU['public-formulas']; ?></a></li>
             <li><a href="/privacy.<?=$LANG;?>.<?=getenv('LINK_EXT');?>"><?=$MENU['privacy-policy']; ?></a></li>
         </ul>
         <h2><?=$MENU['faq']; ?></h2>
         <ul id="faq-questions">
             <?php
-                $menuKeys = ['purpose', 'letter', 'review', 'forgot', 'difficulty', 'pause', 'letter-formatting', 'controls', 'name', 'letter-example', 'share', 'privacy'];
+                $menuKeys = ['purpose', 'formula', 'review', 'forgot', 'difficulty', 'pause', 'formula-formatting', 'controls', 'name', 'formula-example', 'share', 'privacy'];
 
                 foreach ($menuKeys as $key) {
                     echo "<li data-target='{$key}'><a href=\"/faq.{$LANG}.{$LINK_EXT}#{$key}\">{$MENU[$key]}</a></li>";
