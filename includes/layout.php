@@ -27,7 +27,7 @@
         <ul>
             <li><a href="/quick-start.<?=$LANG;?>.<?=getenv('LINK_EXT');?>"><?=$MENU['quick-start']; ?></a></li>
             <li><a href="/public-formulas.<?=$LANG;?>.<?=getenv('LINK_EXT');?>"><?=$MENU['public-formulas']; ?></a></li>
-            <li><a href="/privacy.<?=$LANG;?>.<?=getenv('LINK_EXT');?>"><?=$MENU['privacy-policy']; ?></a></li>
+            <li><a href="/privacy-policy.<?=$LANG;?>.<?=getenv('LINK_EXT');?>"><?=$MENU['privacy-policy']; ?></a></li>
         </ul>
         <h2><?=$MENU['faq']; ?></h2>
         <ul id="faq-questions">

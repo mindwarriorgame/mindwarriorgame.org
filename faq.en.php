@@ -70,15 +70,11 @@
     </p>
 
     <p>
-        <a href="/images/faq_en/review_plus_score.png" class="image-link" target="_blank>"><img src="/images/faq_en/review_plus_score.png" alt="Review plus score" title="Review plus score" width="400" /></a>
+        <a href="/images/faq_en/review_plus_score.jpg" class="image-link" target="_blank>"><img src="/images/faq_en/review_plus_score.jpg" alt="Review plus score" title="Review plus score" width="200" /></a>
     </p>
 
     <p>
         You could use 📊 <span class="pre">/stats</span> command to see the details about your game progress.
-    </p>
-
-    <p>
-        <a href="/images/faq_en/stats.png" class="image-link" target="_blank>"><img src="/images/faq_en/stats.png" alt="Stats" title="Stats" width="400" /></a>
     </p>
 
     <p>
@@ -97,7 +93,7 @@
     </p>
 
     <p>
-        <a href="/images/faq_en/review_minus_score.png" class="image-link" target="_blank>"><img src="/images/faq_en/review_minus_score.png" alt="Review minus score" title="Review minus score" width="400" /></a>
+        <a href="/images/faq_en/review_minus_score.jpg" class="image-link" target="_blank>"><img src="/images/faq_en/review_minus_score.jpg" alt="Review minus score" title="Review minus score" width="200" /></a>
     </p>
 
     <p>
@@ -164,7 +160,7 @@
         <i>Formula</i> editor supports <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">markdown syntax</a>.
     </p>
     <p>
-        <a href="/images/faq_en/markdown.png" class="image-link" target="_blank>"><img src="/images/faq_en/markdown.png" width="300" style="border: 1px solid grey" /></a>
+        <a href="/images/faq_en/markdown.jpg" class="image-link" target="_blank>"><img src="/images/faq_en/markdown.jpg" width="300" style="border: 1px solid grey" /></a>
     </p>
 </div>
 
@@ -186,6 +182,9 @@
         <li><span class="pre">/difficulty</span> - 💪 change the <a href="#difficulty">difficulty</a> level (frequency of your reviews)</li>
         <li><span class="pre">/data</span> - 🗂️ view and manage your raw data</li>
     </ul>
+    <p>
+        <a href="/images/faq_en/menu.jpg" class="image-link" target="_blank>"><img src="/images/faq_en/menu.jpg" width="300" style="border: 1px solid grey" /></a>
+    </p>
 </div>
 
 

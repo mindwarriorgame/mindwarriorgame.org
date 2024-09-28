@@ -87,7 +87,7 @@ $LANG='en';
 $MENU_SELECTED = "quick-start";
 $MENU = include("includes/menu.en.php");
 
-$TITLE="MindWarrior: Quickstart";
+$TITLE="MindWarrior: Quick start";
 
 $CSS = ["includes/quick-start.css"];
 $JS = [];
