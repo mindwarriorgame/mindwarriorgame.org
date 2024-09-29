@@ -68,15 +68,11 @@ ob_start();
         </p>
 
         <p>
-            <a href="/images/faq_en/review_plus_score.png" class="image-link" target="_blank>"><img src="/images/faq_en/review_plus_score.png" alt="Review plus score" title="Review plus score" width="400" /></a>
+            <a href="/images/faq_ru/review_plus_score.jpg" class="image-link" target="_blank>"><img src="/images/faq_ru/review_plus_score.jpg" alt="Review plus score" title="Review plus score" width="200" /></a>
         </p>
 
         <p>
             Детальная статистика вашей игры доступна с помощью команды 📊 <span class="pre">/stats</span>.
-        </p>
-
-        <p>
-            <a href="/images/faq_en/stats.png" class="image-link" target="_blank>"><img src="/images/faq_en/stats.png" alt="Stats" title="Stats" width="400" /></a>
         </p>
 
     </div>
@@ -90,7 +86,7 @@ ob_start();
         </p>
 
         <p>
-            <a href="/images/faq_en/review_minus_score.png" class="image-link" target="_blank>"><img src="/images/faq_en/review_minus_score.png" alt="Review minus score" title="Review minus score" width="400" /></a>
+            <a href="/images/faq_ru/review_minus_score.jpg" class="image-link" target="_blank>"><img src="/images/faq_ru/review_minus_score.jpg" alt="Review minus score" title="Review minus score" width="200" /></a>
         </p>
 
         <p>
@@ -165,7 +161,7 @@ ob_start();
             Редактор <i>Формулы</i> поддерживает <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">markdown</a>.
         </p>
         <p>
-            <a href="/images/faq_en/markdown.png" class="image-link" target="_blank>"><img src="/images/faq_en/markdown.png" width="300" style="border: 1px solid grey" /></a>
+            <a href="/images/faq_ru/markdown.jpg" class="image-link" target="_blank>"><img src="/images/faq_ru/markdown.jpg" width="300" style="border: 1px solid grey" /></a>
         </p>
     </div>
 
@@ -175,9 +171,9 @@ ob_start();
             Чтобы начать играть, вам необходимы всего 3 команды:
         </p>
         <ul>
-            <li><strong><span class="pre">/formula</span></strong> - 🧪 редактировать свою <a href="#formula"><i>Формулу твердой решимости</i></a></li>
             <li><strong><span class="pre">/review</span></strong> - 💫 <a href="#review">просмотреть</a> свою <i>Формулу</i>
             <li><strong><span class="pre">/pause</span></strong> - поставить игру ⏸️ <a href="#pause">на паузу</a></li>
+            <li><strong><span class="pre">/formula</span></strong> - 🧪 редактировать свою <a href="#formula"><i>Формулу твердой решимости</i></a></li>
         </ul>
         <p>
             Дополнительные команды:
@@ -187,6 +183,10 @@ ob_start();
             <li><span class="pre">/difficulty</span> - 💪 изменить <a href="#difficulty">сложность игры</a> (частоту просмотра <i>Формулы</i>)</li>
             <li><span class="pre">/data</span> - 🗂️ <a href="/privacy-policy.ru.php">просмотр и управление своими данными</a></li>
         </ul>
+
+        <p>
+            <a href="/images/faq_ru/menu.jpg" class="image-link" target="_blank>"><img src="/images/faq_ru/menu.jpg" width="300" style="border: 1px solid grey" /></a>
+        </p>
     </div>
 
 

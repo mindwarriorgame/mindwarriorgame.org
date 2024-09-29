@@ -170,9 +170,9 @@
         To start playing, you only need 3 basic commands:
     </p>
     <ul>
-        <li><strong><span class="pre">/formula</span></strong> - 🧪 open your <a href="#formula"><i>Formula</i></a> in editor</li>
         <li><strong><span class="pre">/review</span></strong> - 💫 <a href="#review">review</a> your <i>Formula</i>
         <li><strong><span class="pre">/pause</span></strong> - ⏸️ <a href="#pause">pause</a> the game</li>
+        <li><strong><span class="pre">/formula</span></strong> - 🧪 open your <a href="#formula"><i>Formula</i></a> in editor</li>
     </ul>
     <p>
         Advanced commands:
