@@ -93,10 +93,24 @@ $ext = getenv('LINK_EXT');
             return all your raw data that the game stores about you.</li>
         <li><strong>Deletion</strong>: You can delete your data at any time by using
             <span class="code-highlight">/data</span> bot command and then clicking "Delete" button.
-            Please make sure to also remove the chat history with the game bot as it is stored outside of our control
-            somewhere in Telegram.
+            <ul>
+                <li>
+                    Please make sure to also clear the chat history with the game bot as it is stored outside of our control
+                    somewhere in Telegram, although it won't guarantee the complete deletion of your data as we don't
+                    know how Telegram handles it. Please check "Using Telegram" section below for more information.
+                </li>
+            </ul>
         </li>
     </ul>
+
+    <h3>Using Telegram</h3>
+
+    <p>
+        The project is implemented as a bot in Telegram. Because of that, you should also check Telegram's own
+        <a href="https://telegram.org/privacy" target="_blank">privacy policy</a> to understand how it will treat your
+        data. We are not responsible for the privacy practices of Telegram and don't have any visibility or control
+        over them. Please make sure that you are comfortable with that before using the game.
+    </p>
 
     <h3>Changes to This Policy</h3>
     <p>We may update this policy from time to time. Please make sure to regularly check this page
@@ -129,7 +143,7 @@ $LANG='en';
 $MENU_SELECTED = "privacy-policy";
 $MENU = include("includes/menu.en.php");
 
-$TITLE="MindWarrior: Shared letters";
+$TITLE="MindWarrior: Privacy policy";
 
 $CSS = ["includes/quick-start.css"];
 $JS = [];
