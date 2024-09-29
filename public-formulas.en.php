@@ -54,7 +54,7 @@ $ext = getenv('LINK_EXT');
     </div>
 
     <p>
-        <a href="#">Следующая формула</a>
+        <a href="#">See next formula</a>
     </p>
 
 
