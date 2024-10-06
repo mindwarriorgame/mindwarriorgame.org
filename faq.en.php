@@ -106,7 +106,7 @@
             </td>
         </tr>
         <tr>
-            <td>Normal,<br />Hard,<br />Expert</td>
+            <td>Normal,<br />Hard</td>
             <td><ul>
                     <li>first time: -3 points</li>
                     <li>each consequent miss: -6 points</li>
