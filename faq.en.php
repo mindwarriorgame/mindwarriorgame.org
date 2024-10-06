@@ -77,11 +77,6 @@
         You could use 📊 <span class="pre">/stats</span> command to see the details about your game progress.
     </p>
 
-    <p>
-        You can review your <i>Formula</i> as often as you'd like, however only reviews that were performed at least
-        5 minutes apart from each other will be rewarded ("cool-down" rule).
-    </p>
-
 </div>
 
 <div id="smooth-forgot" class="faq-item">
@@ -150,6 +145,11 @@
             <td>once per 45 minutes</td>
         </tr>
     </table>
+
+    <p>
+        You can review your <i>Formula</i> more often, however only reviews that were performed at least
+        5 minutes apart from each other will be rewarded ("cool-down" rule).
+    </p>
 </div>
 
 <div id="smooth-pause" class="faq-item">
