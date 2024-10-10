@@ -274,7 +274,7 @@
         "MindWarrior" game takes privacy of the players very seriously.
         Your <i>Formula of firm resolution</i> is stored locally on your device and
         the game never copies or sends it to its servers.
-        Therefore, it is physically impossible to see a <i>Formula</i> of a
+        Therefore, it is physically impossible to see the <i>Formula</i> of a
         random player simply because the game doesn't have access to it.
         (Please check our <a href="/privacy-policy.en.<?=getenv('LINK_EXT');?>" target="_blank">Privacy policy</a> for more details.)
     </p>
