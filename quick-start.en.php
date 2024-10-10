@@ -12,68 +12,119 @@ $ext = getenv('LINK_EXT');
 
 <h2>Quick-start guide</h2>
 
-<table class="qsg-parent">
+<p>(Press images below to expand)</p>
+
+<div class="quickstart-parent">
+    <div>
+        <a href="/images/quickstart_en/_01.png" class="image-link"><img src='/images/quickstart_en/_01_cropped.png' width='250' /></a>
+    </div>
+    <div class="quickstart-step single">
+        <h1>Press START button</h1>
+
+    </div>
+</div>
+
+
+<div class="quickstart-parent">
+    <div>
+        <a href="/images/quickstart_en/_02.png" class="image-link"><img src='/images/quickstart_en/_02_cropped.png' width='250' /></a>
+    </div>
+    <div class="quickstart-step single">
+        <h1>Choose your language</h1>
+
+    </div>
+</div>
+
+
+<div class="quickstart-parent">
+    <div>
+        <a href="/images/quickstart_en/_03.png" class="image-link"><img src='/images/quickstart_en/_03_cropped.png' width='250' /></a>
+    </div>
+    <div class="quickstart-step single">
+        <h1>Press "Write Formula..." button</h1>
+
+    </div>
+</div>
+
+<div class="quickstart-parent">
+    <div>
+        <a href="/images/quickstart_en/_04.png" class="image-link"><img src='/images/quickstart_en/_04_cropped.png' width='250' /></a>
+    </div>
+    <div class="quickstart-step">
+        <h1>Write your <a href="/faq.en.<?=$ext;?>#formula" target="_blank"><i>Formula</i></a></h1>
+        <p>
+            Use 👁️ ("eye") button to to preview the result.
+        </p>
+
+    </div>
+</div>
+
+<div class="quickstart-parent">
+    <div>
+        <a href="/images/quickstart_en/_05.png" class="image-link"><img src='/images/quickstart_en/_05_cropped.png' width='250' /></a>
+    </div>
+    <div class="quickstart-step">
+        <h1>Press "Start Game" button</h1>
+        <p>When you are happy with your <i>Formula</i>.</p>
+    </div>
+</div>
+
+<div class="quickstart-parent">
+    <div>
+        <a href="/images/quickstart_en/_06.png" class="image-link"><img src='/images/quickstart_en/_06_cropped.png' width='250' /></a>
+    </div>
+    <div class="quickstart-step">
+        <h1>The game has started!</h1>
+        <p>You can return to your regular daily activities now. Don't forget to return back!</p>
+    </div>
+</div>
+
+<div class="quickstart-parent">
+
+    <div class="quickstart-parent">
+        ⌛some time later ⌛
+    </div>
+
+</div>
+
+<div class="quickstart-parent">
+    <div>
+        <a href="/images/quickstart_en/_07.png" class="image-link"><img src='/images/quickstart_en/_07_cropped.png' width='250' /></a>
+    </div>
+    <div class="quickstart-step">
+        <h1>Press "Review Formula" button</h1>
+        <p>
+            When you are back.
+        </p>
+    </div>
+</div>
+
+<div class="quickstart-parent">
+    <div>
+        <a href="/images/quickstart_en/_08.png" class="image-link"><img src='/images/quickstart_en/_08_cropped.png' width='250' /></a>
+    </div>
+    <div class="quickstart-step">
+        <h1>Read your Formula</h1>
+        <p>
+            When finished, press "Get Reward" button.
+        </p>
+    </div>
+</div>
+
+<div class="quickstart-parent">
+    <div>
+        <a href="/images/quickstart_en/_09.png" class="image-link"><img src='/images/quickstart_en/_09_cropped.png' width='250' /></a>
+    </div>
+    <div class="quickstart-step">
+        <h1>Enjoy your reward!</h1>
+        <p>
+            Don't forget to return back soon to perform another review.
+        </p>
+    </div>
+</div>
 
 
 
-<?php
-
-    function renderSteps($steps, $startFromStep = 1, $oddEvenShift = 0) {
-        foreach ($steps as $stepIdx => $step) {
-            $step = $steps[$stepIdx];
-            $stepNo = $stepIdx + $startFromStep;
-            $class = ($oddEvenShift + $stepNo) % 2 == 1 ? "" : "qsg-even";
-            echo <<<EOF
-                <tr class="{$class}">
-                    <td class='col1 text'>$stepNo. {$step}</td>
-                    <td class='col image'>
-                        <a href='/images/quickstart_en/0$stepNo-witharrow.jpg' class='image-link' target='_blank'>
-                            <img src='/images/quickstart_en/0$stepNo-witharrow.jpg' width='200' />
-                        </a>
-                    </td>
-                </tr>
-EOF;
-        }
-    }
-
-    renderSteps([
-        "Use <a href='https://telegram.me/MindWarriorGame_bot' target='_blank'>this link</a> to open MindWarrior game bot. " .
-            "<br /><br /><br />Press \"<i>Start</i>\" button.",
-        "Select your language.",
-        "Press \"<i>Write \"Formula\" and start playing!</i>\" button.",
-        "Write your <a href='/faq.en.{$ext}#formula' target='_blank'><i>Formula of firm resolution</i></a>. " .
-            "<br /><br /><br />You can use <a href='https://www.markdownguide.org/cheat-sheet/' target='_blank'>markdown formatting</a>. Use \"eye\" button to preview the result.",
-        "When you are happy with the outcome, press \"<i>Start game</i>\" button. " .
-            "<br /><br /><br />Don't worry, you can always edit your <i>Formula</i> <a href='/faq.en.{$ext}#controls' target='_blank'>later</a>.",
-    ]);
-?>
-
-<tr class="qsg-even">
-    <td class="col text">
-        The game has started! 🎉
-        <br /><br /><br />
-        You can go back to your daily routine but <u>remember to come back before the game sends you a notification</u>!
-    </td>
-    <td class='col'>
-        <a href='/images/quickstart_en/06.jpg' class='image-link' target='_blank'>
-            <img src='/images/quickstart_en/06.jpg' width='200' />
-        </a>
-    </td>
-</tr>
-
-    <?php
-    renderSteps([
-            "When you are back, use \"<i>/review</i>\" command ...",
-            "... and then click any button to review your  \"<i>Formula</i>\".",
-            "When you finish reviewing, press \"<i>Get Reward</i>\" button.",
-            "Enjoy your reward! " .
-                "<br /><br /><br />Don't forget to come back soon to perform another review." .
-                "<br /><br /><br />Keep doing this regularly throughout your day.",
-    ], 6, 1);
-    ?>
-
-
-</table>
 
     &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
     &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
