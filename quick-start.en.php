@@ -5,14 +5,17 @@ $ext = getenv('LINK_EXT');
 ?>
 
 
+<div style="text-align: center">
+
     <h2>Welcome to "MindWarrior" game bot!</h2>
 
     <p>This game <a href="/faq.en.<?=$ext;?>#purpose">will keep you focused</a> on the most important things in your life and
         <a href="/faq.en.<?=$ext;?>#review">will support you on your journey</a> through all the nonsense of everyday buzz.</p>
 
-<h2>Quick-start guide</h2>
+    <h2>Quick-start guide</h2>
 
-<p>(Press images below to expand)</p>
+    <p>(Press images below to expand)</p>
+</div>
 
 <div class="quickstart-parent">
     <div>
@@ -53,7 +56,7 @@ $ext = getenv('LINK_EXT');
     <div class="quickstart-step">
         <h1>Write your <a href="/faq.en.<?=$ext;?>#formula" target="_blank"><i>Formula</i></a></h1>
         <p>
-            Use 👁️ ("eye") button to to preview the result.
+            Use 👁️ ("eye") button to preview the result.
         </p>
 
     </div>
@@ -75,7 +78,7 @@ $ext = getenv('LINK_EXT');
     </div>
     <div class="quickstart-step">
         <h1>The game has started!</h1>
-        <p>You can return to your regular daily activities now. Don't forget to return back!</p>
+        <p>You can return back to your regular daily activities. Don't forget to return back!</p>
     </div>
 </div>
 
@@ -94,7 +97,7 @@ $ext = getenv('LINK_EXT');
     <div class="quickstart-step">
         <h1>Press "Review Formula" button</h1>
         <p>
-            When you are back.
+            (when you are back to game)
         </p>
     </div>
 </div>
@@ -104,7 +107,7 @@ $ext = getenv('LINK_EXT');
         <a href="/images/quickstart_en/_08.png" class="image-link"><img src='/images/quickstart_en/_08_cropped.png' width='250' /></a>
     </div>
     <div class="quickstart-step">
-        <h1>Read your Formula</h1>
+        <h1>Read your <i>Formula</i></h1>
         <p>
             When finished, press "Get Reward" button.
         </p>
@@ -118,8 +121,14 @@ $ext = getenv('LINK_EXT');
     <div class="quickstart-step">
         <h1>Enjoy your reward!</h1>
         <p>
-            Don't forget to return back soon to perform another review.
+            Don't forget to regularly review your <i>Formulas</i>.
         </p>
+    </div>
+</div>
+
+<div class="quickstart-parent">
+    <div class="telegram">
+        <a href="https://t.me/mindwarriorgame_bot" target="_blank">Go to Telegram</a>
     </div>
 </div>
 
