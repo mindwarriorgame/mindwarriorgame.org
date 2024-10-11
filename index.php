@@ -67,7 +67,9 @@
 <body>
 <div class="container">
     <a href="quick-start.en.<?=getenv('LINK_EXT');?>"><span>/en</span> English</a>
+    <a href="quick-start.es.<?=getenv('LINK_EXT');?>"><span>/es</span> Español</a>
     <a href="quick-start.ru.<?=getenv('LINK_EXT');?>"><span>/ru</span> Русский</a>
 </div>
+
 </body>
 </html>
