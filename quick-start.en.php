@@ -2,6 +2,7 @@
 ob_start();
 
 $ext = getenv('LINK_EXT');
+$ver = time();
 ?>
 
 
@@ -19,7 +20,7 @@ $ext = getenv('LINK_EXT');
 
 <div class="quickstart-parent">
     <div>
-        <a href="/images/quickstart_en/_01.png" class="image-link"><img src='/images/quickstart_en/_01_cropped.png' width='250' /></a>
+        <a href="/images/quickstart_en/_01.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_01_cropped.png?<?=$ver;?>' width='250' /></a>
     </div>
     <div class="quickstart-step single">
         <h1>Press START button</h1>
@@ -30,7 +31,7 @@ $ext = getenv('LINK_EXT');
 
 <div class="quickstart-parent">
     <div>
-        <a href="/images/quickstart_en/_02.png" class="image-link"><img src='/images/quickstart_en/_02_cropped.png' width='250' /></a>
+        <a href="/images/quickstart_en/_02.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_02_cropped.png?<?=$ver;?>' width='250' /></a>
     </div>
     <div class="quickstart-step single">
         <h1>Choose your language</h1>
@@ -41,7 +42,7 @@ $ext = getenv('LINK_EXT');
 
 <div class="quickstart-parent">
     <div>
-        <a href="/images/quickstart_en/_03.png" class="image-link"><img src='/images/quickstart_en/_03_cropped.png' width='250' /></a>
+        <a href="/images/quickstart_en/_03.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_03_cropped.png?<?=$ver;?>' width='250' /></a>
     </div>
     <div class="quickstart-step single">
         <h1>Press "Write Formula..." button</h1>
@@ -51,7 +52,7 @@ $ext = getenv('LINK_EXT');
 
 <div class="quickstart-parent">
     <div>
-        <a href="/images/quickstart_en/_04.png" class="image-link"><img src='/images/quickstart_en/_04_cropped.png' width='250' /></a>
+        <a href="/images/quickstart_en/_04.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_04_cropped.png?<?=$ver;?>' width='250' /></a>
     </div>
     <div class="quickstart-step">
         <h1>Write your <a href="/faq.en.<?=$ext;?>#formula" target="_blank"><i>Formula</i></a></h1>
@@ -64,7 +65,7 @@ $ext = getenv('LINK_EXT');
 
 <div class="quickstart-parent">
     <div>
-        <a href="/images/quickstart_en/_05.png" class="image-link"><img src='/images/quickstart_en/_05_cropped.png' width='250' /></a>
+        <a href="/images/quickstart_en/_05.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_05_cropped.png?<?=$ver;?>' width='250' /></a>
     </div>
     <div class="quickstart-step">
         <h1>Press "Start Game" button</h1>
@@ -74,7 +75,7 @@ $ext = getenv('LINK_EXT');
 
 <div class="quickstart-parent">
     <div>
-        <a href="/images/quickstart_en/_06.png" class="image-link"><img src='/images/quickstart_en/_06_cropped.png' width='250' /></a>
+        <a href="/images/quickstart_en/_06.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_06_cropped.png?<?=$ver;?>' width='250' /></a>
     </div>
     <div class="quickstart-step">
         <h1>The game has started!</h1>
@@ -92,7 +93,7 @@ $ext = getenv('LINK_EXT');
 
 <div class="quickstart-parent">
     <div>
-        <a href="/images/quickstart_en/_07.png" class="image-link"><img src='/images/quickstart_en/_07_cropped.png' width='250' /></a>
+        <a href="/images/quickstart_en/_07.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_07_cropped.png?<?=$ver;?>' width='250' /></a>
     </div>
     <div class="quickstart-step">
         <h1>Press "Review Formula" button</h1>
@@ -104,7 +105,7 @@ $ext = getenv('LINK_EXT');
 
 <div class="quickstart-parent">
     <div>
-        <a href="/images/quickstart_en/_08.png" class="image-link"><img src='/images/quickstart_en/_08_cropped.png' width='250' /></a>
+        <a href="/images/quickstart_en/_08.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_08_cropped.png?<?=$ver;?>' width='250' /></a>
     </div>
     <div class="quickstart-step">
         <h1>Read your <i>Formula</i></h1>
@@ -116,7 +117,7 @@ $ext = getenv('LINK_EXT');
 
 <div class="quickstart-parent">
     <div>
-        <a href="/images/quickstart_en/_09.png" class="image-link"><img src='/images/quickstart_en/_09_cropped.png' width='250' /></a>
+        <a href="/images/quickstart_en/_09.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_09_cropped.png?<?=$ver;?>' width='250' /></a>
     </div>
     <div class="quickstart-step">
         <h1>Enjoy your reward!</h1>

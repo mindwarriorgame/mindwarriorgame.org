@@ -2,6 +2,7 @@
 ob_start();
 
 $ext = getenv('LINK_EXT');
+$ver = time();
 ?>
 
     <div style="text-align: center">
@@ -18,7 +19,7 @@ $ext = getenv('LINK_EXT');
 
     <div class="quickstart-parent">
         <div>
-            <a href="/images/quickstart_en/_01.png" class="image-link"><img src='/images/quickstart_en/_01_cropped.png' width='250' alt='Paso 1: Presiona el botón INICIAR'/></a>
+            <a href="/images/quickstart_en/_01.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_01_cropped.png?<?=$ver;?>' width='250' alt='Paso 1: Presiona el botón INICIAR'/></a>
         </div>
         <div class="quickstart-step single">
             <h1>Presiona el botón INICIAR</h1>
@@ -27,7 +28,7 @@ $ext = getenv('LINK_EXT');
 
     <div class="quickstart-parent">
         <div>
-            <a href="/images/quickstart_en/_02.png" class="image-link"><img src='/images/quickstart_en/_02_cropped.png' width='250' alt='Paso 2: Elige tu idioma'/></a>
+            <a href="/images/quickstart_en/_02.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_02_cropped.png?<?=$ver;?>' width='250' alt='Paso 2: Elige tu idioma'/></a>
         </div>
         <div class="quickstart-step single">
             <h1>Elige tu idioma</h1>
@@ -36,7 +37,7 @@ $ext = getenv('LINK_EXT');
 
     <div class="quickstart-parent">
         <div>
-            <a href="/images/quickstart_en/_03.png" class="image-link"><img src='/images/quickstart_en/_03_cropped.png' width='250' alt='Paso 3: Presiona el botón "Escribir Fórmula..."/>'/></a>
+            <a href="/images/quickstart_en/_03.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_03_cropped.png?<?=$ver;?>' width='250' alt='Paso 3: Presiona el botón "Escribir Fórmula..."/>'/></a>
         </div>
         <div class="quickstart-step single">
             <h1>Presiona el botón "Escribir Fórmula..."</h1>
@@ -45,7 +46,7 @@ $ext = getenv('LINK_EXT');
 
     <div class="quickstart-parent">
         <div>
-            <a href="/images/quickstart_en/_04.png" class="image-link"><img src='/images/quickstart_en/_04_cropped.png' width='250' alt='Paso 4: Escribe tu Fórmula'/></a>
+            <a href="/images/quickstart_en/_04.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_04_cropped.png?<?=$ver;?>' width='250' alt='Paso 4: Escribe tu Fórmula'/></a>
         </div>
         <div class="quickstart-step">
             <h1>Escribe tu <a href="/faq.es.<?=$ext;?>#formula" target="_blank"><i>Fórmula</i></a></h1>
@@ -57,7 +58,7 @@ $ext = getenv('LINK_EXT');
 
     <div class="quickstart-parent">
         <div>
-            <a href="/images/quickstart_en/_05.png" class="image-link"><img src='/images/quickstart_en/_05_cropped.png' width='250' alt='Paso 5: Presiona el botón "Iniciar Juego"'/></a>
+            <a href="/images/quickstart_en/_05.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_05_cropped.png?<?=$ver;?>' width='250' alt='Paso 5: Presiona el botón "Iniciar Juego"'/></a>
         </div>
         <div class="quickstart-step">
             <h1>Presiona el botón "Iniciar Juego"</h1>
@@ -67,7 +68,7 @@ $ext = getenv('LINK_EXT');
 
     <div class="quickstart-parent">
         <div>
-            <a href="/images/quickstart_en/_06.png" class="image-link"><img src='/images/quickstart_en/_06_cropped.png' width='250' alt='Paso 6: ¡El juego ha comenzado!'/></a>
+            <a href="/images/quickstart_en/_06.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_06_cropped.png?<?=$ver;?>' width='250' alt='Paso 6: ¡El juego ha comenzado!'/></a>
         </div>
         <div class="quickstart-step">
             <h1>¡El juego ha comenzado!</h1>
@@ -83,7 +84,7 @@ $ext = getenv('LINK_EXT');
 
     <div class="quickstart-parent">
         <div>
-            <a href="/images/quickstart_en/_07.png" class="image-link"><img src='/images/quickstart_en/_07_cropped.png' width='250' alt='Paso 7: Presiona el botón "Revisar Fórmula"'/></a>
+            <a href="/images/quickstart_en/_07.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_07_cropped.png?<?=$ver;?>' width='250' alt='Paso 7: Presiona el botón "Revisar Fórmula"'/></a>
         </div>
         <div class="quickstart-step">
             <h1>Presiona el botón "Revisar Fórmula"</h1>
@@ -95,7 +96,7 @@ $ext = getenv('LINK_EXT');
 
     <div class="quickstart-parent">
         <div>
-            <a href="/images/quickstart_en/_08.png" class="image-link"><img src='/images/quickstart_en/_08_cropped.png' width='250' alt='Paso 8: Lee tu Fórmula'/></a>
+            <a href="/images/quickstart_en/_08.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_08_cropped.png?<?=$ver;?>' width='250' alt='Paso 8: Lee tu Fórmula'/></a>
         </div>
         <div class="quickstart-step">
             <h1>Lee tu <i>Fórmula</i></h1>
@@ -107,7 +108,7 @@ $ext = getenv('LINK_EXT');
 
     <div class="quickstart-parent">
         <div>
-            <a href="/images/quickstart_en/_09.png" class="image-link"><img src='/images/quickstart_en/_09_cropped.png' width='250' alt='Paso 9: ¡Disfruta de tu recompensa!'/></a>
+            <a href="/images/quickstart_en/_09.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_09_cropped.png?<?=$ver;?>' width='250' alt='Paso 9: ¡Disfruta de tu recompensa!'/></a>
         </div>
         <div class="quickstart-step">
             <h1>¡Disfruta de tu recompensa!</h1>
