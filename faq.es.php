@@ -1,6 +1,8 @@
 <?php
 ob_start();
 
+$ext = getenv('LINK_EXT');
+
 require_once("includes/image_tag_renderer.php");
 ?>
 
@@ -318,12 +320,12 @@ require_once("includes/image_tag_renderer.php");
             el juego nunca la copia ni la envía a sus servidores.
             Por lo tanto, es físicamente imposible ver la <i>Fórmula</i> de un
             jugador aleatorio simplemente porque el juego no tiene acceso a ella.
-            (Consulta nuestra <a href="/privacy-policy.es.php" target="_blank">Política de privacidad</a> para obtener más detalles.)
+            (Consulta nuestra <a href="/privacy-policy.es.<?=$ext;?>" target="_blank">Política de privacidad</a> para obtener más detalles.)
         </p>
         <p>
             Sin embargo, <strong>algunos jugadores han compartido voluntariamente sus <i>Fórmulas</i> en público
                 en nuestro sitio web</strong>. Estas fórmulas se pueden encontrar
-            en la página "<a href="/public-formulas.es.php">Fórmulas públicas</a>".
+            en la página "<a href="/public-formulas.es.<?=$ext;?>">Fórmulas públicas</a>".
             ¡Siéntete libre de revisarlas!
         </p>
         <p>

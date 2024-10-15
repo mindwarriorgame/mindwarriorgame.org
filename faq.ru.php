@@ -1,6 +1,8 @@
 <?php
 ob_start();
 
+$ext = getenv('LINK_EXT');
+
 require_once("includes/image_tag_renderer.php");
 ?>
 
@@ -223,7 +225,7 @@ require_once("includes/image_tag_renderer.php");
         <ul>
             <li><span class="pre">/stats</span> - 🌟 просмотр детальной статистики игры</li>
             <li><span class="pre">/difficulty</span> - 💪 изменить <a href="#difficulty">сложность игры</a> (частоту просмотра <i>Формулы</i>)</li>
-            <li><span class="pre">/data</span> - 🗂️ <a href="/privacy-policy.ru.php">просмотр и управление своими данными</a></li>
+            <li><span class="pre">/data</span> - 🗂️ <a href="/privacy-policy.ru.<?=$ext;?>">просмотр и управление своими данными</a></li>
         </ul>
 
         <p>
