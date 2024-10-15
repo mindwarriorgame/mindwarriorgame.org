@@ -94,7 +94,7 @@ function onAnchorChanged(anchor) {
         return;
     }
 
-    const targetQuestionSelector = '#smooth-' + anchor.substring(1);
+    const targetQuestionSelector = '#smooth-' + anchor.substring(1) + " h3";
     document.querySelector(targetQuestionSelector).scrollIntoView({
         behavior: "smooth",
         block: "start",

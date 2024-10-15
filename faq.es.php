@@ -1,5 +1,7 @@
 <?php
 ob_start();
+
+require_once("includes/image_tag_renderer.php");
 ?>
 
     <div id="smooth-purpose" class="faq-item">
@@ -16,25 +18,6 @@ ob_start();
             Esta práctica te ayudará a mantener tu mente clara y enfocada, alejándola del ruido y las distracciones de la vida cotidiana.
         </p>
 
-        <div style="display:none">
-            <p>
-            <ul>
-                <li>¿Alguna vez decidiste cambiar tu vida para mejor antes de dormir por la noche?
-                    ¿Te olvidaste de eso a la mañana siguiente?</li>
-                <li>¿Alguna vez hiciste un propósito de Año Nuevo y lo olvidaste una semana después?</li>
-            </ul>
-            </p>
-
-            <div class="images">
-                <a href="/images/faq_en/res1.jpg" class="image-link" target="_blank"><img src="/images/faq_en/res1.jpg" width="300" style="border: 1px solid grey" /></a>
-                <a href="/images/faq_en/res2.png" class="image-link" target="_blank"><img src="/images/faq_en/res2.png" width="300" style="border: 1px solid grey" /></a>
-                <a href="/images/faq_en/res3.jpg" class="image-link" target="_blank"><img src="/images/faq_en/res3.jpg" width="300" style="border: 1px solid grey" /></a>
-            </div>
-
-            <p>
-                El objetivo del juego es ayudarte a romper este ciclo.
-            </p>
-        </div>
     </div>
 
     <div id="smooth-formula" class="faq-item">
@@ -70,7 +53,9 @@ ob_start();
         </p>
 
         <p>
-            <a href="/images/faq_en/review_plus_score.jpg" class="image-link" target="_blank"><img src="/images/faq_en/review_plus_score.jpg" alt="Revisión más puntuación" title="Revisión más puntuación" width="200" /></a>
+            <a href="/images/faq_en/review_plus_score.jpg" class="image-link" target="_blank">
+                <?=renderImageTag(200, "images/faq_en/review_plus_score.jpg", "/images/faq_en/review_plus_score.jpg");?>
+            </a>
         </p>
 
         <p>
@@ -90,7 +75,9 @@ ob_start();
         </p>
 
         <p>
-            <a href="/images/faq_en/review_minus_score.jpg" class="image-link" target="_blank"><img src="/images/faq_en/review_minus_score.jpg" alt="Revisión menos puntuación" title="Revisión menos puntuación" width="200" /></a>
+            <a href="/images/faq_en/review_minus_score.jpg" class="image-link" target="_blank">
+                <?=renderImageTag(200, "images/faq_en/review_minus_score.jpg", "/images/faq_en/review_minus_score.jpg");?>
+            </a>
         </p>
 
     </div>
@@ -217,7 +204,9 @@ ob_start();
             El editor de <i>Fórmula</i> admite <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">sintaxis markdown</a>.
         </p>
         <p>
-            <a href="/images/faq_en/markdown.jpg" class="image-link" target="_blank"><img src="/images/faq_en/markdown.jpg" width="300" style="border: 1px solid grey" /></a>
+            <a href="/images/faq_en/markdown.jpg" class="image-link" target="_blank">
+                <?=renderImageTag(300, "images/faq_en/markdown.jpg", "/images/faq_en/markdown.jpg");?>
+            </a>
         </p>
     </div>
 
@@ -240,7 +229,9 @@ ob_start();
             <li><span class="pre">/data</span> - 🗂️ ver y gestionar tus datos en bruto</li>
         </ul>
         <p>
-            <a href="/images/faq_en/menu.jpg" class="image-link" target="_blank"><img src="/images/faq_en/menu.jpg" width="300" style="border: 1px solid grey" /></a>
+            <a href="/images/faq_en/menu.jpg" class="image-link" target="_blank">
+                <?=renderImageTag(300, "images/faq_en/menu.jpg", "/images/faq_en/menu.jpg");?>
+            </a>
         </p>
     </div>
 

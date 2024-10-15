@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?=$TITLE; ?></title>
-    <link rel="stylesheet" href="/includes/layout.css">
-    <link rel="stylesheet" href="/includes/popup.css">
+    <link rel="stylesheet" href="/includes/layout.css?<?=time();?>">
+    <link rel="stylesheet" href="/includes/popup.css?<?=time();?>">
 
     <?php
         if (isset($CSS)) {
             foreach ($CSS as $css) {
-                echo "<link rel='stylesheet' href='$css'>";
+                echo "<link rel='stylesheet' href='$css?" . time() ."'>";
             }
         }
     ?>
@@ -59,7 +59,7 @@
 <?php
 if (isset($JS)) {
     foreach ($JS as $js) {
-        echo "<script src='$js'></script>";
+        echo "<script src='$js?" . time() . "'></script>";
     }
 }
 ?>

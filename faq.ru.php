@@ -1,5 +1,7 @@
 <?php
 ob_start();
+
+require_once("includes/image_tag_renderer.php");
 ?>
 
     <div id="smooth-purpose" class="faq-item">
@@ -15,25 +17,6 @@ ob_start();
             Эта практика помогает вам не утонуть в ежедневном потоке будничных забот, поддерживая ваш фокус на ваших истинных целях и ценностях.
         </p>
 
-        <div style="display:none">
-            <p>
-            <ul>
-                <li>Did you ever decide to change my life, for the better, before bed at night?
-                    Did you forget about it on the next morning?</li>
-                <li>Did you ever make a New Year resolution and then forgot about it a week later?</li>
-            </ul>
-            </p>
-
-            <div class="images">
-                <a href="/images/faq_en/res1.jpg" class="image-link" target="_blank"><img src="/images/faq_en/res1.jpg" width="300" style="border: 1px solid grey" /></a>
-                <a href="/images/faq_en/res2.png" class="image-link" target="_blank"><img src="/images/faq_en/res2.png" width="300" style="border: 1px solid grey" /></a>
-                <a href="/images/faq_en/res3.jpg" class="image-link" target="_blank"><img src="/images/faq_en/res3.jpg" width="300" style="border: 1px solid grey" /></a>
-            </div>
-
-            <p>
-                The goal of the game is to empower you breaking this cycle.
-            </p>
-        </div>
     </div>
 
     <div id="smooth-formula" class="faq-item">
@@ -68,7 +51,10 @@ ob_start();
         </p>
 
         <p>
-            <a href="/images/faq_ru/review_plus_score.jpg" class="image-link" target="_blank>"><img src="/images/faq_ru/review_plus_score.jpg" alt="Review plus score" title="Review plus score" width="200" /></a>
+            <a href="/images/faq_ru/review_plus_score.jpg" class="image-link" target="_blank>">
+                <?=renderImageTag(200, "images/faq_ru/review_plus_score.jpg", "/images/faq_ru/review_plus_score.jpg");?>
+
+            </a>
         </p>
 
         <p>
@@ -88,7 +74,9 @@ ob_start();
         </p>
 
         <p>
-            <a href="/images/faq_ru/review_minus_score.jpg" class="image-link" target="_blank>"><img src="/images/faq_ru/review_minus_score.jpg" alt="Review minus score" title="Review minus score" width="200" /></a>
+            <a href="/images/faq_ru/review_minus_score.jpg" class="image-link" target="_blank>">
+                <?=renderImageTag(200, "images/faq_ru/review_minus_score.jpg", "/images/faq_ru/review_minus_score.jpg");?>
+            </a>
         </p>
 
     </div>
@@ -213,7 +201,9 @@ ob_start();
             Редактор <i>Формулы</i> поддерживает <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">markdown</a>.
         </p>
         <p>
-            <a href="/images/faq_ru/markdown.jpg" class="image-link" target="_blank>"><img src="/images/faq_ru/markdown.jpg" width="300" style="border: 1px solid grey" /></a>
+            <a href="/images/faq_ru/markdown.jpg" class="image-link" target="_blank>">
+                <?=renderImageTag(300, "images/faq_ru/markdown.jpg", "/images/faq_ru/markdown.jpg");?>
+            </a>
         </p>
     </div>
 
@@ -237,7 +227,9 @@ ob_start();
         </ul>
 
         <p>
-            <a href="/images/faq_ru/menu.jpg" class="image-link" target="_blank>"><img src="/images/faq_ru/menu.jpg" width="300" style="border: 1px solid grey" /></a>
+            <a href="/images/faq_ru/menu.jpg" class="image-link" target="_blank>">
+                <?=renderImageTag(300, "images/faq_ru/menu.jpg", "/images/faq_ru/menu.jpg");?>
+            </a>
         </p>
     </div>
 
