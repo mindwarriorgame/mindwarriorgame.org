@@ -19,10 +19,14 @@ php public-formulas.ru.php > build/public-formulas.ru.html
 php privacy-policy.en.php > build/privacy-policy.en.html
 php privacy-policy.es.php > build/privacy-policy.es.html
 php privacy-policy.ru.php > build/privacy-policy.ru.html
+php privacy-policy.de.php > build/privacy-policy.de.html
+php privacy-policy.fr.php > build/privacy-policy.fr.html
 
 php faq.en.php > build/faq.en.html
 php faq.es.php > build/faq.es.html
 php faq.ru.php > build/faq.ru.html
+php faq.de.php > build/faq.de.html
+php faq.fr.php > build/faq.fr.html
 
 cp favicon.ico build/favicon.ico
 cp -r images build/images
