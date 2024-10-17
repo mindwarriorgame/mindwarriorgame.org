@@ -9,7 +9,7 @@ $ext = getenv('LINK_EXT');
 
     <h3>Введение</h3>
     <p>
-        Мы ценим вашу конфиденциальность. Ваша <a href="/faq.en.<?=$ext;?>#formula">"Формула Твердой Решимости"</a>
+        Мы ценим вашу конфиденциальность. Ваша <a href="/faq.ru.<?=$ext;?>#formula">"Формула Твердой Решимости"</a>
         остается приватной.
         Игра не копирует ее и не отправляет на свои сервера.
         Она хранится на вашем устройстве в
@@ -30,7 +30,7 @@ $ext = getenv('LINK_EXT');
     <p>
         MindWarrior – проект с открытым исходным кодом, который предоставляет полную прозрачность того, как игра обращается с вашими данными.
         Вы можете сами изучить исходный код проекта, который доступен всем на GitHub-е:
-        <a href="https://github.com/mindwarriorgame" target="_blank">https://github.com/mindwarriorgame</a>
+        <a href="https://github.com/orgs/mindwarriorgame/repositories" target="_blank">https://github.com/orgs/mindwarriorgame/repositories</a>
     </p>
 
     <h3>Информацию, которую мы собираем</h3>
@@ -122,8 +122,8 @@ $ext = getenv('LINK_EXT');
 
     <h2>Обратная связь</h2>
     <p>Если у вас появились вопросы по поводу политики конфиденциальности нашего проекта, пожалуйста, обратитесь к нам
-        через Issues на GitHub в любом нашем репозитории:
-        <a href="https://github.com/mindwarriorgame" target="_blank">https://github.com/mindwarriorgame</a>
+        через Issues на GitHub:
+        <a href="https://github.com/mindwarriorgame/mindwarrior-telegram-bot/issues" target="_blank">https://github.com/mindwarriorgame/mindwarrior-telegram-bot/issues</a>
     </p>
 
     <p>Продолжая пользоваться проектом, вы соглашаетесь и даете нам согласие на хранение и обработку ваших данных соответственно

@@ -66,10 +66,13 @@
 </head>
 <body>
 <div class="container">
-    <a href="quick-start.en.<?=getenv('LINK_EXT');?>"><span>/en</span> English</a>
-    <a href="quick-start.es.<?=getenv('LINK_EXT');?>"><span>/es</span> Español</a>
-    <a href="quick-start.ru.<?=getenv('LINK_EXT');?>"><span>/ru</span> Русский</a>
+    <a href="faq.en.<?=getenv('LINK_EXT');?>"><span>/en</span> English</a>
+    <a href="faq.de.<?=getenv('LINK_EXT');?>"><span>/de</span> Deutsch</a>
+    <a href="faq.es.<?=getenv('LINK_EXT');?>"><span>/es</span> Español</a>
+    <a href="faq.fr.<?=getenv('LINK_EXT');?>"><span>/fr</span> Français</a>
+    <a href="faq.ru.<?=getenv('LINK_EXT');?>"><span>/ru</span> Русский</a>
 </div>
+
 
 </body>
 </html>

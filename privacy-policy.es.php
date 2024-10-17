@@ -29,7 +29,7 @@ $ext = getenv('LINK_EXT');
     <p>
         Nuestro proyecto es orgullosamente de código abierto, lo que permite una completa transparencia sobre cómo el juego trata tus datos.
         Siéntete libre de navegar por los códigos del juego en GitHub:
-        <a href="https://github.com/mindwarriorgame" target="_blank">https://github.com/mindwarriorgame</a>
+        <a href="https://github.com/orgs/mindwarriorgame/repositories" target="_blank">https://github.com/orgs/mindwarriorgame/repositories</a>
     </p>
 
     <h3>Datos que Recopilamos</h3>

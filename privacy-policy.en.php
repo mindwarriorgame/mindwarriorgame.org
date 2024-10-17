@@ -29,7 +29,7 @@ $ext = getenv('LINK_EXT');
     <p>
         Our project is proudly open source, allowing complete transparency regarding how the game treats your data.
         Please feel free to browse through the sources of the game on GitHub:
-        <a href="https://github.com/mindwarriorgame" target="_blank">https://github.com/mindwarriorgame</a>
+        <a href="https://github.com/orgs/mindwarriorgame/repositories" target="_blank">https://github.com/orgs/mindwarriorgame/repositories</a>
     </p>
 
     <h3>Data We Collect</h3>
@@ -121,8 +121,8 @@ $ext = getenv('LINK_EXT');
 
     <h2>Contact Us</h2>
     <p>If you have any questions or concerns about this policy,
-        please raise it as a GitHub Issue to any of our repositories:
-        <a href="https://github.com/mindwarriorgame" target="_blank">https://github.com/mindwarriorgame</a>
+        please raise it as a GitHub Issue:
+        <a href="https://github.com/mindwarriorgame/mindwarrior-telegram-bot/issues" target="_blank">https://github.com/mindwarriorgame/mindwarrior-telegram-bot/issues</a>
     </p>
 
     <p>By using the game, you consent to the collection and use of your data as it is described
