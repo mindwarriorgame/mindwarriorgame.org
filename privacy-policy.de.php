@@ -2,13 +2,15 @@
 ob_start();
 
 $ext = getenv('LINK_EXT');
+
+$LANG='de';
 ?>
 
     <h2>Datenschutzrichtlinie</h2>
 
     <h3>Einführung</h3>
     <p>
-        Wir schätzen Ihre Privatsphäre. Ihre <a href="/faq.de.<?=$ext;?>#formula">"Formel der festen Entschlossenheit"</a>
+        Wir schätzen Ihre Privatsphäre. Ihre <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula">"Formel der festen Entschlossenheit"</a>
         bleibt privat und sicher.
         Das Spiel erstellt keine Kopien oder sendet sie irgendwohin.
         Es wird direkt auf Ihrem Gerät in
@@ -132,9 +134,8 @@ $ext = getenv('LINK_EXT');
 $CONTENT = ob_get_contents();
 ob_end_clean();
 
-$LANG='de';
 $MENU_SELECTED = "privacy-policy";
-$MENU = include("includes/menu.de.php");
+$MENU = include("includes/menu.$LANG.php");
 
 $TITLE="MindWarrior: Datenschutzrichtlinie";
 

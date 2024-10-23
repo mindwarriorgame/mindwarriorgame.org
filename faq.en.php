@@ -3,6 +3,8 @@
 
     $ext = getenv('LINK_EXT');
     require_once("includes/image_tag_renderer.php");
+
+    $LANG='en';
 ?>
 
 <div id="smooth-purpose" class="faq-item">
@@ -313,12 +315,12 @@
         the game never copies or sends it to its servers.
         Therefore, it is physically impossible to see the <i>Formula</i> of a
         random player simply because the game doesn't have access to it.
-        (Please check our <a href="/privacy-policy.en.<?=getenv('LINK_EXT');?>" target="_blank">Privacy policy</a> for more details.)
+        (Please check our <a href="/privacy-policy.<?=$LANG;?>.<?=getenv('LINK_EXT');?>" target="_blank">Privacy policy</a> for more details.)
     </p>
     <p>
         However, <strong>some players voluntarily shared their <i>Formulas</i> in public
             on our website</strong>. These formulas could be found
-        on "<a href="/public-formulas.en.<?=getenv('LINK_EXT');?>">Public Formulas</a>" page.
+        on "<a href="/public-formulas.<?=$LANG;?>.<?=getenv('LINK_EXT');?>">Public Formulas</a>" page.
         Please feel free to check them out!
     </p>
     <p>
@@ -350,8 +352,7 @@
     $CONTENT = ob_get_contents();
     ob_end_clean();
 
-    $LANG='en';
-    $MENU = include("includes/menu.en.php");
+    $MENU = include("includes/menu.$LANG.php");
 
     $TITLE="MindWarrior: FAQ";
 

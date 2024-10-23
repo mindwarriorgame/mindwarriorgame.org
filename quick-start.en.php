@@ -3,6 +3,8 @@ ob_start();
 
 $ext = getenv('LINK_EXT');
 $ver = time();
+
+$LANG='en';
 ?>
 
 
@@ -10,8 +12,8 @@ $ver = time();
 
     <h2>Welcome to "MindWarrior" game bot!</h2>
 
-    <p>This game <a href="/faq.en.<?=$ext;?>#purpose">will keep you focused</a> on the most important things in your life and
-        <a href="/faq.en.<?=$ext;?>#review">will support you on your journey</a> through all the nonsense of everyday buzz.</p>
+    <p>This game <a href="/faq.<?=$LANG;?>.<?=$ext;?>#purpose">will keep you focused</a> on the most important things in your life and
+        <a href="/faq.<?=$LANG;?>.<?=$ext;?>#review">will support you on your journey</a> through all the nonsense of everyday buzz.</p>
 
     <h2>Quick-start guide</h2>
 
@@ -55,7 +57,7 @@ $ver = time();
         <a href="/images/quickstart_en/_04.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_04_cropped.png?<?=$ver;?>' width='250' /></a>
     </div>
     <div class="quickstart-step">
-        <h1>Write your <a href="/faq.en.<?=$ext;?>#formula" target="_blank"><i>Formula</i></a></h1>
+        <h1>Write your <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula" target="_blank"><i>Formula</i></a></h1>
         <p>
             Use 👁️ ("eye") button to preview the result.
         </p>
@@ -140,9 +142,8 @@ $ver = time();
 $CONTENT = ob_get_contents();
 ob_end_clean();
 
-$LANG='en';
 $MENU_SELECTED = "quick-start";
-$MENU = include("includes/menu.en.php");
+$MENU = include("includes/menu.$LANG.php");
 
 $TITLE="MindWarrior: Quick start";
 

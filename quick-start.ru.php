@@ -3,6 +3,8 @@ ob_start();
 
 $ext = getenv('LINK_EXT');
 $ver = time();
+
+$LANG='ru';
 ?>
 
 
@@ -49,7 +51,7 @@ $ver = time();
             <a href="/images/quickstart_ru/_04.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_ru/_04_cropped.png?<?=$ver;?>' width='250' /></a>
         </div>
         <div class="quickstart-step">
-            <h1>Напишите вашу <a href="/faq.ru.<?=$ext;?>#formula" target="_blank"><i>Формулу</i></a></h1>
+            <h1>Напишите вашу <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula" target="_blank"><i>Формулу</i></a></h1>
             <p>
                 Используйте кнопку 👁️ ("глаз") чтобы посмотреть результат.
             </p>
@@ -131,9 +133,8 @@ $ver = time();
 $CONTENT = ob_get_contents();
 ob_end_clean();
 
-$LANG='ru';
 $MENU_SELECTED = "quick-start";
-$MENU = include("includes/menu.ru.php");
+$MENU = include("includes/menu.$LANG.php");
 
 $TITLE="MindWarrior: Краткое руководство";
 

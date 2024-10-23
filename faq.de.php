@@ -3,6 +3,8 @@
 
     $ext = getenv('LINK_EXT');
     require_once("includes/image_tag_renderer.php");
+
+    $LANG='de';
 ?>
 
     <div id="smooth-purpose" class="faq-item">
@@ -311,11 +313,11 @@
             Deine <i>Formel des festen Entschlusses</i> wird lokal auf deinem Gerät gespeichert und
             das Spiel kopiert oder sendet sie nie auf seine Server.
             Es ist daher physisch unmöglich, die <i>Formel</i> eines zufälligen Spielers einzusehen, weil das Spiel keinen Zugriff darauf hat.
-            (Bitte prüfe unsere <a href="/privacy-policy.en.<?=getenv('LINK_EXT');?>" target="_blank">Datenschutzerklärung</a> für weitere Details.)
+            (Bitte prüfe unsere <a href="/privacy-policy.<?=$LANG;?>.<?=getenv('LINK_EXT');?>" target="_blank">Datenschutzerklärung</a> für weitere Details.)
         </p>
         <p>
             Allerdings haben <strong>einige Spieler freiwillig ihre <i>Formeln</i> öffentlich auf unserer Website geteilt</strong>.
-            Diese Formeln findest du auf der Seite "<a href="/public-formulas.en.<?=getenv('LINK_EXT');?>">Öffentliche Formeln</a>".
+            Diese Formeln findest du auf der Seite "<a href="/public-formulas.<?=$LANG;?>.<?=getenv('LINK_EXT');?>">Öffentliche Formeln</a>".
             Schau sie dir gerne an!
         </p>
         <p>
@@ -347,8 +349,7 @@
     $CONTENT = ob_get_contents();
     ob_end_clean();
 
-    $LANG='de';
-    $MENU = include("includes/menu.de.php");
+    $MENU = include("includes/menu.$LANG.php");
 
     $TITLE="MindWarrior: FAQ";
 

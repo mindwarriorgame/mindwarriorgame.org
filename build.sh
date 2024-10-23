@@ -8,25 +8,15 @@ mkdir build
 export LINK_EXT=html
 php index.php > build/index.html
 
-php quick-start.en.php > build/quick-start.en.html
-php quick-start.es.php > build/quick-start.es.html
-php quick-start.ru.php > build/quick-start.ru.html
+languages=("en" "es" "fr" "de" "ru")
 
-php public-formulas.en.php > build/public-formulas.en.html
-php public-formulas.es.php > build/public-formulas.es.html
-php public-formulas.ru.php > build/public-formulas.ru.html
+files=("public-formulas" "privacy-policy" "faq" "quick-start")
 
-php privacy-policy.en.php > build/privacy-policy.en.html
-php privacy-policy.es.php > build/privacy-policy.es.html
-php privacy-policy.ru.php > build/privacy-policy.ru.html
-php privacy-policy.de.php > build/privacy-policy.de.html
-php privacy-policy.fr.php > build/privacy-policy.fr.html
-
-php faq.en.php > build/faq.en.html
-php faq.es.php > build/faq.es.html
-php faq.ru.php > build/faq.ru.html
-php faq.de.php > build/faq.de.html
-php faq.fr.php > build/faq.fr.html
+for file in "${files[@]}"; do
+  for lang in "${languages[@]}"; do
+    php "$file.$lang.php" > "build/$file.$lang.html"
+  done
+done
 
 cp favicon.ico build/favicon.ico
 cp -r images build/images

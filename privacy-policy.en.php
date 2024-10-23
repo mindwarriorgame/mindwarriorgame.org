@@ -2,6 +2,8 @@
 ob_start();
 
 $ext = getenv('LINK_EXT');
+
+$LANG='en';
 ?>
 
     <h2>Privacy policy</h2>
@@ -9,7 +11,7 @@ $ext = getenv('LINK_EXT');
 
     <h3>Introduction</h3>
     <p>
-        We value your privacy. Your <a href="/faq.en.<?=$ext;?>#formula">"Formula of firm resolution"</a>
+        We value your privacy. Your <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula">"Formula of firm resolution"</a>
         remains private and safe.
         The game doesn't create any copies or sends it anywhere.
         It is stored right on your device in
@@ -138,9 +140,8 @@ $ext = getenv('LINK_EXT');
 $CONTENT = ob_get_contents();
 ob_end_clean();
 
-$LANG='en';
 $MENU_SELECTED = "privacy-policy";
-$MENU = include("includes/menu.en.php");
+$MENU = include("includes/menu.$LANG.php");
 
 $TITLE="MindWarrior: Privacy policy";
 

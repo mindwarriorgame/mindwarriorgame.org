@@ -2,6 +2,8 @@
 ob_start();
 
 $ext = getenv('LINK_EXT');
+
+$LANG='ru';
 ?>
 
     <h2>Политика конфиденциальности</h2>
@@ -9,7 +11,7 @@ $ext = getenv('LINK_EXT');
 
     <h3>Введение</h3>
     <p>
-        Мы ценим вашу конфиденциальность. Ваша <a href="/faq.ru.<?=$ext;?>#formula">"Формула Твердой Решимости"</a>
+        Мы ценим вашу конфиденциальность. Ваша <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula">"Формула Твердой Решимости"</a>
         остается приватной.
         Игра не копирует ее и не отправляет на свои сервера.
         Она хранится на вашем устройстве в
@@ -139,9 +141,8 @@ $ext = getenv('LINK_EXT');
 $CONTENT = ob_get_contents();
 ob_end_clean();
 
-$LANG='ru';
 $MENU_SELECTED = "privacy-policy";
-$MENU = include("includes/menu.ru.php");
+$MENU = include("includes/menu.$LANG.php");
 
 $TITLE="MindWarrior: Политика конфиденциальности";
 

@@ -3,6 +3,8 @@ ob_start();
 
 $ext = getenv('LINK_EXT');
 require_once("includes/image_tag_renderer.php");
+
+$LANG='fr';
 ?>
 
     <div id="smooth-purpose" class="faq-item">
@@ -300,10 +302,10 @@ require_once("includes/image_tag_renderer.php");
         <h3>Puis-je voir les Formules des autres joueurs ?</h3>
 
         <p>
-            Le jeu "MindWarrior" prend la confidentialité des joueurs très au sérieux. Votre <i>Formule de ferme résolution</i> est stockée localement sur votre appareil et le jeu ne la copie ni ne l'envoie à ses serveurs. Par conséquent, il est physiquement impossible de voir la <i>Formule</i> d'un joueur aléatoire simplement parce que le jeu n'y a pas accès. (Veuillez consulter notre <a href="/privacy-policy.en.<?=getenv('LINK_EXT');?>" target="_blank">politique de confidentialité</a> pour plus de détails.)
+            Le jeu "MindWarrior" prend la confidentialité des joueurs très au sérieux. Votre <i>Formule de ferme résolution</i> est stockée localement sur votre appareil et le jeu ne la copie ni ne l'envoie à ses serveurs. Par conséquent, il est physiquement impossible de voir la <i>Formule</i> d'un joueur aléatoire simplement parce que le jeu n'y a pas accès. (Veuillez consulter notre <a href="/privacy-policy.<?=$LANG;?>.<?=getenv('LINK_EXT');?>" target="_blank">politique de confidentialité</a> pour plus de détails.)
         </p>
         <p>
-            Cependant, <strong>certains joueurs ont volontairement partagé leurs <i>Formules</i> publiquement sur notre site web</strong>. Ces formules peuvent être trouvées sur la page "<a href="/public-formulas.en.<?=getenv('LINK_EXT');?>">Formules Publiques</a>". N'hésitez pas à les consulter !
+            Cependant, <strong>certains joueurs ont volontairement partagé leurs <i>Formules</i> publiquement sur notre site web</strong>. Ces formules peuvent être trouvées sur la page "<a href="/public-formulas.<?=$LANG;?>.<?=getenv('LINK_EXT');?>">Formules Publiques</a>". N'hésitez pas à les consulter !
         </p>
         <p>
             Si vous souhaitez inspirer d'autres joueurs en partageant votre propre <i>Formule</i>, veuillez suivre <a href="https://github.com/mindwarriorgame/public-formulas/blob/main/README.md" target="_blank">ces instructions</a>.
@@ -333,8 +335,7 @@ require_once("includes/image_tag_renderer.php");
 $CONTENT = ob_get_contents();
 ob_end_clean();
 
-$LANG='fr';
-$MENU = include("includes/menu.fr.php");
+$MENU = include("includes/menu.$LANG.php");
 
 $TITLE="MindWarrior: FAQ";
 

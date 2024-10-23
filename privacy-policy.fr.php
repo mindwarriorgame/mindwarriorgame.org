@@ -2,13 +2,15 @@
 ob_start();
 
 $ext = getenv('LINK_EXT');
+
+$LANG='fr';
 ?>
 
     <h2>Politique de confidentialité</h2>
 
     <h3>Introduction</h3>
     <p>
-        Nous accordons une grande importance à votre vie privée. Votre <a href="/faq.fr.<?=$ext;?>#formula">"Formule de résolution ferme"</a>
+        Nous accordons une grande importance à votre vie privée. Votre <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula">"Formule de résolution ferme"</a>
         reste privée et sécurisée.
         Le jeu ne crée aucune copie et ne l'envoie nulle part.
         Elle est stockée directement sur votre appareil dans le
@@ -134,9 +136,8 @@ $ext = getenv('LINK_EXT');
 $CONTENT = ob_get_contents();
 ob_end_clean();
 
-$LANG='fr';
 $MENU_SELECTED = "privacy-policy";
-$MENU = include("includes/menu.fr.php");
+$MENU = include("includes/menu.$LANG.php");
 
 $TITLE="MindWarrior: Politique de confidentialité";
 

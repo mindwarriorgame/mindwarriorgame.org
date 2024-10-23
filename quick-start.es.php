@@ -3,14 +3,16 @@ ob_start();
 
 $ext = getenv('LINK_EXT');
 $ver = time();
+
+$LANG='es';
 ?>
 
     <div style="text-align: center">
 
         <h2>¡Bienvenido al bot del juego "MindWarrior"!</h2>
 
-        <p>Este juego <a href="/faq.es.<?=$ext;?>#purpose">te mantendrá enfocado</a> en las cosas más importantes de tu vida y
-            <a href="/faq.es.<?=$ext;?>#review">te apoyará en tu camino</a> a través de todo el ruido cotidiano.</p>
+        <p>Este juego <a href="/faq.<?=$LANG;?>.<?=$ext;?>#purpose">te mantendrá enfocado</a> en las cosas más importantes de tu vida y
+            <a href="/faq.<?=$LANG;?>.<?=$ext;?>#review">te apoyará en tu camino</a> a través de todo el ruido cotidiano.</p>
 
         <h2>Guía de inicio rápido</h2>
 
@@ -49,7 +51,7 @@ $ver = time();
             <a href="/images/quickstart_en/_04.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_04_cropped.png?<?=$ver;?>' width='250' alt='Paso 4: Escribe tu Fórmula'/></a>
         </div>
         <div class="quickstart-step">
-            <h1>Escribe tu <a href="/faq.es.<?=$ext;?>#formula" target="_blank"><i>Fórmula</i></a></h1>
+            <h1>Escribe tu <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula" target="_blank"><i>Fórmula</i></a></h1>
             <p>
                 Usa el botón 👁️ ("ojo") para previsualizar el resultado.
             </p>
@@ -133,9 +135,8 @@ $ver = time();
 $CONTENT = ob_get_contents();
 ob_end_clean();
 
-$LANG='es';
 $MENU_SELECTED = "quick-start";
-$MENU = include("includes/menu.es.php");
+$MENU = include("includes/menu.$LANG.php");
 
 $TITLE="MindWarrior: Inicio rápido";
 
