@@ -22,7 +22,7 @@ $LANG='ru';
     </p>
 
     <p>
-        Поэтому мы рекомендуем вам регулярно вручную создавать резервные копии вашей Формулы путем копирования ее содержимого
+        Поэтому мы рекомендуем вам регулярно создавать резервные копии вашей Формулы вручную. Для этого скопируйте ее как текст
         в какое-нибудь безопасное место (например, в <a href="https://telegram.org/blog/new-saved-messages-and-9-more/ru" target="_blank">
             Сохраненные сообщения</a> Телеграма), чтобы можно было ее восстановить в случае непредвиденных обстоятельств
         (переустановка Телеграма, использование нового устройства и т. д.).
@@ -52,8 +52,7 @@ $LANG='ru';
     <h4>Game Data</h4>
     <ul>
         <li>
-            <span class="code-highlight">difficulty</span>,
-            <span class="code-highlight">rewards</span>: числа
+            <span class="code-highlight">difficulty</span>: сложность игры, число
         </li>
 
 
@@ -65,7 +64,6 @@ $LANG='ru';
         </li>
 
         <li>
-            <span class="code-highlight">last_reward_time</span>,
             <span class="code-highlight">next_prompt_time</span>: дата и время
         </li>
         <li>
@@ -74,6 +72,14 @@ $LANG='ru';
 
         <li>
             <span class="code-highlight">counters_history_serialized</span>: история изменений счетчиков игрока для отображения графика прогресса
+        </li>
+
+        <li>
+            <span class="code-highlight">counters_history_serialized</span>: история изменений счетчиков игрока для отображения графика прогресса
+        </li>
+
+        <li>
+            <span class="code-highlight">badges_serialized</span>: игровая доска игрока: уровень, заработанные достижения, закрытые достижения, прогресс для следующего достижения и т. д.
         </li>
 
 
