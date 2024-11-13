@@ -112,7 +112,7 @@ $LANG='en';
     <div class="quickstart-step">
         <h1>Read your <i>Formula</i></h1>
         <p>
-            When finished, press "Get Reward" button.
+            When finished, press "Finish Review" button.
         </p>
     </div>
 </div>
@@ -122,9 +122,9 @@ $LANG='en';
         <a href="/images/quickstart_en/_09.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_09_cropped.png?<?=$ver;?>' width='250' /></a>
     </div>
     <div class="quickstart-step">
-        <h1>Enjoy your reward!</h1>
+        <h1>All done!</h1>
         <p>
-            Don't forget to regularly review your <i>Formulas</i>.
+            Don't forget to come back from time to time to review your <i>Formula</i>.
         </p>
     </div>
 </div>
