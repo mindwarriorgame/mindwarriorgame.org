@@ -51,8 +51,7 @@ $LANG='en';
     <h4>Game Data</h4>
     <ul>
         <li>
-            <span class="code-highlight">difficulty</span>,
-            <span class="code-highlight">rewards</span>: plain numbers
+            <span class="code-highlight">difficulty</span>
         </li>
 
 
@@ -64,8 +63,7 @@ $LANG='en';
         </li>
 
         <li>
-            <span class="code-highlight">last_reward_time</span>,
-            <span class="code-highlight">next_prompt_time</span>: timestamps
+            <span class="code-highlight">next_prompt_time</span>: timestamp
         </li>
         <li>
             <span class="code-highlight">next_prompt_type</span>: string (could contain only 2 possible values: "reminder" and "penalty")
@@ -73,6 +71,10 @@ $LANG='en';
 
         <li>
             <span class="code-highlight">counters_history_serialized</span>: historical data of player's counters for rendering the progress chart
+        </li>
+
+        <li>
+            <span class="code-highlight">badges_serialized</span>: the data about the game board: earned badges, their statuses, level etc.
         </li>
 
 
@@ -91,11 +93,11 @@ $LANG='en';
         disclosure, alteration, or destruction.</p>
 
     <h3>Your Rights</h3>
-    <p>You have the following rights regarding your data:</p>
+    <p>You have the following controls regarding your data:</p>
     <ul>
         <li><strong>Access</strong>: You can access all you data anytime by using
             <span class="code-highlight">/data</span> command. That will
-            return all your raw data that the game stores about you.</li>
+            return all your raw data that the game stores about you on its server.</li>
         <li><strong>Deletion</strong>: You can delete your data at any time by using
             <span class="code-highlight">/data</span> bot command and then clicking "Delete" button.
             <ul>
@@ -118,10 +120,12 @@ $LANG='en';
     </p>
 
     <h3>Changes to This Policy</h3>
+
     <p>We may update this policy from time to time. Please make sure to regularly check this page
         to review the latest version of our privacy policy.</p>
 
     <h2>Contact Us</h2>
+
     <p>If you have any questions or concerns about this policy,
         please raise it as a GitHub Issue:
         <a href="https://github.com/mindwarriorgame/mindwarrior-telegram-bot/issues" target="_blank">https://github.com/mindwarriorgame/mindwarrior-telegram-bot/issues</a>
