@@ -104,7 +104,7 @@ $LANG='fr';
 
     <div class="quickstart-parent">
         <div>
-            <a href="/images/quickstart_fr/_08.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_fr/_08_cropped.png?<?=$ver;?>' width='250' /></a>
+            <a href="/images/quickstart_en/_08.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_08_cropped.png?<?=$ver;?>' width='250' /></a>
         </div>
         <div class="quickstart-step">
             <h1>Lisez votre <i>Formule</i></h1>
@@ -116,7 +116,7 @@ $LANG='fr';
 
     <div class="quickstart-parent">
         <div>
-            <a href="/images/quickstart_fr/_09.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_fr/_09_cropped.png?<?=$ver;?>' width='250' /></a>
+            <a href="/images/quickstart_en/_09.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_09_cropped.png?<?=$ver;?>' width='250' /></a>
         </div>
         <div class="quickstart-step">
             <h1>Tout est prêt !</h1>

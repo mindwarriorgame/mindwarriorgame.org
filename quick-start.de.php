@@ -107,7 +107,7 @@ $LANG='de';
 
     <div class="quickstart-parent">
         <div>
-            <a href="/images/quickstart_de/_08.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_de/_08_cropped.png?<?=$ver;?>' width='250' /></a>
+            <a href="/images/quickstart_en/_08.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_08_cropped.png?<?=$ver;?>' width='250' /></a>
         </div>
         <div class="quickstart-step">
             <h1>Lies deine <i>Formel</i></h1>
@@ -119,7 +119,7 @@ $LANG='de';
 
     <div class="quickstart-parent">
         <div>
-            <a href="/images/quickstart_de/_09.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_de/_09_cropped.png?<?=$ver;?>' width='250' /></a>
+            <a href="/images/quickstart_en/_09.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_09_cropped.png?<?=$ver;?>' width='250' /></a>
         </div>
         <div class="quickstart-step">
             <h1>Alles erledigt!</h1>
