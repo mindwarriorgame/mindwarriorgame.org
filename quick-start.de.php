@@ -107,27 +107,28 @@ $LANG='de';
 
     <div class="quickstart-parent">
         <div>
-            <a href="/images/quickstart_en/_08.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_08_cropped.png?<?=$ver;?>' width='250' /></a>
+            <a href="/images/quickstart_de/_08.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_de/_08_cropped.png?<?=$ver;?>' width='250' /></a>
         </div>
         <div class="quickstart-step">
             <h1>Lies deine <i>Formel</i></h1>
             <p>
-                Wenn du fertig bist, drücke die "Belohnung erhalten"-Taste.
+                Wenn du fertig bist, drücke den Button "Überprüfung beenden".
             </p>
         </div>
     </div>
 
     <div class="quickstart-parent">
         <div>
-            <a href="/images/quickstart_en/_09.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_09_cropped.png?<?=$ver;?>' width='250' /></a>
+            <a href="/images/quickstart_de/_09.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_de/_09_cropped.png?<?=$ver;?>' width='250' /></a>
         </div>
         <div class="quickstart-step">
-            <h1>Genieße deine Belohnung!</h1>
+            <h1>Alles erledigt!</h1>
             <p>
-                Vergiss nicht, deine <i>Formeln</i> regelmäßig zu überprüfen.
+                Vergiss nicht, ab und zu zurückzukommen, um deine <i>Formel</i> zu überprüfen.
             </p>
         </div>
     </div>
+
 
     <div class="quickstart-parent">
         <div class="telegram">

@@ -98,27 +98,28 @@ $LANG='es';
 
     <div class="quickstart-parent">
         <div>
-            <a href="/images/quickstart_en/_08.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_08_cropped.png?<?=$ver;?>' width='250' alt='Paso 8: Lee tu Fórmula'/></a>
+            <a href="/images/quickstart_es/_08.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_es/_08_cropped.png?<?=$ver;?>' width='250' /></a>
         </div>
         <div class="quickstart-step">
             <h1>Lee tu <i>Fórmula</i></h1>
             <p>
-                Cuando termines, presiona el botón "Obtener Recompensa".
+                Cuando termines, presiona el botón "Terminar Revisión".
             </p>
         </div>
     </div>
 
     <div class="quickstart-parent">
         <div>
-            <a href="/images/quickstart_en/_09.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_09_cropped.png?<?=$ver;?>' width='250' alt='Paso 9: ¡Disfruta de tu recompensa!'/></a>
+            <a href="/images/quickstart_es/_09.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_es/_09_cropped.png?<?=$ver;?>' width='250' /></a>
         </div>
         <div class="quickstart-step">
-            <h1>¡Disfruta de tu recompensa!</h1>
+            <h1>¡Todo listo!</h1>
             <p>
-                No olvides revisar regularmente tus <i>Fórmulas</i>.
+                No olvides volver de vez en cuando para revisar tu <i>Fórmula</i>.
             </p>
         </div>
     </div>
+
 
     <div class="quickstart-parent">
         <div class="telegram">
