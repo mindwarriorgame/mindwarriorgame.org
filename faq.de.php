@@ -203,7 +203,7 @@
             <p class="quote-reference">– <a href="https://de.wikipedia.org/wiki/Leo_Tolstoi" target="_blank">Leo Tolstoi</a></p>
         </div>
 
-        <p>
+        <p id="smooth-name-betterworld" class="anchor">
             Wir (die Erschaffer des Spiels) glauben fest daran, dass jeder die Welt verändern kann.
             Indem wir uns selbst verändern, tragen wir dazu bei, die Welt zu einem besseren Ort zu machen.
             Bessere Versionen von uns selbst führen zu besseren Entscheidungen, was zu besseren Handlungen und

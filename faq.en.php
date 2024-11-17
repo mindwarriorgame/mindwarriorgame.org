@@ -200,7 +200,7 @@
         <p class="quote-reference">– <a href="https://en.wikipedia.org/wiki/Leo_Tolstoy" target="_blank">Leo Tolstoy</a></p>
     </div>
 
-    <p>
+    <p id="smooth-name-betterworld" class="anchor">
         We (creators of the game) strongly believe that everyone could make a difference in the world.
         By changing ourselves, we contribute in making the world a better place.
         Becoming better versions of ourselves leads us to better decisions, which result in better actions and

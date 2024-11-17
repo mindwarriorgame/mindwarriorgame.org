@@ -199,7 +199,7 @@ $LANG='es';
             <p class="quote-reference">– <a href="https://en.wikipedia.org/wiki/Leo_Tolstoy" target="_blank">León Tolstói</a></p>
         </div>
 
-        <p>
+        <p id="smooth-name-betterworld" class="anchor">
             Nosotros (los creadores del juego) creemos firmemente que todos pueden hacer una diferencia en el mundo.
             Al cambiarnos a nosotros mismos, contribuimos a hacer del mundo un lugar mejor.
             Convertirnos en mejores versiones de nosotros mismos nos lleva a tomar mejores decisiones, que resultan en mejores acciones y
