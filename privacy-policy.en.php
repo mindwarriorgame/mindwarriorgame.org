@@ -63,7 +63,7 @@ $LANG='en';
         </li>
 
         <li>
-            <span class="code-highlight">next_prompt_time</span>: timestamp
+            <span class="code-highlight">next_prompt_time</span>, <span class="code-highlight">next_autopause_event_time</span>: timestamps
         </li>
         <li>
             <span class="code-highlight">next_prompt_type</span>: string (could contain only 2 possible values: "reminder" and "penalty")
@@ -75,6 +75,10 @@ $LANG='en';
 
         <li>
             <span class="code-highlight">badges_serialized</span>: the data about the game board: earned badges, their statuses, level etc.
+        </li>
+
+        <li>
+            <span class="code-highlight">autopause_config_serialized</span>: settings of the sleep scheduler. ⚠️Contains user's timezone (if the feature is used).
         </li>
 
 

@@ -61,7 +61,7 @@ $LANG='fr';
         </li>
 
         <li>
-            <span class="code-highlight">next_prompt_time</span> : horodatage
+            <span class="code-highlight">next_prompt_time</span>, <span class="code-highlight">next_autopause_event_time</span> : horodatages
         </li>
         <li>
             <span class="code-highlight">next_prompt_type</span> : chaîne de caractères (ne peut contenir que 2 valeurs possibles : "reminder" et "penalty")
@@ -73,6 +73,10 @@ $LANG='fr';
 
         <li>
             <span class="code-highlight">badges_serialized</span> : les données du plateau de jeu : badges gagnés, leurs statuts, niveau, etc.
+        </li>
+
+        <li>
+            <span class="code-highlight">autopause_config_serialized</span> : paramètres du planificateur de sommeil. ⚠️Contient le fuseau horaire de l'utilisateur (si la fonctionnalité est utilisée).
         </li>
     </ul>
 

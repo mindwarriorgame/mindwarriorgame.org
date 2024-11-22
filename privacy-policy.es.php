@@ -62,7 +62,7 @@ $LANG='es';
         </li>
 
         <li>
-            <span class="code-highlight">next_prompt_time</span>: marca de tiempo
+            <span class="code-highlight">next_prompt_time</span>, <span class="code-highlight">next_autopause_event_time</span>: marcas de tiempo
         </li>
         <li>
             <span class="code-highlight">next_prompt_type</span>: cadena (solo puede contener 2 valores posibles: "reminder" y "penalty")
@@ -74,6 +74,10 @@ $LANG='es';
 
         <li>
             <span class="code-highlight">badges_serialized</span>: datos sobre el tablero del juego: insignias obtenidas, sus estados, nivel, etc.
+        </li>
+
+        <li>
+            <span class="code-highlight">autopause_config_serialized</span>: configuración del programador de sueño. ⚠️Contiene la zona horaria del usuario (si se utiliza la función).
         </li>
     </ul>
 

@@ -61,7 +61,7 @@ $LANG='de';
         </li>
 
         <li>
-            <span class="code-highlight">next_prompt_time</span>: Zeitstempel
+            <span class="code-highlight">next_prompt_time</span>, <span class="code-highlight">next_autopause_event_time</span>: Zeitstempel
         </li>
         <li>
             <span class="code-highlight">next_prompt_type</span>: Zeichenkette (kann nur zwei mögliche Werte enthalten: „reminder“ und „penalty“)
@@ -73,6 +73,10 @@ $LANG='de';
 
         <li>
             <span class="code-highlight">badges_serialized</span>: Die Daten über das Spielbrett: verdiente Abzeichen, deren Status, Level usw.
+        </li>
+
+        <li>
+            <span class="code-highlight">autopause_config_serialized</span>: Einstellungen des Schlafplaners. ⚠️Enthält die Zeitzone des Benutzers (sofern die Funktion verwendet wird).
         </li>
     </ul>
 

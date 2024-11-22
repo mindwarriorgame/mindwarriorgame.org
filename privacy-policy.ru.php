@@ -64,7 +64,7 @@ $LANG='ru';
         </li>
 
         <li>
-            <span class="code-highlight">next_prompt_time</span>: дата и время
+            <span class="code-highlight">next_prompt_time</span>, <span class="code-highlight">next_autopause_event_time</span>: дата и время
         </li>
         <li>
             <span class="code-highlight">next_prompt_type</span>: строка (может хранить только два значения: "reminder" или "penalty")
@@ -80,6 +80,10 @@ $LANG='ru';
 
         <li>
             <span class="code-highlight">badges_serialized</span>: игровая доска игрока: уровень, заработанные достижения, закрытые достижения, прогресс для следующего достижения и т. д.
+        </li>
+
+        <li>
+            <span class="code-highlight">autopause_config_serialized</span>: настройки планировщика сна. ⚠️Содержит часовой пояс пользователя (если функция используется).
         </li>
 
 
