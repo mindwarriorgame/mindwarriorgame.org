@@ -116,7 +116,7 @@ $LANG='ru';
         </p>
 
         <p>Кроме этого, вы также можете задать время своего сна. На этот период времени игра ежедневно будет автоматически ставиться на паузу. Для этого
-            зайдите в меню <span class="code-highlight">/difficulty</span> и нажмите на кнопку <i>"💤 Планировщик сна"</i>.</p>
+            зайдите в меню <span class="code-highlight">/settings</span> и нажмите на кнопку <i>"💤 Планировщик сна"</i>.</p>
     </div>
 
     <div id="smooth-formula-formatting" class="faq-item">
@@ -128,6 +128,16 @@ $LANG='ru';
         <p>
             <a href="/images/faq_ru/markdown.jpg" class="image-link" target="_blank>">
                 <?=renderImageTag(450, "images/faq_ru/markdown.jpg", "/images/faq_ru/markdown.jpg");?>
+            </a>
+        </p>
+
+        <p>
+            Длинные <i>Формулы</i> автоматически сворачиваются под "главные" заголовки (<span class="code-highlight"># Заголовок</span>). Вы можете развернуть их, нажав на заголовок.
+        </p>
+
+        <p>
+            <a href="/images/faq_ru/collapse.jpg" class="image-link" target="_blank>">
+                <?=renderImageTag(600, "images/faq_ru/collapse.jpg", "/images/faq_ru/collapse.jpg");?>
             </a>
         </p>
     </div>

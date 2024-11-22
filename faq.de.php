@@ -109,11 +109,12 @@
         <p>
             Das pausierte Spiel sendet Ihnen keine Benachrichtigungen und verändert Ihre Spielpunkte nicht.
             Auch der Zähler für die aktive Spielzeit wird nicht fortlaufen.
-        </p>
-
-        <p>
             Um das Spiel fortzusetzen, überprüfen Sie einfach wie gewohnt Ihre <i>Formel</i>.
         </p>
+
+        <p>Außerdem können Sie ein Schlafintervall einrichten. Das Spiel wird während dieser Zeit automatisch (täglich) pausiert.
+            Um es einzustellen, gehen Sie zum Menü <span class="code-highlight">/settings</span> und klicken Sie auf die Schaltfläche <i>"💤 Schlafplaner"</i>.</p>
+
     </div>
 
     <div id="smooth-formula-formatting" class="faq-item">
@@ -127,6 +128,17 @@
                 <?=renderImageTag(450, "images/faq_en/markdown.jpg", "/images/faq_en/markdown.jpg");?>
             </a>
         </p>
+
+        <p>
+            Lange <i>Formeln</i> werden automatisch unter den Hauptüberschriften (<span class="code-highlight"># Header</span>) ausgeblendet.
+            Sie können sie erweitern, indem Sie auf die Kopfzeile klicken.
+        </p>
+
+        <p>
+            <a href="/images/faq_en/collapse.jpg" class="image-link" target="_blank>">
+                <?=renderImageTag(600, "images/faq_en/collapse.jpg", "/images/faq_en/collapse.jpg");?>
+            </a>
+        </p>
     </div>
 
 
@@ -136,18 +148,39 @@
             Das Spiel unterstützt die folgenden Befehle:
         </p>
         <ul>
-            <li><strong><span class="pre">/review</span></strong> - 💫 <a href="#review">Überprüfen</a> Ihrer <i>Formel</i></li>
-            <li><strong><span class="pre">/pause</span></strong> - ⏸️ <a href="#pause">Pausieren</a> des Spiels</li>
-            <li><strong><span class="pre">/formula</span></strong> - 🧪 Öffnen Ihrer <a href="#formula"><i>Formel</i></a> im Editor</li>
-            <li><span class="pre">/stats</span> - 📊 Anzeigen Ihres Spielfortschritts</li>
-            <li><span class="pre">/difficulty</span> - 💪 Ändern des <a href="#difficulty">Schwierigkeitsgrads</a> (Häufigkeit Ihrer Überprüfungen)</li>
-            <li><span class="pre">/data</span> - 💾️ Anzeigen und Verwalten Ihrer Rohdaten</li>
+            <li><span class="pre">/review</span> - 💫 <a href="#review">überprüfe</a> deine <i>Formel</i>
+            <li><span class="pre">/pause</span> - ⏸️ <a href="#pause">pausiere</a> das Spiel</li>
+            <li><span class="pre">/formula</span> - 🧪 öffne deine <a href="#formula"><i>Formel</i></a> im Editor</li>
+            <li><span class="pre">/stats</span> - 📊 sieh dir deinen Spielfortschritt an</li>
+            <li><span class="pre">/settings</span> - 🔧 Spieleinstellungen</li>
         </ul>
         <p>
-            <a href="/images/faq_en/menu.jpg" class="image-link" target="_blank">
+            <a href="/images/faq_en/menu.jpg" class="image-link" target="_blank>">
                 <?=renderImageTag(450, "images/faq_en/menu.jpg", "/images/faq_en/menu.jpg");?>
             </a>
         </p>
+
+        <p>
+            In den Spieleinstellungen (<span class="pre">/settings</span>) finden Sie die folgenden Schaltflächen:
+        </p>
+
+        <ul>
+            <li>
+                <i>"💤 Schlafplaner"</i> - Sie können täglich ein Zeitintervall festlegen, in dem das Spiel automatisch pausiert wird
+            </li>
+
+            <li>
+                <i>"💪 Spielschwierigkeit"</i> - Ändern Sie die <a href="#difficulty">Schwierigkeit des Spiels</a>
+            </li>
+
+            <li>
+                <i>"💾 Persönliche Daten"</i> - <a href="privacy-policy.<?=$LANG;?>.<?=getenv('LINK_EXT');?>">Möglichkeit, die Daten zu prüfen, die das Spiel weiß über Sie Bescheid</a>
+            </li>
+
+            <li>
+                <i>"📢 Feedback"</i> - Link zu einem Feedback-Formular
+            </li>
+        </ul>
     </div>
 
 

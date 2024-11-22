@@ -107,11 +107,11 @@ $LANG='fr';
         <p>
             Le jeu en pause ne vous enverra aucune notification et n'affectera pas vos scores de jeu.
             Le compteur de temps de jeu actif ne comptera pas non plus.
-        </p>
-
-        <p>
             Pour reprendre le jeu, consultez simplement votre <i>Formule</i> comme d'habitude.
         </p>
+
+        <p>Vous pouvez également définir un intervalle de sommeil. Le jeu sera automatiquement mis en pause (quotidiennement) pendant cette période.
+            Pour le définir, accédez au menu <span class="code-highlight">/settings</span> et appuyez sur le bouton <i>"💤 Planificateur de sommeil"</i>.</p>
     </div>
 
     <div id="smooth-formula-formatting" class="faq-item">
@@ -125,6 +125,17 @@ $LANG='fr';
                 <?=renderImageTag(450, "images/faq_en/markdown.jpg", "/images/faq_en/markdown.jpg");?>
             </a>
         </p>
+
+        <p>
+            Les <i>formules</i> longues sont automatiquement réduites sous les en-têtes principaux (<span class="code-highlight"># Header</span>).
+            Vous pouvez les développer en cliquant sur l'en-tête.
+        </p>
+
+        <p>
+            <a href="/images/faq_en/collapse.jpg" class="image-link" target="_blank>">
+                <?=renderImageTag(600, "images/faq_en/collapse.jpg", "/images/faq_en/collapse.jpg");?>
+            </a>
+        </p>
     </div>
 
 
@@ -134,18 +145,39 @@ $LANG='fr';
             Le jeu prend en charge les commandes suivantes :
         </p>
         <ul>
-            <li><strong><span class="pre">/review</span></strong> - 💫 <a href="#review">consulter</a> votre <i>Formule</i></li>
-            <li><strong><span class="pre">/pause</span></strong> - ⏸️ <a href="#pause">mettre en pause</a> le jeu</li>
-            <li><strong><span class="pre">/formula</span></strong> - 🧪 ouvrir votre <a href="#formula"><i>Formule</i></a> dans l'éditeur</li>
-            <li><span class="pre">/stats</span> - 📊 voir votre progression dans le jeu</li>
-            <li><span class="pre">/difficulty</span> - 💪 changer le <a href="#difficulty">niveau de difficulté</a> (fréquence de vos consultations)</li>
-            <li><span class="pre">/data</span> - 💾️ consulter et gérer vos données brutes</li>
+            <li><span class="pre">/review</span> - 💫 <a href="#review">review</a> votre <i>Formula</i>
+            <li><span class="pre">/pause</span> - ⏸️ <a href="#pause">mettre le jeu en pause</a>
+            <li><span class="pre">/formula</span> - 🧪 ouvrir votre <a href="#formula"><i>Formula</i></a> dans l'éditeur
+            <li><span class="pre">/stats</span> - 📊 afficher la progression de votre jeu
+            <li><span class="pre">/settings</span> - 🔧 paramètres du jeu
         </ul>
         <p>
-            <a href="/images/faq_en/menu.jpg" class="image-link" target="_blank">
+            <a href="/images/faq_en/menu.jpg" class="image-link" target="_blank>">
                 <?=renderImageTag(450, "images/faq_en/menu.jpg", "/images/faq_en/menu.jpg");?>
             </a>
         </p>
+
+        <p>
+            Dans les paramètres du jeu (<span class="pre">/settings</span>), vous pouvez trouver les boutons suivants:
+        </p>
+
+        <ul>
+            <li>
+                <i>"💤 Sleep Scheduler"</i> - vous pouvez définir un intervalle de temps pendant lequel le jeu sera automatiquement mis en pause, quotidiennement
+            </li>
+
+            <li>
+                <i>"💪 Game Difficulty"</i> - modifie la <a href="#difficulty">difficulté du jeu</a>
+            </li>
+
+            <li>
+                <i>"💾 Personal Data"</i> - <a href="privacy-policy.<?=$LANG;?>.<?=getenv('LINK_EXT');?>">possibilité d'examiner les données que le jeu connaît sur vous</a>
+            </li>
+
+            <li>
+                <i>"📢 Feedback"</i> - lien vers un formulaire de commentaires
+            </li>
+        </ul>
     </div>
 
     <div id="smooth-name" class="faq-item">

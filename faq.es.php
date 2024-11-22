@@ -108,11 +108,12 @@ $LANG='es';
         <p>
             El juego en pausa no te enviará ninguna notificación ni cambiará tus puntuaciones del juego.
             Tampoco se contará el tiempo de juego activo.
-        </p>
-
-        <p>
             Para reanudar el juego, simplemente revisa tu <i>Fórmula</i> como de costumbre.
         </p>
+
+        <p>También puedes configurar un intervalo para dormir. El juego se pausará automáticamente (diariamente) durante este tiempo.
+            Para configurarlo, vaya al menú <span class="code-highlight">/settings</span> y presione el botón <i>"💤 Programador de sueño"</i>.</p>
+
     </div>
 
 
@@ -127,6 +128,17 @@ $LANG='es';
                 <?=renderImageTag(450, "images/faq_en/markdown.jpg", "/images/faq_en/markdown.jpg");?>
             </a>
         </p>
+
+        <p>
+            Las <i>fórmulas</i> largas se contraen automáticamente debajo de los encabezados principales (<span class="code-highlight"># encabezado</span>).
+            Puedes ampliarlos haciendo clic en el encabezado.
+        </p>
+
+        <p>
+            <a href="/images/faq_en/collapse.jpg" class="image-link" target="_blank>">
+                <?=renderImageTag(600, "images/faq_en/collapse.jpg", "/images/faq_en/collapse.jpg");?>
+            </a>
+        </p>
     </div>
 
     <div id="smooth-controls" class="faq-item">
@@ -135,18 +147,39 @@ $LANG='es';
             El juego admite los siguientes comandos:
         </p>
         <ul>
-            <li><strong><span class="pre">/review</span></strong> - 💫 <a href="#review">revisa</a> tu <i>Fórmula</i></li>
-            <li><strong><span class="pre">/pause</span></strong> - ⏸️ <a href="#pause">pausa</a> el juego</li>
-            <li><strong><span class="pre">/formula</span></strong> - 🧪 abre tu <a href="#formula"><i>Fórmula</i></a> en el editor</li>
+            <li><span class="pre">/review</span> - 💫 <a href="#review">revisar</a> tu <i>Fórmula</i>
+            <li><span class="pre">/pause</span> - ⏸️ <a href="#pause">pausar</a> el juego</li>
+            <li><span class="pre">/formula</span> - 🧪 abrir tu <a href="#formula"><i>Fórmula</i></a> en el editor</li>
             <li><span class="pre">/stats</span> - 📊 ver tu progreso en el juego</li>
-            <li><span class="pre">/difficulty</span> - 💪 cambia el nivel de <a href="#difficulty">dificultad</a> (frecuencia de tus revisiones)</li>
-            <li><span class="pre">/data</span> - 💾️ ver y gestionar tus datos sin procesar</li>
+            <li><span class="pre">/settings</span> - 🔧 ajustes del juego</li>
         </ul>
         <p>
-            <a href="/images/faq_en/menu.jpg" class="image-link" target="_blank">
+            <a href="/images/faq_en/menu.jpg" class="image-link" target="_blank>">
                 <?=renderImageTag(450, "images/faq_en/menu.jpg", "/images/faq_en/menu.jpg");?>
             </a>
         </p>
+
+        <p>
+            En la configuración del juego (<span class="pre">/settings</span>) puedes encontrar los siguientes botones:
+        </p>
+
+        <ul>
+            <li>
+                <i>"💤 Programador de sueño"</i>: puedes configurar un intervalo de tiempo en el que el juego se pausará automáticamente, diariamente
+            </li>
+
+            <li>
+                <i>"💪 Dificultad del juego"</i>: cambia la <a href="#difficulty">dificultad del juego</a>
+            </li>
+
+            <li>
+                <i>"💾 Datos personales"</i>: <a href="privacy-policy.<?=$LANG;?>.<?=getenv('LINK_EXT');?>">capacidad de examinar los datos que el juego conoce sobre ti</a>
+            </li>
+
+            <li>
+                <i>"📢 Comentarios"</i> - enlace a un formulario de comentarios
+            </li>
+        </ul>
     </div>
 
 

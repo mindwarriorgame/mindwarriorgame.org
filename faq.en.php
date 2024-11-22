@@ -110,11 +110,11 @@
     <p>
         The paused game won't send you any notifications or change your game scores.
         The active play time counter won't be counting, too.
-    </p>
-
-    <p>
         To resume the game, simply review your <i>Formula</i> as usually.
     </p>
+
+    <p>Ålso you can set up an interval for sleep. The game will be automatically paused (daily) during this time.
+        To set it, go <span class="code-highlight">/settings</span> menu and press <i>"💤 Sleep Scheduler"</i> button.</p>
 </div>
 
 <div id="smooth-formula-formatting" class="faq-item">
@@ -128,6 +128,18 @@
             <?=renderImageTag(450, "images/faq_en/markdown.jpg", "/images/faq_en/markdown.jpg");?>
         </a>
     </p>
+
+    <p>
+        Long <i>Formulas</i> are automatically collapsed under the main headers (<span class="code-highlight"># Header</span>).
+        You can expand them by clicking on the header.
+    </p>
+
+    <p>
+        <a href="/images/faq_en/collapse.jpg" class="image-link" target="_blank>">
+            <?=renderImageTag(600, "images/faq_en/collapse.jpg", "/images/faq_en/collapse.jpg");?>
+        </a>
+    </p>
+
 </div>
 
 <div id="smooth-controls" class="faq-item">
@@ -136,18 +148,39 @@
         The game supports the following commands:
     </p>
     <ul>
-        <li><strong><span class="pre">/review</span></strong> - 💫 <a href="#review">review</a> your <i>Formula</i>
-        <li><strong><span class="pre">/pause</span></strong> - ⏸️ <a href="#pause">pause</a> the game</li>
-        <li><strong><span class="pre">/formula</span></strong> - 🧪 open your <a href="#formula"><i>Formula</i></a> in editor</li>
+        <li><span class="pre">/review</span> - 💫 <a href="#review">review</a> your <i>Formula</i>
+        <li><span class="pre">/pause</span> - ⏸️ <a href="#pause">pause</a> the game</li>
+        <li><span class="pre">/formula</span> - 🧪 open your <a href="#formula"><i>Formula</i></a> in editor</li>
         <li><span class="pre">/stats</span> - 📊 view your game progress</li>
-        <li><span class="pre">/difficulty</span> - 💪 change the <a href="#difficulty">difficulty</a> level (frequency of your reviews)</li>
-        <li><span class="pre">/data</span> - 💾️ view and manage your raw data</li>
+        <li><span class="pre">/settings</span> - 🔧 game settings</li>
     </ul>
     <p>
         <a href="/images/faq_en/menu.jpg" class="image-link" target="_blank>">
             <?=renderImageTag(450, "images/faq_en/menu.jpg", "/images/faq_en/menu.jpg");?>
         </a>
     </p>
+
+    <p>
+        In the game settings (<span class="pre">/settings</span>) you can find the following buttons:
+    </p>
+
+    <ul>
+        <li>
+            <i>"💤 Sleep Scheduler"</i> - you can set up a time interval when the game will be automatically paused, daily
+        </li>
+
+        <li>
+            <i>"💪 Game Difficulty"</i> - change the <a href="#difficulty">difficulty of the game</a>
+        </li>
+
+        <li>
+            <i>"💾 Personal Data"</i> - <a href="privacy-policy.<?=$LANG;?>.<?=getenv('LINK_EXT');?>">ability to examine the data that the game knows about you</a>
+        </li>
+
+        <li>
+            <i>"📢 Feedback"</i> - link to a feedback form
+        </li>
+    </ul>
 </div>
 
 
