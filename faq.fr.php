@@ -61,11 +61,11 @@ $LANG='fr';
     </div>
 
     <div id="smooth-forgot" class="faq-item">
-        <h3>Que se passe-t-il si j'oublie de consulter ma Formule ?</h3>
+        <h3>Que se passe-t-il si on oublie de consulter la "Formule" ?</h3>
 
         <p>
-            Si vous oubliez de consulter votre <i>Formule de ferme résolution</i> à temps, le jeu vous enverra une notification de rappel.
-            Si vous l'ignorez, alors (selon le niveau de difficulté) vous pourriez être pénalisé.
+            Si vous oubliez de consulter votre <i>Formule de Résolution Ferme</i>, le jeu vous le rappellera.
+            En fonction du niveau de difficulté choisi, les oublis peuvent rendre le processus de déblocage des niveaux suivants plus difficile.
         </p>
 
         <p>
@@ -74,7 +74,12 @@ $LANG='fr';
             </a>
         </p>
 
+        <p id="smooth-forgot-grumpycat" class="anchor">
+            Pour accélérer le processus de déblocage, vous pouvez augmenter la fréquence des consultations de la <i>Formule</i>, mais pas plus d'une fois toutes les 5 minutes
+            (sinon la consultation ne sera pas prise en compte).
+        </p>
     </div>
+
 
 
 
@@ -205,7 +210,7 @@ $LANG='fr';
             des résultats dont tout le monde peut profiter.
         </p>
 
-        <p>
+        <p class="anchor">
             Par conséquent, chaque fois que vous consultez votre <a href="#formula"><i>Formule de ferme résolution</i></a>, vous améliorez non seulement votre vie,
             mais vous rendez également le monde meilleur pour tout le monde ! 🙌
         </p>

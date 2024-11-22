@@ -62,21 +62,27 @@
 
 </div>
 
-<div id="smooth-forgot" class="faq-item">
-    <h3>What happens if I forget to review my Formula?</h3>
+    <div id="smooth-forgot" class="faq-item">
+        <h3>What happens if you forget to review the "Formula"?</h3>
 
-    <p>
-        If you forget to review your <i>Formula of firm resolution</i> in time, the game will remind you with a notification.
-        If you ignore it, then (depending on the difficulty level) you might be penalised.
-    </p>
+        <p>
+            If you forget to review your <i>Formula of Firm Resolution</i>, the game will remind you about it.
+            Depending on the selected difficulty level, missing reviews might make it harder for you
+            to unlock subsequent game levels.
+        </p>
 
-    <p>
-        <a href="/images/faq_en/review_minus_score.jpg" class="image-link" target="_blank>">
-            <?=renderImageTag(450, "images/faq_en/review_minus_score.jpg", "/images/faq_en/review_minus_score.jpg");?>
-        </a>
-    </p>
+        <p>
+            <a href="/images/faq_en/review_minus_score.jpg" class="image-link" target="_blank">
+                <?=renderImageTag(450, "images/faq_en/review_minus_score.jpg", "/images/faq_en/review_minus_score.jpg");?>
+            </a>
+        </p>
 
-</div>
+        <p id="smooth-forgot-grumpycat" class="anchor">
+            To speed up the unlocking process, you can increase the frequency of reviewing the <i>Formula</i>,
+            but no more than once every 5 minutes (otherwise, the review will not be counted).
+        </p>
+    </div>
+
 
 <div id="smooth-difficulty" class="faq-item">
     <h3>How often do I need to review my Formula?</h3>
@@ -207,7 +213,7 @@
         outcomes for everyone to enjoy.
     </p>
 
-    <p>
+    <p class="anchor">
         Therefore, every time you review your <a href="#formula"><i>Formula of firm resolution</i></a>, you're not only improving your life,
         but also making the world a better place for everyone! 🙌
     </p>

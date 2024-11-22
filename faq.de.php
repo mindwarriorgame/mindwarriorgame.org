@@ -64,11 +64,11 @@
     </div>
 
     <div id="smooth-forgot" class="faq-item">
-        <h3>Was passiert, wenn ich vergesse, meine Formel zu überprüfen?</h3>
+        <h3>Was passiert, wenn ich vergesse, die "Formel" anzusehen?</h3>
 
         <p>
-            Wenn Sie vergessen, Ihre <i>Formel für einen festen Entschluss</i> rechtzeitig zu überprüfen, werden Sie vom Spiel mit einer Benachrichtigung daran erinnert.
-            Wenn Sie dies ignorieren, kann es (je nach Schwierigkeitsgrad) zu einer Strafe kommen.
+            Wenn Sie vergessen, Ihre <i>Formel der festen Entschlossenheit</i> anzusehen, wird das Spiel Sie daran erinnern.
+            Je nach gewähltem Schwierigkeitsgrad können Auslassungen den Prozess des Freischaltens weiterer Spielstufen erschweren.
         </p>
 
         <p>
@@ -77,7 +77,12 @@
             </a>
         </p>
 
+        <p id="smooth-forgot-grumpycat" class="anchor">
+            Um den Freischaltungsprozess zu beschleunigen, können Sie die Häufigkeit des Betrachtens der <i>Formel</i> erhöhen, jedoch nicht öfter als alle 5 Minuten
+            (ansonsten wird die Ansicht nicht gezählt).
+        </p>
     </div>
+
 
 
     <div id="smooth-difficulty" class="faq-item">
@@ -210,7 +215,7 @@
             Ergebnissen führt, von denen alle profitieren können.
         </p>
 
-        <p>
+        <p class="anchor">
             Jedes Mal, wenn du deine <a href="#formula"><i>Formel des festen Entschlusses</i></a> überprüfst, verbesserst du nicht nur dein eigenes Leben,
             sondern machst die Welt für alle ein Stück besser! 🙌
         </p>

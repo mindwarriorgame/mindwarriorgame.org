@@ -62,11 +62,12 @@ $LANG='es';
 
 
     <div id="smooth-forgot" class="faq-item">
-        <h3>¿Qué pasa si olvido revisar mi Fórmula?</h3>
+        <h3>¿Qué sucede si olvido revisar la "Fórmula"?</h3>
 
         <p>
-            Si olvidas revisar tu <i>Fórmula de resolución firme</i> a tiempo, el juego te recordará con una notificación.
-            Si lo ignoras, entonces (dependiendo del nivel de dificultad) podrías recibir una penalización.
+            Si olvidas revisar tu <i>Fórmula de Firme Resolución</i>, el juego te lo recordará.
+            Dependiendo del nivel de dificultad elegido, las omisiones pueden dificultar
+            el proceso de desbloquear los niveles posteriores del juego.
         </p>
 
         <p>
@@ -74,7 +75,14 @@ $LANG='es';
                 <?=renderImageTag(450, "images/faq_en/review_minus_score.jpg", "/images/faq_en/review_minus_score.jpg");?>
             </a>
         </p>
+
+        <p id="smooth-forgot-grumpycat" class="anchor">
+            Para acelerar el proceso de desbloqueo, puedes aumentar la frecuencia de revisiones de la <i>Fórmula</i>, pero no más de una vez cada 5 minutos
+            (de lo contrario, la revisión no será contabilizada).
+        </p>
+
     </div>
+
 
     <div id="smooth-difficulty" class="faq-item">
         <h3>¿Con qué frecuencia necesito revisar mi Fórmula?</h3>
@@ -206,7 +214,7 @@ $LANG='es';
             resultados para que todos disfruten.
         </p>
 
-        <p>
+        <p class="anchor">
             Por lo tanto, cada vez que revisas tu <a href="#formula"><i>Fórmula de firme resolución</i></a>, no solo estás mejorando tu vida,
             ¡sino también haciendo del mundo un lugar mejor para todos! 🙌
         </p>
