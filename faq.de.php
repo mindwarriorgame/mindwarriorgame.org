@@ -129,14 +129,12 @@
             </a>
         </p>
 
-        <p>
-            Lange <i>Formeln</i> werden automatisch unter den Hauptüberschriften (<span class="code-highlight"># Header</span>) ausgeblendet.
-            Sie können sie erweitern, indem Sie auf die Kopfzeile klicken.
-        </p>
+        <p>Sie können auch die Widgets <span class="code-highlight">{counter}</span> und <span class="code-highlight">{stopwatch}</span>
+            verwenden, um Zähler und Stoppuhren in Ihre Formel einzubetten. Das kann nützlich sein, wenn Sie den Fortschritt manuell verfolgen müssen.</p>
 
         <p>
-            <a href="/images/faq_en/collapse.jpg" class="image-link" target="_blank>">
-                <?=renderImageTag(600, "images/faq_en/collapse.jpg", "/images/faq_en/collapse.jpg");?>
+            <a href="/images/faq_en/counter.jpg" class="image-link" target="_blank>">
+                <?=renderImageTag(600, "images/faq_en/counter.jpg", "/images/faq_en/counter.jpg");?>
             </a>
         </p>
     </div>

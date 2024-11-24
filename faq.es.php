@@ -129,14 +129,13 @@ $LANG='es';
             </a>
         </p>
 
-        <p>
-            Las <i>fórmulas</i> largas se contraen automáticamente debajo de los encabezados principales (<span class="code-highlight"># encabezado</span>).
-            Puedes ampliarlos haciendo clic en el encabezado.
-        </p>
+        <p>También puede utilizar los widgets <span class="code-highlight">{counter}</span> y <span class="code-highlight">{stopwatch}</span>
+            para incorporar contadores y cronómetros en su fórmula. Esto puede resultar útil si necesita realizar un seguimiento manual
+            de algún progreso.</p>
 
         <p>
-            <a href="/images/faq_en/collapse.jpg" class="image-link" target="_blank>">
-                <?=renderImageTag(600, "images/faq_en/collapse.jpg", "/images/faq_en/collapse.jpg");?>
+            <a href="/images/faq_en/counter.jpg" class="image-link" target="_blank>">
+                <?=renderImageTag(600, "images/faq_en/counter.jpg", "/images/faq_en/counter.jpg");?>
             </a>
         </p>
     </div>

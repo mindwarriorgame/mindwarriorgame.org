@@ -1,0 +1,5 @@
+## Counter and Stopwatch
+
+Repeated without errors: {counter} times
+
+No swearing: {stopwatch}

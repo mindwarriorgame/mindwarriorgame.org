@@ -131,13 +131,12 @@ $LANG='ru';
             </a>
         </p>
 
-        <p>
-            Длинные <i>Формулы</i> автоматически сворачиваются под "главные" заголовки (<span class="code-highlight"># Заголовок</span>). Вы можете развернуть их, нажав на заголовок.
-        </p>
+        <p>Также можно вставлять в <i>Формулу</i> счетчики и секундомеры, которые помогут вам лучше отслеживать ваш прогресс.
+        Для этого нужно написать <span class="code-highlight">{counter}</span> или <span class="code-highlight">{stopwatch}</span>.</p>
 
         <p>
-            <a href="/images/faq_ru/collapse.jpg" class="image-link" target="_blank>">
-                <?=renderImageTag(600, "images/faq_ru/collapse.jpg", "/images/faq_ru/collapse.jpg");?>
+            <a href="/images/faq_ru/counter.jpg" class="image-link" target="_blank>">
+                <?=renderImageTag(600, "images/faq_ru/counter.jpg", "/images/faq_ru/counter.jpg");?>
             </a>
         </p>
     </div>

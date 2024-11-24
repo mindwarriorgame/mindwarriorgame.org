@@ -129,14 +129,13 @@
         </a>
     </p>
 
-    <p>
-        Long <i>Formulas</i> are automatically collapsed under the main headers (<span class="code-highlight"># Header</span>).
-        You can expand them by clicking on the header.
-    </p>
+    <p>You can also use <span class="code-highlight">{counter}</span> and <span class="code-highlight">{stopwatch}</span>
+    widgets to embed counters and stopwatches into your formula. That might be useful if you need to manually track
+    some progress.</p>
 
     <p>
-        <a href="/images/faq_en/collapse.jpg" class="image-link" target="_blank>">
-            <?=renderImageTag(600, "images/faq_en/collapse.jpg", "/images/faq_en/collapse.jpg");?>
+        <a href="/images/faq_en/counter.jpg" class="image-link" target="_blank>">
+            <?=renderImageTag(600, "images/faq_en/counter.jpg", "/images/faq_en/counter.jpg");?>
         </a>
     </p>
 

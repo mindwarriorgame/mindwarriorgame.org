@@ -126,14 +126,13 @@ $LANG='fr';
             </a>
         </p>
 
-        <p>
-            Les <i>formules</i> longues sont automatiquement réduites sous les en-têtes principaux (<span class="code-highlight"># Header</span>).
-            Vous pouvez les développer en cliquant sur l'en-tête.
-        </p>
+        <p>Vous pouvez également utiliser les widgets <span class="code-highlight">{counter}</span> et <span class="code-highlight">{stopwatch}</span>
+            pour intégrer des compteurs et des chronomètres dans votre formule. Cela peut être utile si vous devez suivre manuellement
+            une certaine progression.</p>
 
         <p>
-            <a href="/images/faq_en/collapse.jpg" class="image-link" target="_blank>">
-                <?=renderImageTag(600, "images/faq_en/collapse.jpg", "/images/faq_en/collapse.jpg");?>
+            <a href="/images/faq_en/counter.jpg" class="image-link" target="_blank>">
+                <?=renderImageTag(600, "images/faq_en/counter.jpg", "/images/faq_en/counter.jpg");?>
             </a>
         </p>
     </div>

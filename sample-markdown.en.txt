@@ -4,8 +4,9 @@
 
 Here is an unordered list:
 
-- Item 1
-- Item 2
+- **Item 1 Bold**
+- *Item 2 Italic*
+- ***Item 3 Bold Italic***
 
 ## Ordered list
 
