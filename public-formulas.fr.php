@@ -2,7 +2,7 @@
 ob_start();
 
 $ext = getenv('LINK_EXT');
-
+$ACTIVE_MENU = 'public-formulas';
 $LANG='fr';
 ?>
 

@@ -3,7 +3,7 @@ ob_start();
 
 $ext = getenv('LINK_EXT');
 $ver = time();
-
+$ACTIVE_MENU = 'quick-start';
 $LANG='fr';
 ?>
 
