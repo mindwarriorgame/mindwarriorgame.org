@@ -77,6 +77,8 @@
             </a>
         </p>
 
+        <p><strong>Auf der einfachsten Stufe gibt es keine Strafen! 🚫😾</strong></p>
+
         <p id="smooth-forgot-grumpycat" class="anchor">
             Um den Freischaltungsprozess zu beschleunigen, können Sie die Häufigkeit des Betrachtens der <i>Formel</i> erhöhen, jedoch nicht öfter als alle 5 Minuten
             (ansonsten wird die Ansicht nicht gezählt).
@@ -115,6 +117,9 @@
         <p>Außerdem können Sie ein Schlafintervall einrichten. Das Spiel wird während dieser Zeit automatisch (täglich) pausiert.
             Um es einzustellen, gehen Sie zum Menü <span class="code-highlight">/settings</span> und klicken Sie auf die Schaltfläche <i>"💤 Schlafplaner"</i>.</p>
 
+        <p><strong>Wichtig!</strong> Wenn Ihre <i>Formel</i> während Ihrer „Schlafpause“ überprüft wird, wird das Spiel fortgesetzt.
+            Das bedeutet, dass Sie möglicherweise bestraft werden, wenn Sie die nächste geplante Überprüfung verpassen (z. B. wenn Sie an einem Tag eine „verspätete“ Überprüfung zu einer Zeit durchführen, zu der Sie an anderen Tagen normalerweise schlafen).
+            Um dies zu vermeiden, können Sie das Spiel nach Abschluss einer „verspäteten“ Überprüfung mit dem Befehl <span class="pre">/pause</span> manuell pausieren.</p>
     </div>
 
     <div id="smooth-formula-formatting" class="faq-item">

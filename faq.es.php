@@ -76,6 +76,8 @@ $LANG='es';
             </a>
         </p>
 
+        <p><strong>¡No hay penalizaciones en el nivel más fácil  🚫😾!</strong></p>
+
         <p id="smooth-forgot-grumpycat" class="anchor">
             Para acelerar el proceso de desbloqueo, puedes aumentar la frecuencia de revisiones de la <i>Fórmula</i>, pero no más de una vez cada 5 minutos
             (de lo contrario, la revisión no será contabilizada).
@@ -114,6 +116,9 @@ $LANG='es';
         <p>También puedes configurar un intervalo para dormir. El juego se pausará automáticamente (diariamente) durante este tiempo.
             Para configurarlo, vaya al menú <span class="code-highlight">/settings</span> y presione el botón <i>"💤 Programador de sueño"</i>.</p>
 
+        <p><strong>¡Importante!</strong> Si tu <i>Fórmula</i> se revisa durante tu "intervalo de sueño", el juego se reanudará.
+            Esto significa que podrías ser penalizado si te pierdes la próxima revisión programada (por ejemplo, si un día realizas una revisión "tardía" en un momento en el que normalmente duermes otros días).
+            Para evitar esto, puedes pausar manualmente el juego usando el comando <span class="pre">/pause</span> después de completar una revisión "tardía".</p>
     </div>
 
 

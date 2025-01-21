@@ -77,6 +77,8 @@
             </a>
         </p>
 
+        <p><strong>There are no penalties on the easiest level! 🚫😾</strong></p>
+
         <p id="smooth-forgot-grumpycat" class="anchor">
             To speed up the unlocking process, you can increase the frequency of reviewing the <i>Formula</i>,
             but no more than once every 5 minutes (otherwise, the review will not be counted).
@@ -113,8 +115,14 @@
         To resume the game, simply review your <i>Formula</i> as usually.
     </p>
 
-    <p>Ålso you can set up an interval for sleep. The game will be automatically paused (daily) during this time.
+    <p>Also you can set up an interval for sleep. The game will be automatically paused (daily) during this time.
         To set it, go <span class="code-highlight">/settings</span> menu and press <i>"💤 Sleep Scheduler"</i> button.</p>
+
+    <p><strong>Important!</strong> If your <i>Formula</i> is reviewed during your "sleep interval", the game will resume.
+        This means you might be penalized if you miss the next scheduled review (e.g., if one day you make a "late" review at a time when you typically sleep on other days).
+        To avoid this, you can manually pause the game using the <span class="pre">/pause</span> command after completing a "late" review.</p>
+
+
 </div>
 
 <div id="smooth-formula-formatting" class="faq-item">

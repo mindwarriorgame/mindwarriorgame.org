@@ -74,6 +74,8 @@ $LANG='fr';
             </a>
         </p>
 
+        <p><strong>Il n'y a pas de pénalités au niveau le plus facile! 🚫😾</strong></p>
+
         <p id="smooth-forgot-grumpycat" class="anchor">
             Pour accélérer le processus de déblocage, vous pouvez augmenter la fréquence des consultations de la <i>Formule</i>, mais pas plus d'une fois toutes les 5 minutes
             (sinon la consultation ne sera pas prise en compte).
@@ -112,6 +114,10 @@ $LANG='fr';
 
         <p>Vous pouvez également définir un intervalle de sommeil. Le jeu sera automatiquement mis en pause (quotidiennement) pendant cette période.
             Pour le définir, accédez au menu <span class="code-highlight">/settings</span> et appuyez sur le bouton <i>"💤 Planificateur de sommeil"</i>.</p>
+
+        <p><strong>Important !</strong> Si votre <i>Formule</i> est révisée pendant votre « intervalle de sommeil », le jeu reprendra.
+            Cela signifie que vous pourriez être pénalisé si vous manquez la prochaine révision programmée (par exemple, si un jour vous faites une révision « en retard » à un moment où vous dormez généralement les autres jours).
+            Pour éviter cela, vous pouvez mettre le jeu en pause manuellement à l'aide de la commande <span class="pre">/pause</span> après avoir terminé une révision « en retard ».</p>
     </div>
 
     <div id="smooth-formula-formatting" class="faq-item">
