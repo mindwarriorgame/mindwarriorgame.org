@@ -11,10 +11,13 @@ $LANG='en';
 
     <h3>Introduction</h3>
     <p>
-        We value your privacy. Your <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula">"Formula of firm resolution"</a>
-        remains private and safe.
-        The game doesn't create any copies or sends it anywhere.
-        It is stored right on your device in
+        We value your privacy. MindWarrior is developed and maintained by the project's open-source contributors. If you have
+        questions about this privacy policy, you can contact us via GitHub Issues in the MindWarrior organization or by using
+        the contact information provided on the project website.
+    </p>
+
+    <p>
+        Your <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula">Formula of Firm Resolution</a> remains private and safe. The game does not create any copies of your Formula or send it anywhere. It is stored right on your device in
         <a href="https://davitdvalashvili1996.medium.com/local-storage-in-javascript-f7aad374980e"
            target="_blank">localStorage</a> of Telegram's
         <a href="https://docs.ton.org/develop/dapps/telegram-apps/testing-apps#debug-mode-for-mini-apps"
@@ -36,22 +39,19 @@ $LANG='en';
 
     <h3>Data We Collect</h3>
 
-    <p>The game collects the following user data:</p>
+    <p>The game collects the following user data. We do not collect the content of your Formula of Firm Resolution.</p>
 
     <h4>User Information</h4>
     <ul>
-        <li><span class="code-highlight">user_id</span>: A unique Telegram identifier of the user
-            (<a href="https://flows.network/blog/how-to-find-telegram-chat-id#:~:text=Telegram%20has%20three%20different%20kinds,is%20called%20group%20chat%20ID." target="_blank">chat_id</a>),
-
-            a plain number.</li>
-        <li><span class="code-highlight">lang_code</span>: The code of the user's language.</li>
+        <li><span class="code-highlight">user_id</span>: a unique Telegram identifier of the user (<a href="https://flows.network/blog/how-to-find-telegram-chat-id#:~:text=Telegram%20has%20three%20different%20kinds,is%20called%20group%20chat%20ID." target="_blank">chat_id</a>), used to run the game for your account.</li>
+        <li><span class="code-highlight">lang_code</span>: the code of the user's language, used to display the bot in your language.</li>
         <li><span class="code-highlight">shared_key_uuid</span>: a random string associated with the user.</li>
     </ul>
 
     <h4>Game Data</h4>
     <ul>
         <li>
-            <span class="code-highlight">difficulty</span>
+            <span class="code-highlight">difficulty</span>: your selected difficulty level for scheduling reviews and penalties.
         </li>
 
 
@@ -59,7 +59,7 @@ $LANG='en';
             <span class="code-highlight">review_counter_state</span>,
             <span class="code-highlight">active_game_counter_state</span>,
             <span class="code-highlight">paused_counter_state</span>: stopwatch timer values that
-            contain timestamps, elapsed time counters and status flags
+            contain timestamps, elapsed time counters and status flags used to run the game.
         </li>
 
         <li>
@@ -78,10 +78,18 @@ $LANG='en';
         </li>
 
         <li>
-            <span class="code-highlight">autopause_config_serialized</span>: settings of the sleep scheduler. ⚠️Contains user's timezone (if the feature is used).
+            <span class="code-highlight">autopause_config_serialized</span>: settings of the sleep scheduler. ⚠️Contains user's timezone (if the feature is used) so reminders can respect your sleep interval.
         </li>
 
 
+    </ul>
+
+    <h3>Data we do not collect</h3>
+
+    <ul>
+        <li>The content of your Formula of Firm Resolution</li>
+        <li>Your contacts, messages, or media from Telegram</li>
+        <li>Any precise location data (we only use your timezone if you configure the sleep scheduler)</li>
     </ul>
 
     <h3>How We Use Your Data</h3>
@@ -99,20 +107,25 @@ $LANG='en';
     <h3>Your Rights</h3>
     <p>You have the following controls regarding your data:</p>
     <ul>
-        <li><strong>Access</strong>: You can access all you data anytime by using
+        <li><strong>Access</strong>: You can view your account statistics and raw data anytime by using
             <span class="code-highlight">/data</span> command. That will
-            return all your raw data that the game stores about you on its server.</li>
-        <li><strong>Deletion</strong>: You can delete your data at any time by using
+            return all your data that the game stores about you on its server.</li>
+        <li><strong>Deletion</strong>: You can delete your game data from the server at any time by using
             <span class="code-highlight">/data</span> bot command and then clicking "Delete" button.
             <ul>
                 <li>
-                    Please make sure to also clear the chat history with the game bot as it is stored outside of our control
-                    somewhere in Telegram, although it won't guarantee the complete deletion of your data as we don't
-                    know how Telegram handles it. Please check "Using Telegram" section below for more information.
+                    Please also clear the chat history with the game bot, as it is stored by Telegram and is outside of our
+                    control. This still does not guarantee complete deletion of your data, because we do not know how Telegram handles stored messages. Please check "Using Telegram" section below for more information.
                 </li>
             </ul>
         </li>
     </ul>
+
+    <h3>Data Retention</h3>
+    <p>
+        We retain your game data as long as your account exists in the game. If you want your data to be removed, you can use
+        the <span class="code-highlight">/data</span> command and choose the delete option to remove it from our servers.
+    </p>
 
     <h3>Using Telegram</h3>
 
