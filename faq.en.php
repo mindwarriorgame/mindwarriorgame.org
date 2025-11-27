@@ -1,17 +1,36 @@
 <?php
     ob_start();
 
-    $ext = getenv('LINK_EXT');
-    require_once("includes/image_tag_renderer.php");
+$ext = getenv('LINK_EXT');
+require_once("includes/image_tag_renderer.php");
 
     $LANG='en';
 ?>
 
+<div id="smooth-what-is" class="faq-item">
+    <h3>What is MindWarrior?</h3>
+
+    <p>
+        MindWarrior is a Telegram game bot that helps you stay focused on what truly matters in your life.
+        You write a personal Formula of Firm Resolution (we'll call it the "Formula" below) — a private message to yourself —
+        and the game reminds you to review it regularly during the day.
+    </p>
+
+    <p>
+        Each time you review your Formula, you gently bring your attention back to your priorities instead of getting lost in
+        the noise and distractions of everyday life.
+    </p>
+
+</div>
+
 <div id="smooth-purpose" class="faq-item">
     <h3>What is the purpose of the game?</h3>
     <p>
-        "MindWarrior" game was created to help you on your journey of personal growth, development and transformation.
-        The main concept of the game – <a href="#formula"><i>Formula of firm resolution</i></a> – is your private inspirational message
+        The purpose of the game is to support you on your journey of personal growth, development, and transformation.
+        MindWarrior helps you remember your own deepest intentions throughout the day, so you can live more consciously instead
+        of being carried away by distractions and habits.
+
+        The main concept of the game – <a href="#formula"><i>Formula of Firm Resolution</i></a> – is your private inspirational message
         that you write to yourself and then review regularly during the day.
     </p>
 
@@ -26,16 +45,20 @@
     <h3>What should I write in my Formula?</h3>
 
     <p>
-        <i>Formula of firm resolution</i> is a private freeform text message, where you can
-        write anything that has meaning to you. It could be your favorite quotes, mantras, reminders, wise thoughts
-        and observations, or anything else, only you to decide! The only guidance is that it
-        should motivate you on your personal journey of transformation and growth.
+        Your Formula of Firm Resolution is a private, free-form text that only you see. It can contain anything meaningful to
+        you, for example:
     </p>
+
+    <ul>
+        <li>favourite quotes</li>
+        <li>mantras or affirmations</li>
+        <li>reminders to your future self</li>
+        <li>wise thoughts and observations</li>
+    </ul>
+
     <p>
-        A strong <i>Formula</i> <a href="#review">will keep you focused, motivated, and disciplined</a>. It will support you daily and will help
-        to stay engaged
-        and committed. If you find yourself receiving constant reminders from the game about missed reviews, or if you start thinking of quitting the game,
-        maybe it might be a sign that your <i>Formula</i> requires a revision.
+        For example, your Formula might remind you to stay calm with your kids, work on a specific habit, or keep moving
+        toward a long-term goal. The only rule: it should motivate you on your personal journey of growth.
     </p>
 
 </div>
@@ -44,14 +67,14 @@
     <h3>What happens when I review my Formula?</h3>
 
     <p>
-        Spiritually, each time you review your <i>Formula of firm resolution</i>, the focus of your mind
+        Spiritually, each time you review your <i>Formula of Firm Resolution</i>, the focus of your mind
         is returned back to the most important things in your life, pulling you away from distractions and nonsense
         of everyday life.
     </p>
 
     <p>
-        Game-wise, when you perform the review without being reminded about that,
-        you earn game rewards!
+        Game-wise, if you review your Formula on time (before the reminder), you earn in-game rewards — such as progress on
+        your counters, badges, and levels.
     </p>
 
     <p>
@@ -90,9 +113,11 @@
     <h3>How often do I need to review my Formula?</h3>
 
     <p>
-        You can review your <i>Formula</i> as often as you'd like, however only the reviews performed at least
-        5 minutes apart from each other will be rewarded ("cool-down" rule).
+        You can review your <i>Formula</i> as often as you'd like.
     </p>
+
+    <p><strong>Important:</strong> reviews count only if they are at least 5 minutes apart. If you try to review more often than
+        every 5 minutes, those extra reviews are ignored by the game.</p>
 
     <p>
         The frequency of reviews and the penalties for missed ones are determined by the difficulty level of the game,
@@ -115,12 +140,16 @@
         To resume the game, simply review your <i>Formula</i> as usually.
     </p>
 
-    <p>Also you can set up an interval for sleep. The game will be automatically paused (daily) during this time.
-        To set it, go <span class="code-highlight">/settings</span> menu and press <i>"💤 Sleep Scheduler"</i> button.</p>
+    <p>The game can automatically pause during your sleep time, so you are not disturbed by reminders. Here is how it works:</p>
 
-    <p><strong>Important!</strong> If your <i>Formula</i> is reviewed during your "sleep interval", the game will resume.
-        This means you might be penalized if you miss the next scheduled review (e.g., if one day you make a "late" review at a time when you typically sleep on other days).
-        To avoid this, you can manually pause the game using the <span class="pre">/pause</span> command after completing a "late" review.</p>
+    <ul>
+        <li>Every day, the game is automatically paused during your configured sleep interval.</li>
+        <li>If you review your Formula during that interval, the game resumes.</li>
+        <li>After it resumes, you may receive a reminder and can be penalised if you miss that review.</li>
+        <li>To avoid this, you can manually pause the game in the bot if you do a late-night review but do not want the game to continue immediately.</li>
+    </ul>
+
+    <p>To set it up, open <span class="code-highlight">/settings</span> and press the <i>"💤 Sleep Scheduler"</i> button.</p>
 
 
 </div>
@@ -194,6 +223,8 @@
 <div id="smooth-name" class="faq-item">
     <h3>Why the game is called "MindWarrior"?</h3>
 
+    <p>Here are some of the ideas that inspired the name "MindWarrior".</p>
+
     <div class="quote">
         <p>
             "We cannot solve our problems with the same thinking we used when we created them."
@@ -254,11 +285,13 @@
     </p>
 
     <p class="anchor">
-        Therefore, every time you review your <a href="#formula"><i>Formula of firm resolution</i></a>, you're not only improving your life,
+        Therefore, every time you review your <a href="#formula"><i>Formula of Firm Resolution</i></a>, you're not only improving your life,
         but also making the world a better place for everyone! 🙌
     </p>
 
-    <p>This is what "MindWarrior" name is all about ¯\_(ツ)_/¯.</p>
+    <p>This is what the name MindWarrior is all about.</p>
+
+    <p>¯\_(ツ)_/¯</p>
 
 </div>
 
@@ -266,9 +299,9 @@
     <h3>Can I see Formulas of other players?</h3>
 
     <p>
-        "MindWarrior" game takes privacy of the players very seriously.
-        Your <i>Formula of firm resolution</i> is stored locally on your device and
-        the game never copies or sends it to its servers.
+        MindWarrior takes privacy of the players very seriously.
+        Your <i>Formula of Firm Resolution</i> is stored locally on your device and
+        the game doesn't create any copies of your Formula or send it anywhere.
         Therefore, it is physically impossible to see the <i>Formula</i> of a
         random player simply because the game itself doesn't have the access to it.
         (Please check our <a href="/privacy-policy.<?=$LANG;?>.<?=getenv('LINK_EXT');?>" target="_blank">Privacy policy</a> for more details.)
@@ -299,7 +332,9 @@
     <h3>Who could see my Formula?</h3>
 
     <p>
-        Please refer to <a href="#formula-example">the question above</a> for more details.
+        By default, only you can see your Formula. It is stored locally on your device inside the Telegram WebView and is not sent to our servers.
+
+        If you choose to share your Formula manually (for example, by submitting it to the Public Formulas page), other people will be able to see that shared version.
     </p>
 </div>
 
