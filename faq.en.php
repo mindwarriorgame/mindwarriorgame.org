@@ -283,10 +283,6 @@
         "<a href="/public-formulas.<?=$LANG;?>.<?=getenv('LINK_EXT');?>">Public Formulas</a>" page.
         Please feel free to check them out!
     </p>
-    <p>
-        If you'd like to help inspire other players by sharing your own <i>Formula</i>, please follow
-        <a href="https://github.com/mindwarriorgame/public-formulas/blob/main/README.md" target="_blank">these instructions</a>.
-    </p>
 </div>
 
 

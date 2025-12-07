@@ -280,10 +280,6 @@
             Diese Formeln findest du auf der Seite "<a href="/public-formulas.<?=$LANG;?>.<?=getenv('LINK_EXT');?>">Öffentliche Formeln</a>".
             Schau sie dir gerne an!
         </p>
-        <p>
-            Wenn du andere Spieler inspirieren möchtest, indem du deine eigene <i>Formel</i> teilst, folge bitte
-            <a href="https://github.com/mindwarriorgame/public-formulas/blob/main/README.md" target="_blank">diesen Anweisungen</a>.
-        </p>
     </div>
 
     <div id="smooth-share" class="faq-item">

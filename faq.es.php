@@ -282,10 +282,6 @@ $LANG='es';
             en la página "<a href="/public-formulas.<?=$LANG;?>.<?=$ext;?>">Fórmulas públicas</a>".
             ¡Siéntete libre de revisarlas!
         </p>
-        <p>
-            Si te gustaría ayudar a inspirar a otros jugadores compartiendo tu propia <i>Fórmula</i>, sigue
-            <a href="https://github.com/mindwarriorgame/public-formulas/blob/main/README.es.md" target="_blank">estas instrucciones</a>.
-        </p>
     </div>
 
     <div id="smooth-share" class="faq-item">

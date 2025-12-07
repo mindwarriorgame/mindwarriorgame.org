@@ -183,7 +183,7 @@ $LANG='fr';
             <li>
                 <i>"📢 Feedback"</i> - lien vers un formulaire de commentaires
             </li>
-            
+
             <li>
                 <i>"🌐 Changer de serveur"</i> – passez sur un autre serveur de jeu si vous rencontrez des problèmes techniques
             </li>
@@ -278,10 +278,6 @@ $LANG='fr';
                 sur notre site web</strong>. Ces formules sont disponibles
             sur la page "<a href="/public-formulas.<?=$LANG;?>.<?=getenv('LINK_EXT');?>">Formules publiques</a>".
             N'hésitez pas à les consulter !
-        </p>
-        <p>
-            Si vous souhaitez inspirer d'autres joueurs en partageant votre propre <i>Formule</i>, veuillez suivre
-            <a href="https://github.com/mindwarriorgame/public-formulas/blob/main/README.md" target="_blank">ces instructions</a>.
         </p>
     </div>
 
