@@ -154,6 +154,7 @@ $LANG='fr';
             <li><span class="pre">/pause</span> - ⏸️ <a href="#pause">mettre le jeu en pause</a>
             <li><span class="pre">/formula</span> - 🧪 ouvrir votre <a href="#formula"><i>Formula</i></a> dans l'éditeur
             <li><span class="pre">/stats</span> - 📊 afficher la progression de votre jeu
+            <li><span class="pre">/shop</span> - 🛍️ boutique en jeu où vous pouvez dépenser vos récompenses</li>
             <li><span class="pre">/settings</span> - 🔧 paramètres du jeu
         </ul>
         <p>
@@ -181,6 +182,10 @@ $LANG='fr';
 
             <li>
                 <i>"📢 Feedback"</i> - lien vers un formulaire de commentaires
+            </li>
+            
+            <li>
+                <i>"🌐 Changer de serveur"</i> – passez sur un autre serveur de jeu si vous rencontrez des problèmes techniques
             </li>
         </ul>
     </div>

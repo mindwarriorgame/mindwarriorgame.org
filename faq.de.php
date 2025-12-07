@@ -155,6 +155,8 @@
             <li><span class="pre">/pause</span> - ⏸️ <a href="#pause">pausiere</a> das Spiel</li>
             <li><span class="pre">/formula</span> - 🧪 öffne deine <a href="#formula"><i>Formel</i></a> im Editor</li>
             <li><span class="pre">/stats</span> - 📊 sieh dir deinen Spielfortschritt an</li>
+            <li><span class="pre">/shop</span> - 🛍️ Ingame-Shop, in dem du deine Belohnungen ausgeben kannst</li>
+
             <li><span class="pre">/settings</span> - 🔧 Spieleinstellungen</li>
         </ul>
         <p>
@@ -182,6 +184,9 @@
 
             <li>
                 <i>"📢 Feedback"</i> - Link zu einem Feedback-Formular
+            </li>
+            <li>
+                <i>"🌐 Server wechseln"</i> – wechsle zu einem anderen Spielserver, wenn du technische Probleme hast
             </li>
         </ul>
     </div>

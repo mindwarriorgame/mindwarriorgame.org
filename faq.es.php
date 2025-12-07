@@ -155,6 +155,7 @@ $LANG='es';
             <li><span class="pre">/pause</span> - ⏸️ <a href="#pause">pausar</a> el juego</li>
             <li><span class="pre">/formula</span> - 🧪 abrir tu <a href="#formula"><i>Fórmula</i></a> en el editor</li>
             <li><span class="pre">/stats</span> - 📊 ver tu progreso en el juego</li>
+            <li><span class="pre">/shop</span> - 🛍️ tienda del juego donde puedes gastar tus recompensas</li>
             <li><span class="pre">/settings</span> - 🔧 ajustes del juego</li>
         </ul>
         <p>
@@ -182,6 +183,9 @@ $LANG='es';
 
             <li>
                 <i>"📢 Comentarios"</i> - enlace a un formulario de comentarios
+            </li>
+            <li>
+                <i>"🌐 Cambiar de servidor"</i> – cambia a otro servidor de juego si tienes problemas técnicos
             </li>
         </ul>
     </div>
