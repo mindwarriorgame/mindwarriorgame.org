@@ -8,44 +8,26 @@ $LANG='ru';
 
     <h2>Примеры Формул игроков</h2>
 
-    <p>Эта страница находится в разработке.</p>
+<p>Эта страница находится в разработке.</p>
 
-    <p>Пожалуйста, помогите нам с ее наполнением, поделившись своей Формулой! Инструкции как это сделать можно найти здесь:
-        <a href="https://github.com/mindwarriorgame/public-formulas/blob/main/README.ru.md" target="_blank">
-            https://github.com/mindwarriorgame/public-formulas/blob/main/README.ru.md
-        </a>
-    </p>
+<p>
+    Пожалуйста, помогите нам создать её, поделившись своей формулой публично!<br />
+    Пожалуйста, свяжитесь с нами здесь:
+    <img src="/images/telegram.svg" width="20" style="vertical-align: middle" />
+    <a href="https://t.me/MindWarriorSupport_bot" target="_blank">
+        MindWarrior Support Bot
+    </a>
+</p>
 
-
-    <div id="review" class="">
-
-
-
-
-        <!-- vvv --- rendered HTML --- vvv -->
-
-
-
-        <!-- ^^^ --- rendered HTML --- ^^^ --->
-
-
-
-
-
-
-
-    </div>
-
-
-    <p style="display:none">
-        <span class="code-highlight">736dd20c-547a-4b69-9c2f-61b3e2e403c2, буддизм</span>
-    </p>
-
-
-    <p>
-    <a href="#">Следующая формула</a>
-    </p>
-
+<p>
+    <ul>
+        <li>
+            <a href="/formulas/formula1.<?=$LANG;?>.<?=$ext;?>" target="_blank">
+                Пример 1, активное время игры: 48d 11h 59m, сложность: Сложно, уровень: 10
+            </a>
+        </li>
+    </ul>
+</p>
 
 
 <?php

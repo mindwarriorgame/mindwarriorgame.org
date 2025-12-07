@@ -11,31 +11,24 @@ $LANG='en';
 
 <p>This page is under development.</p>
 
-    <p>Please help us to build it by sharing your own Formula in public! You can find the instructions how to do that here:
-        <a href="https://github.com/mindwarriorgame/public-formulas/blob/main/README.md" target="_blank">
-            https://github.com/mindwarriorgame/public-formulas/blob/main/README.md
+    <p>Please help us to build it by sharing your own Formula in public!<br />
+    Please contact us here:
+        <img src="/images/telegram.svg" width="20" style="vertical-align: middle" />
+        <a href="https://t.me/MindWarriorSupport_bot" target="_blank">
+            MindWarrior Support Bot
         </a>
     </p>
 
-
-    <div id="review" class="">
-
-
-        <!-- vvv --- rendered HTML --- vvv --->
-
-
-        <!-- ^^^ --- rendered HTML --- ^^^ --->
-
-
-    </div>
-
-    <p style="display: none">
-        <span class="code-highlight">736dd20c-547a-4b69-9c2f-61b3e2e403c2, buddhism</span>
-    </p>
-
     <p>
-        <a href="#">See next formula</a>
-    </p>
+        <ul>
+            <li>
+                    <a href="/formulas/formula1.<?=$LANG;?>.<?=$ext;?>" target="_blank">
+                    Example 1, active play time: 48d 11h 59m, difficulty: Hard, level: 10
+                    </a>
+            </li>   
+        </ul>
+</p>
+    
 
 
 

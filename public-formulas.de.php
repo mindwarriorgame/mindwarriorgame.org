@@ -9,33 +9,26 @@ $LANG='de';
 
     <h2>Öffentliche Formeln</h2>
 
-    <p>Diese Seite befindet sich in der Entwicklung.</p>
+  <p>Diese Seite befindet sich in Entwicklung.</p>
 
-    <p>Bitte hilf uns, sie aufzubauen, indem du deine eigene Formel öffentlich teilst! Die Anleitung, wie du das tun kannst, findest du hier:
-        <a href="https://github.com/mindwarriorgame/public-formulas/blob/main/README.md" target="_blank">
-            https://github.com/mindwarriorgame/public-formulas/blob/main/README.md
-        </a>
-    </p>
+<p>
+    Bitte hilf uns, sie zu erstellen, indem du deine eigene Formel öffentlich teilst!<br />
+    Bitte kontaktiere uns hier:
+    <img src="/images/telegram.svg" width="20" style="vertical-align: middle" />
+    <a href="https://t.me/mindWarriorSupport_bot" target="_blank">
+        MindWarrior Support Bot
+    </a>
+</p>
 
-    <div id="review" class="">
-
-        <!-- vvv --- gerendertes HTML --- vvv --->
-
-
-
-        <!-- ^^^ --- gerendertes HTML --- ^^^ --->
-
-    </div>
-
-    <p style="display: none">
-        <span class="code-highlight">736dd20c-547a-4b69-9c2f-61b3e2e403c2, buddhism</span>
-    </p>
-
-    <p>
-        <a href="#">Nächste Formel ansehen</a>
-    </p>
-
-
+<p>
+    <ul>
+        <li>
+            <a href="/formulas/formula1.<?=$LANG;?>.<?=$ext;?>" target="_blank">
+                Beispiel 1, aktive Spielzeit: 48d 11h 59m, Schwierigkeit: Schwer, Stufe: 10
+            </a>
+        </li>
+    </ul>
+</p>
 
 
 
