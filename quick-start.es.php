@@ -9,14 +9,20 @@ $LANG='es';
 
     <div style="text-align: center">
 
-        <h2>¡Bienvenido al bot del juego "MindWarrior"!</h2>
+        <h2>¡Bienvenido al bot de juego «MindWarrior»!</h2>
 
-        <p>Este juego <a href="/faq.<?=$LANG;?>.<?=$ext;?>#purpose">te mantendrá enfocado</a> en las cosas más importantes de tu vida y
-            <a href="/faq.<?=$LANG;?>.<?=$ext;?>#review">te apoyará en tu camino</a> a través de todo el ruido cotidiano.</p>
+        <p><strong>MindWarrior</strong> es un juego de Telegram que te <a href="/faq.<?=$LANG;?>.<?=$ext;?>#purpose">ayuda a mantenerte enfocado</a> en tus metas personales al <a href="/faq.<?=$LANG;?>.<?=$ext;?>#review">revisar regularmente</a> un <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula">mensaje privado</a> que te escribes a ti mismo.</p>
+
+        <div class="quickstart-parent">
+            <div class="telegram">
+                <a href="https://t.me/mindwarriorgame_bot" target="_blank">Empieza a jugar en Telegram</a>
+            </div>
+        </div>
 
         <h2>Guía de inicio rápido</h2>
 
-        <p>(Presiona las imágenes de abajo para expandir)</p>
+        <p>(Toca las imágenes de abajo para ampliarlas)</p>
+
     </div>
 
     <div class="quickstart-parent">
@@ -48,23 +54,10 @@ $LANG='es';
 
     <div class="quickstart-parent">
         <div>
-            <a href="/images/quickstart_en/_04.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_04_cropped.png?<?=$ver;?>' width='250' alt='Paso 4: Escribe tu Fórmula'/></a>
-        </div>
-        <div class="quickstart-step">
-            <h1>Escribe tu <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula" target="_blank"><i>Fórmula</i></a></h1>
-            <p>
-                Usa el botón 👁️ ("ojo") para previsualizar el resultado.
-            </p>
-        </div>
-    </div>
-
-    <div class="quickstart-parent">
-        <div>
             <a href="/images/quickstart_en/_05.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_05_cropped.png?<?=$ver;?>' width='250' alt='Paso 5: Presiona el botón "Iniciar Juego"'/></a>
         </div>
         <div class="quickstart-step">
-            <h1>Presiona el botón "Iniciar Juego"</h1>
-            <p>Cuando estés contento con tu <i>Fórmula</i>.</p>
+            <h1>Escribe tu <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula" target="_blank"><i>fórmula</i></a></h1>
         </div>
     </div>
 
@@ -74,7 +67,7 @@ $LANG='es';
         </div>
         <div class="quickstart-step">
             <h1>¡El juego ha comenzado!</h1>
-            <p>Puedes regresar a tus actividades diarias normales. ¡No olvides volver!</p>
+            <p>Vuelve a tus rutinas diarias.</p>
         </div>
     </div>
 
@@ -101,9 +94,9 @@ $LANG='es';
             <a href="/images/quickstart_en/_08.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_en/_08_cropped.png?<?=$ver;?>' width='250' /></a>
         </div>
         <div class="quickstart-step">
-            <h1>Lee tu <i>Fórmula</i></h1>
+            <h1>Revisa tu <i>fórmula</i></h1>
             <p>
-                Cuando termines, presiona el botón "Terminar Revisión".
+                ¡Inspírate!
             </p>
         </div>
     </div>
@@ -115,7 +108,7 @@ $LANG='es';
         <div class="quickstart-step">
             <h1>¡Todo listo!</h1>
             <p>
-                No olvides volver de vez en cuando para revisar tu <i>Fórmula</i>.
+                Recoge tus recompensas. ¡Vuelve pronto!
             </p>
         </div>
     </div>

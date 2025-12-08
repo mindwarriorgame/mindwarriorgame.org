@@ -4,16 +4,18 @@ set -xeu
 
 rm -rf build
 mkdir build
+mkdir build/formulas
 
 export LINK_EXT=html
 php index.php > build/index.html
 
 languages=("en" "es" "fr" "de" "ru")
 
-files=("public-formulas" "privacy-policy" "faq" "quick-start")
+files=("public-formulas" "privacy-policy" "faq" "quick-start" "formulas/formula1")
 
-for file in "${files[@]}"; do
-  for lang in "${languages[@]}"; do
+
+for lang in "${languages[@]}"; do
+  for file in "${files[@]}"; do
     php "$file.$lang.php" > "build/$file.$lang.html"
   done
 done
