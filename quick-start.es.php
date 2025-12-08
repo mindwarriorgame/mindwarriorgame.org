@@ -15,7 +15,7 @@ $LANG='es';
 
         <div class="quickstart-parent">
             <div class="telegram">
-                <a href="https://t.me/mindwarriorgame_bot" target="_blank">Empieza a jugar en Telegram</a>
+               <img src="/images/telegram.svg" width="32" style="vertical-align: middle" /> <a href="https://t.me/mindwarriorgame_bot" target="_blank">Empieza a jugar en Telegram</a>
             </div>
         </div>
 
@@ -116,7 +116,7 @@ $LANG='es';
 
     <div class="quickstart-parent">
         <div class="telegram">
-            <a href="https://t.me/mindwarriorgame_bot" target="_blank">Ve a Telegram</a>
+            <img src="/images/telegram.svg" width="32" style="vertical-align: middle" /> <a href="https://t.me/mindwarriorgame_bot" target="_blank">Ve a Telegram</a>
         </div>
     </div>
 
