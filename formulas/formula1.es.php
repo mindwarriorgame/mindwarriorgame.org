@@ -30,56 +30,55 @@
 </head>
 <body>
   <main>
-    <p>¡Ahora!</p>
-    <p>No tienes a dónde ir ni nada que perseguir...</p>
+    <p>¡Ahora mismo!</p>
+    <p>No tienes adónde ir ni por qué correr…</p>
 
     <hr>
 
     <p>¡Detente!</p>
-    <p>Para la ilusión no cambiará nada si pospones tu reacción inmediata.</p>
+    <p>Para la ilusión no cambiará nada si pospones tu reacción y tus juicios inmediatos.</p>
     <p><strong>En la realidad, un minuto de reflexión antes de que empieces a SUFRIR puede librarte de ese sufrimiento.</strong></p>
 
     <hr>
 
     <p>La ilusión es veneno.</p>
-    <p>Has visto cómo las hormigas se comen el veneno, ¡con qué deleite!</p>
+    <p>Has visto cómo las hormigas comen veneno, ¡con qué placer!</p>
     <p>Cuánto sufrimiento causaste cuando estabas bajo la influencia de la ilusión. Cuánto sufrimiento han causado las personas bajo el efecto de este veneno.</p>
-    <p><strong>Tú no eres una hormiga, reconoce la ilusión y suelta el veneno de inmediato.</strong> Ya te ocuparás de las consecuencias. (De lo contrario no te diferencias en nada de Hitler y otros malvados.)</p>
+    <p><strong>Tú no eres una hormiga, reconoce la ilusión: ¡abandona el veneno inmediatamente! No le des demasiadas vueltas al primer paso, simplemente suéltalo.</strong> Ya te ocuparás de las consecuencias. (De lo contrario no te diferencias en nada de Hitler y otros villanos.)</p>
 
     <hr>
 
-    <p>La ilusión dice que los estímulos están fuera y que hay que cambiarlos.</p>
-    <p>Pero en realidad están dentro. Imagina que te descubren un cáncer. ¿Querrías volver atrás, a hoy?</p>
-    <p>La fuente del sufrimiento no es externa, sino la ilusión (que te convence de lo contrario).</p>
-    <p>La ilusión no te recuerda la suerte que tienes de haber nacido en el siglo XXI, de tener acceso a agua potable, a internet, a tiendas, a la medicina (a los analgésicos para tratar un diente).</p>
-    <p><strong>En la realidad, la fuente del sufrimiento está dentro. Es la ilusión. Suéltala, deja de verla fuera de ti.</strong></p>
+    <p>La ilusión te dice que los estímulos están fuera y que hay que cambiarlos.</p>
+    <p>Pero en realidad están dentro. Imagina que te acaban de diagnosticar cáncer. ¿Querrías volver atrás, a este mismo hoy?</p>
+    <p>La fuente de tu sufrimiento no es externa, es la ilusión (que te convence de lo contrario).</p>
+    <p>La ilusión no te recuerda la suerte que tienes de haber nacido en el siglo XXI, de tener acceso a agua potable, a Internet, a tiendas, a la medicina (a analgésicos cuando te arreglan un diente).</p>
+    <p><strong>En la realidad, la fuente del sufrimiento está dentro. Es la ilusión. Suéltala, deja de ver la causa fuera.</strong></p>
 
     <hr>
 
     <p>La ilusión dice que el pasado y el futuro existen.</p>
-    <p>En la realidad, el pasado ya pasó, el futuro no existe, y cuando llegue se convertirá enseguida en pasado, es decir, desaparecerá.</p>
-    <p>El pasado y el futuro ilusorios son la «segunda flecha».</p>
-    <p>Lleva tu atención a tus sensaciones en el momento presente. ¿De verdad te duele tanto y es tan insoportable como para merecer este nivel de sufrimiento?</p>
-    <p>Las raíces de tu sufrimiento están en un pasado que no existe y en un futuro que tampoco existe.</p>
-    <p><strong>En la realidad solo existe el «ahora»; deja de lado el pasado y el futuro, incluso el momento más inmediato. Si no estás «aquí y ahora», estás cautivo de la ilusión. Pon el pasado a cero. ¿De verdad estás tan mal ahora? ¿De verdad te falta algo en tu momento presente?</strong></p>
+    <p>En la realidad, el pasado ya pasó, el futuro no existe, y cuando llegue se convertirá inmediatamente en pasado, es decir, desaparecerá.</p>
+    <p>El pasado y el futuro ilusorios son la “segunda flecha”. Lleva tu atención a tus sensaciones en el momento presente. ¿De verdad te duele tanto, es tan insoportable como para merecer ese nivel de sufrimiento?</p>
+    <p>Las raíces de tu sufrimiento están en un pasado que no existe y en un futuro que no existe.</p>
+    <p><strong>En la realidad solo existe el “ahora”; suelta el pasado y el futuro, incluso el momento más próximo. Si no estás “aquí y ahora”, estás prisionero de la ilusión. Borra el pasado. ¿De verdad estás tan mal ahora? ¿De verdad te falta algo en tu momento presente?</strong></p>
 
     <hr>
 
-    <p>Existe la realidad y existe la ilusión.</p>
-    <p>Las acciones realizadas desde la ilusión son aleatorias y conducen al sufrimiento. (Parten de una premisa falsa.)</p>
-    <p>Las acciones dirigidas a mejorar la ilusión carecen de sentido, porque la ilusión no existe en la realidad. Se disolverá junto con tu personalidad.</p>
-    <p>Las acciones dirigidas a disminuir el sufrimiento de todos los seres vivos son tu huella en la eternidad. El karma no desaparece. Es la creación de condiciones para un mundo mejor.</p>
-    <p>Puedes sufrir o puedes no sufrir. La ilusión desaparecerá y a la realidad no le importará. Solo importan las acciones y sus consecuencias. La ilusión se disolverá, pero las consecuencias permanecerán. Es absurdo usar la ilusión como base de tus pensamientos y acciones.</p>
-    <p><strong>La realidad vencerá de todos modos, ¡deja a un lado la ilusión! No pienses en ella como en algo valioso.</strong></p>
-    <p>La ilusión puede ser útil, pero hay una gran diferencia entre tomarla como una parábola (como una fábula de Esopo) o tomarla como realidad objetiva.</p>
+    <p>Hay realidad e ilusión.</p>
+    <p>Las acciones realizadas desde la ilusión son aleatorias y conducen al sufrimiento (parten de una premisa falsa).</p>
+    <p>Las acciones dirigidas a mejorar la ilusión son absurdas, porque la ilusión no existe en la realidad. Se disolverá junto con tu personalidad.</p>
+    <p>Las acciones dirigidas a disminuir el sufrimiento de todos los seres vivos son tu huella en la eternidad. El karma no desaparece. Es crear condiciones para un mundo mejor.</p>
+    <p>Se puede sufrir o no sufrir. La ilusión desaparecerá y a la realidad le dará igual. Solo importan las acciones y sus consecuencias. La ilusión se disolverá, pero las consecuencias permanecerán. Es absurdo usar la ilusión como base de tus pensamientos y acciones.</p>
+    <p><strong>La realidad vencerá de todos modos, ¡abandona la ilusión! No pienses en ella como en algo valioso.</strong></p>
+    <p>La ilusión puede ser útil, pero hay una gran diferencia entre tratarla como una parábola (como una fábula de Esopo) y tratarla como realidad objetiva.</p>
 
     <hr>
 
     <p>La ilusión no te deja disfrutar de la realidad.</p>
-    <p>Cuando eras pequeño podías alegrarte con una sombra en la pared. Ahora tu mirada se ha empañado. Lo mismo pasa cuando llegas a un lugar nuevo.</p>
-    <p>¿Para qué creer en historias disparatadas? ¿Para qué creer en la ilusión?</p>
+    <p>Cuando eras pequeño podías alegrarte con la sombra en la pared. Ahora tu mirada se ha desgastado. Lo mismo pasa cuando llegas a un lugar nuevo.</p>
+    <p>¿Para qué creer en historias-disparates inventadas por un esquizofrénico? ¿Para qué creer en la ilusión?</p>
     <p>La realidad no ha cambiado desde entonces.</p>
-    <p><strong>¡Percibe la belleza a tu alrededor! Ve la realidad tal como es, sin ilusión y sin juicios.</strong> (Incluso aquella que no está disponible por limitaciones físicas, como una pared.)</p>
+    <p><strong>¡Percibe la belleza que te rodea! Ve la realidad tal como es, sin ilusión y sin juicios.</strong> (Incluso la que no está disponible por limitaciones físicas, como una pared.)</p>
   </main>
 </body>
 </html>

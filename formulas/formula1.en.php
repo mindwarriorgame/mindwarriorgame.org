@@ -31,54 +31,54 @@
 <body>
   <main>
     <p>Right now!</p>
-    <p>There is nowhere for you to rush and nothing you need to chase...</p>
+    <p>There’s nowhere you need to rush and nothing you need to chase…</p>
 
     <hr>
 
     <p>Stop!</p>
-    <p>For the illusion, nothing will change if you postpone your immediate reaction.</p>
-    <p><strong>In reality, a minute of reflection before you begin to SUFFER can spare you from that suffering.</strong></p>
+    <p>For the illusion, nothing will change if you delay your immediate reaction and judgments.</p>
+    <p><strong>In reality, a minute of reflection before you start to SUFFER can spare you that suffering.</strong></p>
 
     <hr>
 
     <p>Illusion is poison.</p>
-    <p>You've seen how ants eat poison, with such delight!</p>
-    <p>How much suffering you caused while under the influence of illusion! How much suffering people have caused under the influence of this poison.</p>
-    <p><strong>You are not an ant; recognize the illusion and drop the poison immediately!</strong> You can sort out the consequences later. (Otherwise you are no different from Hitler and other villains.)</p>
+    <p>You’ve seen how ants eat poison — with such delight!</p>
+    <p>How much suffering you caused when you were under the influence of illusion! How much suffering has been caused by people under the effect of this poison.</p>
+    <p><strong>You are not an ant, recognize the illusion — drop the poison immediately! Don’t overthink the first step, just drop it!</strong> You can deal with the consequences later. (Otherwise you are no different from Hitler and other villains.)</p>
 
     <hr>
 
-    <p>Illusion says that the irritants are outside and must be changed.</p>
+    <p>Illusion says that the irritants are outside and that they need to be changed.</p>
     <p>But in fact they are inside. Imagine you were diagnosed with cancer. Would you want to come back to today?</p>
     <p>The source of suffering is not external, but illusion (which convinces you of the opposite)!</p>
-    <p>Illusion does not remind you how lucky you are to have been born in the 21st century, to have access to clean water, the internet, shops, medicine (painkillers when treating a tooth).</p>
-    <p><strong>In reality, the source of suffering is inside. It is illusion. Let it go; stop seeing it outside!</strong></p>
+    <p>Illusion doesn’t remind you how lucky you are to have been born in the 21st century, to have access to clean water, the internet, shops, medicine (like painkillers when treating a tooth).</p>
+    <p><strong>In reality the source of suffering is inside. It is illusion. Let it go, stop seeing the source outside!</strong></p>
 
     <hr>
 
     <p>Illusion says that the past and the future exist.</p>
-    <p>In reality, the past is gone, the future does not exist, and when it arrives it will immediately become past, that is, it will disappear.</p>
-    <p>The illusory past and future are the “second arrow.” Shift your attention to your sensations in the present moment. Is it really so painful and unbearable that it deserves this level of suffering?</p>
-    <p>The roots of your suffering are in the past, which is gone, and in the future, which does not exist.</p>
-    <p><strong>In reality there is only “now”; discard the past and the future, even the very next moment! If you are not “here and now”, you are captive to illusion. Reset the past. Are you really that bad off right now? Are you really lacking something in your present moment?</strong></p>
+    <p>In reality the past has passed, the future does not exist, and when it comes it immediately becomes the past, that is, it disappears.</p>
+    <p>The illusory past and future are the “second arrow”. Shift your attention to your sensations in the present moment. Is it really so painful and unbearable that it deserves this level of suffering?</p>
+    <p>The roots of your suffering are in the past, which does not exist, and in the future, which does not exist.</p>
+    <p><strong>In reality there is only “now”; discard the past and the future, even the very next moment! If you are not “here and now”, you are in the grip of illusion. Reset the past. Are you really feeling that bad right now? Are you truly lacking anything in your current moment?</strong></p>
 
     <hr>
 
     <p>There is reality, and there is illusion.</p>
-    <p>Actions taken from illusion are random and lead to suffering (a false premise).</p>
-    <p>Actions aimed at improving illusion are meaningless, because illusion does not exist in reality. It will dissolve along with your personality.</p>
-    <p>Actions aimed at reducing the suffering of all living beings are your imprint in eternity. Karma does not disappear. This is the creation of conditions for a better world.</p>
-    <p>You can suffer, or you can not suffer. Illusion will disappear, and reality will not care. Only actions and consequences matter. Illusion will dissolve, but the consequences will remain. It is foolish to use illusion as the basis for your thoughts and actions.</p>
-    <p><strong>Reality will win anyway; drop the illusion! Do not think of it as something valuable.</strong></p>
-    <p>Illusion can be useful, but there is a big difference between treating it as a parable (like one of Aesop’s fables) and treating it as objective reality.</p>
+    <p>Actions taken from illusion are random and lead to suffering. (False premise.)</p>
+    <p>Actions aimed at improving the illusion are pointless, because illusion does not exist in reality. It will dissolve along with your personality.</p>
+    <p>Actions aimed at reducing the suffering of all living beings are your imprint in eternity. Karma does not disappear. This is creating the conditions for a better world.</p>
+    <p>You can suffer, or you can not suffer. Illusion will vanish, and reality will not care. Only actions and consequences matter. Illusion will dissolve, but the consequences will remain. It is foolish to use illusion as the basis for your thoughts and actions.</p>
+    <p><strong>Reality will prevail anyway, discard the illusion! Don’t think of it as something precious.</strong></p>
+    <p>Illusion can be useful, but there is a big difference between treating it as a parable (like an Aesop fable) and treating it as objective reality.</p>
 
     <hr>
 
-    <p>Illusion does not let you enjoy reality.</p>
-    <p>When you were little, you could rejoice at a shadow on the wall. Now your gaze has become dulled. The same thing happens when you arrive in a new place.</p>
-    <p>Why believe the delusional stories someone just made up? Why believe the illusion?</p>
+    <p>Illusion doesn’t let you enjoy reality.</p>
+    <p>When you were little, you could delight in a shadow on the wall. Now your gaze has grown dull. The same thing happens when you arrive at a new place.</p>
+    <p>Why believe the rambling stories invented by someone who has lost touch with reality? Why believe the illusion?</p>
     <p>Reality has not changed since then.</p>
-    <p><strong>Notice the beauty around you! See reality as it is, without illusion and without judgment.</strong> (Even the part that is not visible because of physical barriers like a wall.)</p>
+    <p><strong>Notice the beauty around you! See reality as it is, without illusion and judgment.</strong> (Even the part that is inaccessible because of physical barriers, like a wall.)</p>
   </main>
 </body>
 </html>

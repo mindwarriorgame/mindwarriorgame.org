@@ -31,54 +31,54 @@
 <body>
   <main>
     <p>Jetzt!</p>
-    <p>Du musst nirgendwohin und niemandem hinterherjagen...</p>
+    <p>Du musst niemandem und nichts hinterherjagen...</p>
 
     <hr>
 
     <p>Halte inne!</p>
-    <p>Für die Illusion ändert sich nichts, wenn du mit deiner unmittelbaren Reaktion wartest.</p>
-    <p><strong>In der Realität kann dich eine Minute Nachdenken, bevor du anfängst zu LEIDEN, von diesem Leiden befreien.</strong></p>
+    <p>Für die Illusion ändert sich nichts, wenn du dir mit deiner sofortigen Reaktion und deinen Bewertungen Zeit lässt.</p>
+    <p><strong>In Wirklichkeit kann dich eine Minute des Nachdenkens, bevor du anfängst zu LEIDEN, vor diesem Leiden bewahren.</strong></p>
 
     <hr>
 
     <p>Illusion ist Gift.</p>
-    <p>Du hast gesehen, wie Ameisen Gift fressen – mit welchem Genuss!</p>
-    <p>Wie viel Leid hast du verursacht, als du unter dem Einfluss der Illusion standest! Wie viel Leid wurde von Menschen unter der Wirkung dieses Giftes verursacht.</p>
-    <p><strong>Du bist keine Ameise, erkenne die Illusion, wirf das Gift sofort weg!</strong> Mit den Konsequenzen wirst du schon zurechtkommen. (Sonst unterscheidest du dich in nichts von Hitler und anderen Schurken.)</p>
+    <p>Du hast gesehen, wie Ameisen Gift fressen – mit welcher Wonne!</p>
+    <p>Wie viel Leid hast du verursacht, als du unter dem Einfluss einer Illusion standest! Wie viel Leid wurde von Menschen unter der Wirkung dieses Giftes verursacht.</p>
+    <p><strong>Du bist keine Ameise, erkenne die Illusion – wirf das Gift sofort weg! Grüble nicht über den ersten Schritt nach, lass es einfach los!</strong> Mit den Folgen wirst du schon zurechtkommen. (Sonst unterscheidest du dich in nichts von Hitler und anderen Schurken.)</p>
 
     <hr>
 
-    <p>Die Illusion sagt, die Reize seien außen und müssten verändert werden.</p>
-    <p>Aber in Wirklichkeit sind sie in dir. Stell dir vor, bei dir würde Krebs diagnostiziert. Würdest du in den heutigen Tag zurückkehren wollen?</p>
-    <p>Die Quelle des Leidens ist nicht etwas Äußeres, sondern die Illusion (die dich vom Gegenteil zu überzeugen versucht)!</p>
-    <p>Die Illusion erinnert dich nicht daran, wie viel Glück du hattest, im 21. Jahrhundert geboren zu werden, Zugang zu sauberem Wasser, Internet, Läden, Medizin (z.B. Schmerzmittel bei einer Zahnbehandlung) zu haben.</p>
-    <p><strong>In Wirklichkeit liegt die Quelle des Leidens in dir. Es ist die Illusion. Lass sie los, hör auf, sie im Außen zu sehen!</strong></p>
+    <p>Die Illusion sagt, die Reize seien außen, man müsse sie verändern.</p>
+    <p>Doch in Wirklichkeit sind sie in dir. Stell dir vor, bei dir würde Krebs festgestellt. Würdest du dir dann wünschen, in den heutigen Tag zurückzukehren?</p>
+    <p>Die Quelle des Leidens ist nicht das Äußere, sondern die Illusion (die dich vom Gegenteil überzeugt)!</p>
+    <p>Die Illusion erinnert dich nicht daran, wie viel Glück du hattest, im 21. Jahrhundert geboren zu werden, Zugang zu sauberem Wasser, Internet, Läden, Medizin (Schmerzmitteln bei der Zahnbehandlung) zu haben.</p>
+    <p><strong>In Wirklichkeit liegt die Quelle des Leidens in dir. Es ist die Illusion. Lass sie los, hör auf, die Ursache im Außen zu sehen!</strong></p>
 
     <hr>
 
     <p>Die Illusion sagt, Vergangenheit und Zukunft existierten.</p>
-    <p>In Wirklichkeit ist die Vergangenheit vergangen, die Zukunft existiert nicht, und wenn sie eintritt, wird sie sofort zur Vergangenheit, das heißt, sie verschwindet.</p>
-    <p>Die illusorische Vergangenheit und Zukunft sind der „zweite Pfeil“. Richte deine Aufmerksamkeit auf deine Empfindungen im gegenwärtigen Moment. Tut es dir wirklich so sehr weh und ist es wirklich so unerträglich, dass es diesen Grad an Leiden verdient?</p>
-    <p>Die Wurzeln deines Leidens liegen in der Vergangenheit, die nicht existiert, und in der Zukunft, die nicht existiert.</p>
-    <p><strong>In Wirklichkeit gibt es nur das „Jetzt“, wirf Vergangenheit und Zukunft weg, sogar den unmittelbar nächsten Moment! Wenn du nicht „hier und jetzt“ bist, bist du Gefangener der Illusion. Setze die Vergangenheit auf Null. Geht es dir wirklich so schlecht im jetzigen Moment? Fehlt dir in deinem jetzigen Moment wirklich etwas?</strong></p>
+    <p>In Wirklichkeit ist die Vergangenheit vorbei, die Zukunft gibt es nicht, und wenn sie eintritt, wird sie sofort zur Vergangenheit, das heißt, sie verschwindet.</p>
+    <p>Illusorische Vergangenheit und Zukunft sind der „zweite Pfeil“. Richte deine Aufmerksamkeit auf deine Empfindungen im gegenwärtigen Moment. Tut es dir wirklich so sehr weh und ist es so unerträglich, dass es ein solches Maß an Leiden verdient?</p>
+    <p>Die Wurzeln deines Leidens liegen in einer Vergangenheit, die es nicht gibt, und einer Zukunft, die es nicht gibt.</p>
+    <p><strong>In Wirklichkeit gibt es nur das „Jetzt“; lass Vergangenheit und Zukunft los, sogar den allernächsten Moment! Wenn du nicht „hier und jetzt“ bist, bist du Gefangener der Illusion. Setz die Vergangenheit auf Null. Geht es dir wirklich so schlecht im jetzigen Moment? Fehlt dir in deinem jetzigen Moment wirklich etwas?</strong></p>
 
     <hr>
 
     <p>Es gibt die Realität und es gibt die Illusion.</p>
-    <p>Handlungen, die aus der Illusion heraus erfolgen, sind zufällig und führen zu Leid. (Falsche Ausgangsannahme.)</p>
-    <p>Handlungen, die darauf abzielen, die Illusion zu verbessern, sind sinnlos, denn in der Realität existiert die Illusion nicht. Sie wird zusammen mit deiner Persönlichkeit verschwinden.</p>
-    <p>Handlungen, die darauf ausgerichtet sind, das Leiden aller lebenden Wesen zu verringern, sind dein Abdruck in der Ewigkeit. Karma verschwindet nicht. Das ist das Schaffen von Bedingungen für eine bessere Welt.</p>
-    <p>Du kannst leiden oder nicht leiden. Die Illusion wird verschwinden, und die Realität kümmert das nicht. Nur Handlungen und ihre Folgen zählen. Die Illusion löst sich auf, aber die Konsequenzen bleiben. Es ist töricht, die Illusion zur Grundlage seiner Gedanken und Handlungen zu machen.</p>
-    <p><strong>Die Realität wird sich ohnehin durchsetzen, wirf die Illusion weg! Halte sie nicht für etwas Wertvolles.</strong></p>
-    <p>Die Illusion kann nützlich sein, aber es gibt einen großen Unterschied: Sie wie eine Gleichnisgeschichte (wie eine Fabel von Äsop) zu betrachten oder sie für objektive Realität zu halten.</p>
+    <p>Handlungen, die aus der Illusion heraus begangen werden, sind zufällig und führen zu Leiden. (Falsche Ausgangsannahme.)</p>
+    <p>Handlungen, die auf die Verbesserung der Illusion gerichtet sind, sind sinnlos, denn die Illusion existiert in der Realität nicht. Sie wird sich zusammen mit deiner Persönlichkeit auflösen.</p>
+    <p>Handlungen, die auf die Verringerung des Leidens aller Lebewesen gerichtet sind, sind dein Abdruck in der Ewigkeit. Karma verschwindet nicht. Es ist das Schaffen von Bedingungen für eine bessere Welt.</p>
+    <p>Man kann leiden oder nicht leiden. Die Illusion wird verschwinden, und der Realität ist es egal. Nur Handlungen und ihre Folgen zählen. Die Illusion löst sich auf, aber die Folgen bleiben. Es ist töricht, die Illusion zur Grundlage seiner Gedanken und Handlungen zu machen.</p>
+    <p><strong>Die Realität wird ohnehin siegen, wirf die Illusion weg! Halte sie nicht für etwas Wertvolles.</strong></p>
+    <p>Illusion kann nützlich sein, aber es gibt einen großen Unterschied: sie wie eine Gleichnisgeschichte (etwa eine Fabel von Äsop) zu betrachten oder wie eine objektive Realität.</p>
 
     <hr>
 
-    <p>Die Illusion erlaubt dir nicht, die Realität zu genießen.</p>
+    <p>Die Illusion lässt dich die Realität nicht genießen.</p>
     <p>Als du klein warst, konntest du dich über einen Schatten an der Wand freuen. Jetzt ist dein Blick abgestumpft. Dasselbe passiert, wenn du an einen neuen Ort kommst.</p>
-    <p>Warum solltest du den Wahn-Geschichten glauben, die sich ein Schizophrener ausgedacht hat? Warum der Illusion glauben?</p>
+    <p>Warum solltest du Geschichten-Unsinn glauben, den sich jemand mit Wahnvorstellungen ausgedacht hat? Warum solltest du der Illusion glauben?</p>
     <p>Die Realität hat sich seitdem nicht verändert.</p>
-    <p><strong>Bemerk die Schönheit um dich herum! Nimm die Realität so wahr, wie sie ist, ohne Illusion und ohne Bewertung.</strong> (Auch die, die wegen physischer Begrenzungen wie einer Wand nicht zugänglich ist.)</p>
+    <p><strong>Beachte die Schönheit um dich herum! Sieh die Realität so, wie sie ist, ohne Illusion und ohne Bewertung.</strong> (Auch die, die aufgrund physischer Begrenzungen, wie einer Wand, nicht zugänglich ist.)</p>
   </main>
 </body>
 </html>
