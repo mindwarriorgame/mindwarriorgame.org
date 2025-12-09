@@ -9,16 +9,6 @@ $LANG='en';
 
     <h2>Public Formulas</h2>
 
-<p>This page is under development.</p>
-
-    <p>Please help us to build it by sharing your own Formula in public!<br />
-    Please contact us here:
-        <img src="/images/telegram.svg" width="20" style="vertical-align: middle" />
-        <a href="https://t.me/MindWarriorSupport_bot" target="_blank">
-            MindWarrior Support Bot
-        </a>
-    </p>
-
     <p>
         <ul>
             <li>
@@ -28,6 +18,17 @@ $LANG='en';
             </li>   
         </ul>
 </p>
+
+
+<hr />
+
+    <p>Please help us to build it by sharing your own Formula in public!<br />
+    Please contact us here:
+        <img src="/images/telegram.svg" width="20" style="vertical-align: middle" />
+        <a href="https://t.me/MindWarriorSupport_bot" target="_blank">
+            MindWarrior Support Bot
+        </a>
+    </p>
     
 
 

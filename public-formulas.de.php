@@ -9,16 +9,6 @@ $LANG='de';
 
     <h2>Öffentliche Formeln</h2>
 
-  <p>Diese Seite befindet sich in Entwicklung.</p>
-
-<p>
-    Bitte hilf uns, sie zu erstellen, indem du deine eigene Formel öffentlich teilst!<br />
-    Bitte kontaktiere uns hier:
-    <img src="/images/telegram.svg" width="20" style="vertical-align: middle" />
-    <a href="https://t.me/mindWarriorSupport_bot" target="_blank">
-        MindWarrior Support Bot
-    </a>
-</p>
 
 <p>
     <ul>
@@ -29,6 +19,18 @@ $LANG='de';
         </li>
     </ul>
 </p>
+
+<hr />
+
+<p>
+    Bitte hilf uns, sie zu erstellen, indem du deine eigene Formel öffentlich teilst!<br />
+    Bitte kontaktiere uns hier:
+    <img src="/images/telegram.svg" width="20" style="vertical-align: middle" />
+    <a href="https://t.me/mindWarriorSupport_bot" target="_blank">
+        MindWarrior Support Bot
+    </a>
+</p>
+
 
 
 

@@ -8,7 +8,18 @@ $LANG='ru';
 
     <h2>Примеры Формул игроков</h2>
 
-<p>Эта страница находится в разработке.</p>
+    <p>
+    <ul>
+        <li>
+            <a href="/formulas/formula1.<?=$LANG;?>.<?=$ext;?>" target="_blank">
+                Пример 1, активное время игры: 48d 11h 59m, сложность: Сложно, уровень: 10
+            </a>
+        </li>
+    </ul>
+</p>
+
+
+<hr />
 
 <p>
     Пожалуйста, помогите нам создать её, поделившись своей формулой публично!<br />
@@ -17,16 +28,6 @@ $LANG='ru';
     <a href="https://t.me/MindWarriorSupport_bot" target="_blank">
         MindWarrior Support Bot
     </a>
-</p>
-
-<p>
-    <ul>
-        <li>
-            <a href="/formulas/formula1.<?=$LANG;?>.<?=$ext;?>" target="_blank">
-                Пример 1, активное время игры: 48d 11h 59m, сложность: Сложно, уровень: 10
-            </a>
-        </li>
-    </ul>
 </p>
 
 
