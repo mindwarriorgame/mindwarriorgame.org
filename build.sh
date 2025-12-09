@@ -17,6 +17,8 @@ files=("public-formulas" "privacy-policy" "faq" "quick-start" "formulas/formula1
 for lang in "${languages[@]}"; do
   for file in "${files[@]}"; do
     php "$file.$lang.php" > "build/$file.$lang.html"
+    mkdir "build/$file.$lang"
+    cp "build/$file.$lang.html" "build/$file.$lang/index.html"
   done
 done
 
