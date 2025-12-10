@@ -1,4 +1,12 @@
-update my page with new content. Correct mild grammar and punctuation errors, but be gentle! Preserve the meaning
+
+Above is the new content for an HTML page, convert it to it. Here's the old version of the page. Don't take any content from the old page, override it by insert the new content into the existing layout
 
 
-Localize the page to English German Spanish French Russian
+Correct mild grammar and punctuation errors, but be very gentle! Preserve the meaning and  nuances. Return back as markdown in copy-paste box
+
+
+Localize the page to English 
+Localize the page to German 
+Localize the page to Spanish 
+Localize the page to French 
+Localize the page to Russian
