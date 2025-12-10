@@ -19,17 +19,19 @@ $LANG='ru';
 </p>
 
 
-<hr />
 
-<p>
-    Пожалуйста, помогите нам создать её, поделившись своей формулой публично!<br />
-    Пожалуйста, свяжитесь с нами здесь:
-    <img src="/images/telegram.svg" width="20" style="vertical-align: middle" />
-    <a href="https://t.me/MindWarriorSupport_bot" target="_blank">
-        MindWarrior Support Bot
-    </a>
+<p><sub>
+    Поделиться своей <i>Формулой</i> на этой странице! Для этого пришлите ее нам:
+        
+            
+            <a href="https://t.me/MindWarriorSupport_bot" target="_blank"
+            ><img src="/images/telegram.svg" width="32" style="vertical-align: middle" /></a> 
+&nbsp;
+            <a href="https://github.com/mindwarriorgame/mindwarriorgame.org/issues" target="_blank"
+            ><img src="/images/github.svg" width="32" style="vertical-align: middle" /> 
+            </a>
+</sub>
 </p>
-
 
 <?php
 $CONTENT = ob_get_contents();

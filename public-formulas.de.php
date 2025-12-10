@@ -20,15 +20,16 @@ $LANG='de';
     </ul>
 </p>
 
-<hr />
-
-<p>
-    Bitte hilf uns, sie zu erstellen, indem du deine eigene Formel öffentlich teilst!<br />
-    Bitte kontaktiere uns hier:
-    <img src="/images/telegram.svg" width="20" style="vertical-align: middle" />
-    <a href="https://t.me/mindWarriorSupport_bot" target="_blank">
-        MindWarrior Support Bot
+<p><sub>
+    Teile deine <i>Formel</i> auf dieser Seite! Schick sie uns dazu:
+        
+    <a href="https://t.me/MindWarriorSupport_bot" target="_blank"
+    ><img src="/images/telegram.svg" width="32" style="vertical-align: middle" /></a> 
+&nbsp;
+    <a href="https://github.com/mindwarriorgame/mindwarriorgame.org/issues" target="_blank"
+    ><img src="/images/github.svg" width="32" style="vertical-align: middle" /> 
     </a>
+</sub>
 </p>
 
 
