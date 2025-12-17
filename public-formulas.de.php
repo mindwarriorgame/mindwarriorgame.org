@@ -6,20 +6,18 @@ $ACTIVE_MENU = 'public-formulas';
 $LANG='de';
 ?>
 
-    <h2>Beispiele für Formeln</h2>
+    <h2>Beispiele für Formeln von Spieler:innen</h2>
 
 
 <div class="mw-disclaimer-banner" role="note" aria-label="Haftungsausschluss">
   <div class="mw-disclaimer-banner__icon" aria-hidden="true">!</div>
 
   <div class="mw-disclaimer-banner__body">
-    <div class="mw-disclaimer-banner__title">Achtung!</div>
-
+    
     <div class="mw-disclaimer-banner__text mw-lang mw-lang--de">
-      Die „Formeln“ auf dieser Seite sind lediglich Beispiele, die von Spieler:innen eingereicht wurden — persönliche Texte, die jemand für sich selbst schreibt und regelmäßig erneut liest.
-Sie werden nur als Beispiele / zur Inspiration veröffentlicht.<br /><br />
-Dies sind keine Anweisungen oder Ratschläge (medizinisch, psychologisch, rechtlich, finanziell usw.). Was einer Person hilft, muss für eine andere nicht funktionieren — und könnte sogar schädlich sein. Handle sorgfältig, verlasse dich auf dein eigenes Urteilsvermögen und überspringe alles, was nicht zu dir passt.
-    </div>
+      <sub>Die „Formeln“ auf dieser Seite sind Beispiele, die von Spieler:innen eingereicht wurden – persönliche Texte, die Menschen für sich selbst schreiben und regelmäßig erneut lesen. Sie werden öffentlich nur zur Inspiration und allgemeinen Information geteilt.<br /><br />
+
+Sie sind keine Anleitungen oder professionelle Beratung (medizinisch, psychisch/psychologisch, rechtlich, finanziell oder anderweitig), und MindWarrior überprüft sie nicht. Was einer Person hilft, kann einer anderen nicht helfen und könnte schädlich sein. Nutze dein eigenes Urteilsvermögen, passe Inhalte vorsichtig an und überspringe alles, was sich nicht richtig anfühlt. Wenn du professionelle Hilfe brauchst oder dich in einer Krise befindest, wende dich an eine qualifizierte Fachperson oder den lokalen Notruf.</sub></div>
   </div>
 </div>
 
@@ -27,7 +25,7 @@ Dies sind keine Anweisungen oder Ratschläge (medizinisch, psychologisch, rechtl
     <ul>
         <li>
             <a href="/formulas/formula1.<?=$LANG;?>.<?=$ext;?>" target="_blank">
-                [👤 stillwaiting] [⏳ 49d 21h 42m] [⭐⭐⭐⭐ 4/5 Hard] [🏆 11]
+                Beispiel-Formel 1 [⏳ 49d 21h 42m] [⭐⭐⭐⭐ 4/5 Schwer] [🏆 11]
             </a>
         </li>
     </ul>
@@ -36,14 +34,13 @@ Dies sind keine Anweisungen oder Ratschläge (medizinisch, psychologisch, rechtl
 
 
 <p id="legend" style=""><sub>
-            👤 – Spielername <br />
-            ⏳ – aktive Spielzeit<br />
-            ⭐ – Schwierigkeitsgrad<br />
-            🏆 – Spiellevel<br />
+            ⏳ – aktive Spielzeit zum Zeitpunkt, als die Beispiel-<i>Formel</i> eingereicht wurde<br />
+            ⭐ – Schwierigkeitsgrad, auf dem die Person gespielt hat<br />
+            🏆 – Spiellevel der Person<br />
 </sub></p>
 
 <p>
-    Teile deine <i>Formel</i> auf dieser Seite! <br />Dazu sende sie uns:
+    Teile deine <i>Formel</i> auf dieser Seite! <br />Dafür sende sie uns:
         
             
             <a href="https://t.me/MindWarriorSupport_bot" target="_blank"
@@ -54,7 +51,7 @@ Dies sind keine Anweisungen oder Ratschläge (medizinisch, psychologisch, rechtl
             </a>
 
             <br /><br />
-    <sub>Mit dem Einreichen deiner Formel widmest du sie unwiderruflich der Gemeinfreiheit unter CC0 1.0 Universal und erklärst dich damit einverstanden, dass du keine Urheberrechte (oder verwandte Schutzrechte) daran gegenüber irgendjemandem widerrufen oder geltend machen wirst.</sub>
+    <sub>Einreichungsrichtlinie: Mit dem Einreichen einer Formel zur Veröffentlichung bestätigst du, dass es sich um dein eigenes Originalwerk handelt (keine urheberrechtlich geschützten Texte), dass sie keine personenbezogenen Daten über irgendjemanden enthält (einschließlich Namen/Kontaktdaten) und dass sie nicht verleumderisch, hasserfüllt oder schädlich ist (einschließlich Selbstverletzung/Gewalt/Anleitungen zu illegalen Handlungen). Wenn wir sie veröffentlichen, stimmst du zu, sie unter CC0 (Public Domain) freizugeben, und du verstehst, dass wir Einsendungen jederzeit bearbeiten, ablehnen oder entfernen können. Um eine öffentliche Formel zu melden oder die Entfernung zu beantragen, kontaktiere uns bitte über die Links oben. Wir veröffentlichen nur eine kleine Auswahl und können Einsendungen aus beliebigem Grund ablehnen.</sub>
 
 </p>
 
@@ -71,4 +68,3 @@ $CSS = ["includes/quick-start.css", "includes/public-formulas.css"];
 $JS = [];
 
 include("includes/layout.php");
-?>

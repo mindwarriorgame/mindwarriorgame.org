@@ -6,20 +6,19 @@ $ACTIVE_MENU = 'public-formulas';
 $LANG='es';
 ?>
 
-    <h2>Ejemplos de Fórmulas de jugadores</h2>
+    <h2>Ejemplos de fórmulas de jugadores</h2>
 
 
-<div class="mw-disclaimer-banner" role="note" aria-label="Descargo de responsabilidad">
+<div class="mw-disclaimer-banner" role="note" aria-label="Aviso legal">
   <div class="mw-disclaimer-banner__icon" aria-hidden="true">!</div>
 
   <div class="mw-disclaimer-banner__body">
-    <div class="mw-disclaimer-banner__title">¡Atención!</div>
-
+    
     <div class="mw-disclaimer-banner__text mw-lang mw-lang--es">
-      Las “Fórmulas” de esta página son solo ejemplos enviados por jugadores: textos personales que alguien escribe para sí mismo y relee con regularidad.
-Se publican únicamente como ejemplos / para inspirarse.<br /><br />
-No son instrucciones ni consejos (médicos, psicológicos, legales, financieros, etc.). Lo que ayuda a una persona puede no funcionar para otra — e incluso podría ser perjudicial. Actúa con cuidado, confía en tu propio criterio y omite cualquier cosa que no te sirva.
-    </div>
+      <sub>Las “Fórmulas” de esta página son ejemplos enviados por jugadores: textos personales que las personas escriben para sí mismas y releen con regularidad. Se comparten públicamente solo como inspiración e información general.<br /><br />
+
+No son instrucciones ni asesoramiento profesional (médico, de salud mental/psicológico, legal, financiero ni de ningún otro tipo), y MindWarrior no las verifica. Lo que ayuda a una persona puede no ayudar a otra e incluso podría ser perjudicial. Usa tu propio criterio, adapta con cautela y omite cualquier cosa que no te parezca adecuada. Si necesitas ayuda profesional o estás en crisis, busca apoyo de un profesional cualificado o de los servicios de emergencia locales.
+</sub></div>
   </div>
 </div>
 
@@ -27,7 +26,7 @@ No son instrucciones ni consejos (médicos, psicológicos, legales, financieros,
     <ul>
         <li>
             <a href="/formulas/formula1.<?=$LANG;?>.<?=$ext;?>" target="_blank">
-                [👤 stillwaiting] [⏳ 49d 21h 42m] [⭐⭐⭐⭐ 4/5 Difícil] [🏆 11]
+                Fórmula de ejemplo 1 [⏳ 49d 21h 42m] [⭐⭐⭐⭐ 4/5 Difícil] [🏆 11]
             </a>
         </li>
     </ul>
@@ -36,10 +35,9 @@ No son instrucciones ni consejos (médicos, psicológicos, legales, financieros,
 
 
 <p id="legend" style=""><sub>
-            👤 - nombre del jugador <br />
-            ⏳ - tiempo de juego activo<br />
-            ⭐ - nivel de dificultad<br />
-            🏆 - nivel del juego<br />
+            ⏳ - tiempo de juego activo en el momento en que se envió la <i>Fórmula</i> de ejemplo<br />
+            ⭐ - nivel de dificultad en el que estaba jugando el jugador<br />
+            🏆 - nivel del jugador en el juego<br />
 </sub></p>
 
 <p>
@@ -54,7 +52,7 @@ No son instrucciones ni consejos (médicos, psicológicos, legales, financieros,
             </a>
 
             <br /><br />
-    <sub>Al enviar tu Fórmula, la dedicas de forma irrevocable al dominio público bajo CC0 1.0 Universal y aceptas que no revocarás ni harás valer ningún derecho de autor (o derechos relacionados) sobre ella contra nadie.</sub>
+    <sub>Política de envío: al enviar una Fórmula para su publicación, confirmas que es tu obra original (sin texto con derechos de autor), que no incluye datos personales de nadie (incluidos nombres/datos de contacto) y que no es difamatoria, de odio ni dañina (incluidas instrucciones de autolesión/violencia/actividades ilegales). Si la publicamos, aceptas liberarla bajo CC0 (dominio público) y entiendes que podemos editar, rechazar o eliminar envíos en cualquier momento. Para denunciar una Fórmula pública o solicitar su retirada, contáctanos mediante los enlaces anteriores. Solo publicamos una pequeña selección y podemos rechazar cualquier envío por cualquier motivo.</sub>
 
 </p>
 
@@ -65,9 +63,10 @@ ob_end_clean();
 $MENU_SELECTED = "public-formulas";
 $MENU = include("includes/menu.$LANG.php");
 
-$TITLE="MindWarrior: Ejemplos de Fórmulas";
+$TITLE="MindWarrior: Ejemplos de fórmulas";
 
 $CSS = ["includes/quick-start.css", "includes/public-formulas.css"];
 $JS = [];
 
 include("includes/layout.php");
+?>

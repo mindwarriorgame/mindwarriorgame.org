@@ -6,20 +6,19 @@ $ACTIVE_MENU = 'public-formulas';
 $LANG='fr';
 ?>
 
-    <h2>Exemples de Formules de joueurs</h2>
+    <h2>Exemples de formules de joueurs</h2>
 
 
 <div class="mw-disclaimer-banner" role="note" aria-label="Avertissement">
   <div class="mw-disclaimer-banner__icon" aria-hidden="true">!</div>
 
   <div class="mw-disclaimer-banner__body">
-    <div class="mw-disclaimer-banner__title">Attention&nbsp;!</div>
-
+    
     <div class="mw-disclaimer-banner__text mw-lang mw-lang--fr">
-      Les «&nbsp;Formules&nbsp;» sur cette page ne sont que des exemples soumis par des joueurs — des textes personnels que l’on écrit pour soi-même et que l’on relit régulièrement.
-Elles sont publiées uniquement à titre d’exemples / d’inspiration.<br /><br />
-Il ne s’agit pas d’instructions ni de conseils (médicaux, psychologiques, juridiques, financiers, etc.). Ce qui aide une personne peut ne pas fonctionner pour une autre — et pourrait même être nuisible. Agissez avec prudence, fiez-vous à votre propre jugement et ignorez tout ce qui ne vous convient pas.
-    </div>
+      <sub>Les « formules » sur cette page sont des exemples soumis par des joueurs — des textes personnels que chacun écrit pour soi-même et relit régulièrement. Elles sont partagées publiquement uniquement à titre d’inspiration et d’information générale.<br /><br />
+
+Elles ne constituent pas des instructions ni des conseils professionnels (médicaux, de santé mentale/psychologiques, juridiques, financiers ou autres), et MindWarrior ne les vérifie pas. Ce qui aide une personne peut ne pas aider une autre et peut même être nuisible. Faites preuve de discernement, adaptez avec prudence et ignorez tout ce qui ne vous convient pas. Si vous avez besoin d’une aide professionnelle ou si vous êtes en crise, demandez du soutien auprès d’un professionnel qualifié ou des services d’urgence locaux.
+</sub></div>
   </div>
 </div>
 
@@ -27,7 +26,7 @@ Il ne s’agit pas d’instructions ni de conseils (médicaux, psychologiques, j
     <ul>
         <li>
             <a href="/formulas/formula1.<?=$LANG;?>.<?=$ext;?>" target="_blank">
-                [👤 stillwaiting] [⏳ 49d 21h 42m] [⭐⭐⭐⭐ 4/5 Difficile] [🏆 11]
+                Exemple de formule 1 [⏳ 49j 21h 42m] [⭐⭐⭐⭐ 4/5 Difficile] [🏆 11]
             </a>
         </li>
     </ul>
@@ -36,14 +35,13 @@ Il ne s’agit pas d’instructions ni de conseils (médicaux, psychologiques, j
 
 
 <p id="legend" style=""><sub>
-            👤 - nom du joueur <br />
-            ⏳ - temps de jeu actif<br />
-            ⭐ - niveau de difficulté<br />
-            🏆 - niveau du jeu<br />
+            ⏳ - temps de jeu actif au moment où l’exemple de <i>Formule</i> a été soumis<br />
+            ⭐ - niveau de difficulté auquel le joueur jouait<br />
+            🏆 - niveau du joueur dans le jeu<br />
 </sub></p>
 
 <p>
-    Partagez votre <i>Formule</i> sur cette page&nbsp;! <br />Pour ce faire, envoyez-la-nous&nbsp;:
+    Partagez votre <i>Formule</i> sur cette page ! <br />Pour cela, envoyez-la-nous :
         
             
             <a href="https://t.me/MindWarriorSupport_bot" target="_blank"
@@ -54,7 +52,7 @@ Il ne s’agit pas d’instructions ni de conseils (médicaux, psychologiques, j
             </a>
 
             <br /><br />
-    <sub>En soumettant votre Formule, vous la placez irrévocablement dans le domaine public sous CC0 1.0 Universal et acceptez de ne pas révoquer ni faire valoir de droits d’auteur (ou droits connexes) à son égard contre quiconque.</sub>
+    <sub>Politique de soumission : en soumettant une Formule pour publication, vous confirmez qu’il s’agit de votre œuvre originale (sans texte protégé par le droit d’auteur), qu’elle ne contient pas de données personnelles sur qui que ce soit (y compris des noms/coordonnées), et qu’elle n’est pas diffamatoire, haineuse ou dangereuse (y compris des instructions d’automutilation/de violence/d’activités illégales). Si nous la publions, vous acceptez de la placer sous licence CC0 (domaine public) et vous comprenez que nous pouvons modifier, refuser ou retirer des soumissions à tout moment. Pour signaler une Formule publique ou demander sa suppression, contactez-nous via les liens ci-dessus. Nous ne publions qu’une petite sélection et pouvons refuser toute soumission pour quelque raison que ce soit.</sub>
 
 </p>
 
@@ -65,9 +63,10 @@ ob_end_clean();
 $MENU_SELECTED = "public-formulas";
 $MENU = include("includes/menu.$LANG.php");
 
-$TITLE="MindWarrior : Exemples de Formules";
+$TITLE="MindWarrior : Exemples de formules";
 
 $CSS = ["includes/quick-start.css", "includes/public-formulas.css"];
 $JS = [];
 
 include("includes/layout.php");
+?>

@@ -8,18 +8,20 @@ $LANG='en';
 
     <h2>Privacy policy</h2>
 
+    <p style="padding-top:0;"><sub>Last updated: 2025-12-17</sub></p>
+
 
     <h3>Introduction</h3>
     <p>
-        We value your privacy. Your <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula">"Formula of firm resolution"</a>
-        remains private and safe.
-        The game doesn't create any copies or sends it anywhere.
-        It is stored right on your device in
-        <a href="https://davitdvalashvili1996.medium.com/local-storage-in-javascript-f7aad374980e"
-           target="_blank">localStorage</a> of Telegram's
-        <a href="https://docs.ton.org/develop/dapps/telegram-apps/testing-apps#debug-mode-for-mini-apps"
-           target="_blank">WebView</a>.
-    </p>
+  We take your privacy seriously. Your
+  <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula">“Formula of firm resolution”</a>
+  stays on your device and is not sent to our servers. The game does not create extra copies or upload it anywhere —
+  it is stored locally in
+  <a href="https://davitdvalashvili1996.medium.com/local-storage-in-javascript-f7aad374980e" target="_blank" rel="noopener noreferrer">localStorage</a>
+  inside Telegram’s
+  <a href="https://docs.ton.org/develop/dapps/telegram-apps/testing-apps#debug-mode-for-mini-apps" target="_blank" rel="noopener noreferrer">WebView</a>.
+</p>
+
 
     <p>
         Because of this, we recommend you to regularly create manual backup copies of your Formula by copy-pasting its content
@@ -27,7 +29,7 @@ $LANG='en';
             Saved Messages</a>).
     </p>
 
-    <h3>Open sources</h3>
+    <h3>Open source</h3>
     <p>
         Our project is proudly open source, allowing complete transparency regarding how the game treats your data.
         Please feel free to browse through the sources of the game on GitHub:
@@ -112,6 +114,8 @@ $LANG='en';
     <p>We store your data securely and take appropriate measures to protect it from unauthorized access,
         disclosure, alteration, or destruction.</p>
 
+    <p><strong>Hosting:</strong> We use third-party hosting providers, and your data may be stored or processed in different countries/jurisdictions. We take reasonable steps to protect it, but cannot guarantee absolute security.</p>
+
     <h3>Your Rights</h3>
     <p>You have the following controls regarding your data:</p>
     <ul>
@@ -127,6 +131,9 @@ $LANG='en';
                     know how Telegram handles it. Please check "Using Telegram" section below for more information.
                 </li>
             </ul>
+            <p>
+                Deletion takes effect immediately for active systems where practical, but backups/logs may persist for a limited time.
+            </p>
         </li>
     </ul>
 
@@ -147,12 +154,12 @@ $LANG='en';
     <h2>Contact Us</h2>
 
     <p>If you have any questions or concerns about this policy,
-        please raise it as a GitHub Issue:
-        <a href="https://github.com/mindwarriorgame/mindwarrior-telegram-bot/issues" target="_blank">https://github.com/mindwarriorgame/mindwarrior-telegram-bot/issues</a>
+        please raise it as a
+        <a href="https://github.com/mindwarriorgame/mindwarrior-telegram-bot/issues" target="_blank">GitHub Issue</a>.
+        (Please don’t include sensitive personal information in GitHub issues.)
     </p>
 
-    <p>By using the game, you consent to the collection and use of your data as it is described
-        in this policy.</p>
+    <p>By using the game, you acknowledge we handle data as described in this policy.</p>
 
 
 
