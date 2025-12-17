@@ -49,40 +49,56 @@ $LANG='en';
     </ul>
 
     <h4>Game Data</h4>
-    <ul>
-        <li>
-            <span class="code-highlight">difficulty</span>
-        </li>
+<ul>
+    <li>
+        <span class="code-highlight">difficulty</span>
+    </li>
 
+    <li>
+        <span class="code-highlight">diamonds</span>: current amount of earned diamonds
+    </li>
+    <li>
+        <span class="code-highlight">diamonds_spent</span>: the amount of spent diamonds
+    </li>
+    <li>
+        <span class="code-highlight">has_repeller</span>: if the user has a grumpy cat repeller available to be used
+    </li>
 
-        <li>
-            <span class="code-highlight">review_counter_state</span>,
-            <span class="code-highlight">active_game_counter_state</span>,
-            <span class="code-highlight">paused_counter_state</span>: stopwatch timer values that
-            contain timestamps, elapsed time counters and status flags
-        </li>
+    <li>
+        <span class="code-highlight">review_counter_state</span>,
+        <span class="code-highlight">active_game_counter_state</span>,
+        <span class="code-highlight">paused_counter_state</span>: stopwatch timer values that
+        contain timestamps, elapsed time counters and status flags
+    </li>
 
-        <li>
-            <span class="code-highlight">next_prompt_time</span>, <span class="code-highlight">next_autopause_event_time</span>: timestamps
-        </li>
-        <li>
-            <span class="code-highlight">next_prompt_type</span>: string (could contain only 2 possible values: "reminder" and "penalty")
-        </li>
+    <li>
+        <span class="code-highlight">next_prompt_time</span>, <span class="code-highlight">next_autopause_event_time</span>: timestamps
+    </li>
+    <li>
+        <span class="code-highlight">next_prompt_type</span>: string (could contain only 2 possible values: "reminder" and "penalty")
+    </li>
 
-        <li>
-            <span class="code-highlight">counters_history_serialized</span>: historical data of player's counters for rendering the progress chart
-        </li>
+    <li>
+        <span class="code-highlight">last_reward_time_at_active_counter_time_secs</span>: a timer to track the time since the last reward was administered
+    </li>
 
-        <li>
-            <span class="code-highlight">badges_serialized</span>: the data about the game board: earned badges, their statuses, level etc.
-        </li>
+    <li>
+        <span class="code-highlight">counters_history_serialized</span>: historical data of player's counters for rendering the progress chart
+    </li>
 
-        <li>
-            <span class="code-highlight">autopause_config_serialized</span>: settings of the sleep scheduler. ⚠️Contains user's timezone (if the feature is used).
-        </li>
+    <li>
+        <span class="code-highlight">badges_serialized</span>: the data about the game board: earned badges, their statuses, level etc.
+    </li>
 
+    <li>
+        <span class="code-highlight">autopause_config_serialized</span>: settings of the sleep scheduler. ⚠️Contains user's timezone (if the feature is used).
+    </li>
 
-    </ul>
+    <li>
+        <span class="code-highlight">frontend_base_url_override</span>: URL of miniapp web server
+    </li>
+</ul>
+
 
     <h3>How We Use Your Data</h3>
     <p>We use the collected data to:</p>
