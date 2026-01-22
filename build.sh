@@ -11,7 +11,7 @@ php index.php > build/index.html
 
 languages=("en" "es" "fr" "de" "ru")
 
-files=("public-formulas" "privacy-policy" "faq" "quick-start" "formulas/formula1", "tos")
+files=("public-formulas" "privacy-policy" "faq" "quick-start" "formulas/formula1" "tos")
 
 
 for lang in "${languages[@]}"; do

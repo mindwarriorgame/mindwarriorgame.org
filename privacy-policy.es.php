@@ -8,20 +8,23 @@ $LANG='es';
 
     <h2>Política de privacidad</h2>
 
-    <p style="padding-top:0;"><sub>Última actualización: 2025-12-17</sub></p>
+    <p style="padding-top:0;"><sub>Última actualización: 2026-01-21</sub></p>
 
 
     <h3>Introducción</h3>
     <p>
-  Nos tomamos tu privacidad muy en serio. Tu
-  <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula">«Fórmula de resolución firme»</a>
-  permanece en tu dispositivo y no se envía a nuestros servidores. El juego no crea copias adicionales ni la sube a ningún sitio —
-  se almacena localmente en
-  <a href="https://davitdvalashvili1996.medium.com/local-storage-in-javascript-f7aad374980e" target="_blank" rel="noopener noreferrer">localStorage</a>
-  dentro del
-  <a href="https://docs.ton.org/develop/dapps/telegram-apps/testing-apps#debug-mode-for-mini-apps" target="_blank" rel="noopener noreferrer">WebView</a>
-  de Telegram.
-</p>
+        Esta política se aplica tanto al bot de Telegram MindWarrior como a la app de Android MindWarrior.
+        Nos tomamos tu privacidad en serio y buscamos recopilar la menor cantidad de datos posible.
+    </p>
+
+    <p>
+        Tu <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula">«Fórmula de resolución firme»</a>
+        permanece en tu dispositivo y no se envía a nuestros servidores. Para el bot de Telegram, se almacena localmente en
+        <a href="https://davitdvalashvili1996.medium.com/local-storage-in-javascript-f7aad374980e" target="_blank" rel="noopener noreferrer">localStorage</a>
+        dentro del
+        <a href="https://docs.ton.org/develop/dapps/telegram-apps/testing-apps#debug-mode-for-mini-apps" target="_blank" rel="noopener noreferrer">WebView</a>
+        de Telegram. Para la app de Android, se almacena localmente en el almacenamiento privado de la app en tu dispositivo.
+    </p>
 
 
     <p>
@@ -40,7 +43,8 @@ $LANG='es';
 
     <p>El juego recopila los siguientes datos del usuario:</p>
 
-    <h4>Información del usuario</h4>
+    <h4>Bot de Telegram</h4>
+    <h5>Información del usuario</h5>
     <ul>
         <li><span class="code-highlight">user_id</span>: un identificador único de Telegram del usuario
             (<a href="https://flows.network/blog/how-to-find-telegram-chat-id#:~:text=Telegram%20has%20three%20different%20kinds,is%20called%20group%20chat%20ID." target="_blank">chat_id</a>),
@@ -50,7 +54,7 @@ $LANG='es';
         <li><span class="code-highlight">shared_key_uuid</span>: una cadena aleatoria asociada al usuario.</li>
     </ul>
 
-    <h4>Datos del juego</h4>
+    <h5>Datos del juego</h5>
 <ul>
     <li>
         <span class="code-highlight">difficulty</span>
@@ -101,8 +105,19 @@ $LANG='es';
     </li>
 </ul>
 
+    <h4>App de Android</h4>
+    <p>
+        La app de Android no requiere una cuenta y no recopila ni transmite datos personales a nuestros servidores
+        durante el uso normal. Todo el progreso y la configuración del juego se almacenan localmente en tu dispositivo.
+    </p>
+    <ul>
+        <li>Progreso local del juego (p. ej., temporizadores, contadores, insignias, dificultad)</li>
+        <li>Configuración local de la app (p. ej., idioma y configuración del programador)</li>
+    </ul>
+
 
     <h3>Cómo usamos tus datos</h3>
+    <h4>Bot de Telegram</h4>
     <p>Usamos los datos recopilados para:</p>
     <ul>
         <li>proporcionar, operar y mantener la experiencia del juego</li>
@@ -110,13 +125,28 @@ $LANG='es';
         <li>desarrollar nuevas funciones y funcionalidades del juego</li>
     </ul>
 
+    <h4>App de Android</h4>
+    <p>Usamos los datos locales solo para:</p>
+    <ul>
+        <li>proporcionar y mantener la experiencia del juego en el dispositivo</li>
+        <li>restaurar el progreso dentro de la app en tu dispositivo</li>
+    </ul>
+
     <h3>Almacenamiento de datos</h3>
+    <h4>Bot de Telegram</h4>
     <p>Almacenamos tus datos de forma segura y tomamos medidas adecuadas para protegerlos del acceso no autorizado,
         la divulgación, la alteración o la destrucción.</p>
 
     <p><strong>Alojamiento:</strong> Utilizamos proveedores de alojamiento de terceros, y tus datos pueden almacenarse o procesarse en diferentes países/jurisdicciones. Tomamos medidas razonables para protegerlos, pero no podemos garantizar una seguridad absoluta.</p>
 
+    <h4>App de Android</h4>
+    <p>
+        La app de Android almacena los datos localmente en el almacenamiento privado de la app en tu dispositivo.
+        Puedes eliminar estos datos borrando el almacenamiento de la app o desinstalando la app.
+    </p>
+
     <h3>Tus derechos</h3>
+    <h4>Bot de Telegram</h4>
     <p>Tienes los siguientes controles respecto a tus datos:</p>
     <ul>
         <li><strong>Acceso</strong>: Puedes acceder a todos tus datos en cualquier momento usando el comando
@@ -137,6 +167,9 @@ $LANG='es';
         </li>
     </ul>
 
+    <h4>App de Android</h4>
+    <p>Puedes eliminar todos los datos de la app en cualquier momento borrando el almacenamiento de la app o desinstalándola.</p>
+
     <h3>Uso de Telegram</h3>
 
     <p>
@@ -144,6 +177,14 @@ $LANG='es';
         <a href="https://telegram.org/privacy" target="_blank">política de privacidad</a> de Telegram para entender cómo tratará tus
         datos. No somos responsables de las prácticas de privacidad de Telegram y no tenemos visibilidad ni control
         sobre ellas. Asegúrate de que te sientes cómodo con esto antes de usar el juego.
+    </p>
+
+    <h3>Uso de Google Play</h3>
+    <p>
+        La app de Android se distribuye a través de Google Play. Google puede recopilar datos asociados con la instalación y
+        las actualizaciones de acuerdo con su propia
+        <a href="https://policies.google.com/privacy" target="_blank">política de privacidad</a>.
+        No recibimos datos personales de Google Play.
     </p>
 
     <h3>Cambios en esta política</h3>
