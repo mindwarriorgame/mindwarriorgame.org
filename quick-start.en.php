@@ -15,8 +15,15 @@ $LANG='en';
     <p><strong>MindWarrior</strong> is a Telegram game that <a href="/faq.<?=$LANG;?>.<?=$ext;?>#purpose">helps you stay focused</a> on your personal goals by <a href="/faq.<?=$LANG;?>.<?=$ext;?>#review">regularly revisiting</a> a <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula">private message</a> you write to yourself.</p>
 
     <div class="quickstart-parent">
-        <div class="telegram">
-            <img src="/images/telegram.svg" width="32" style="vertical-align: middle" />    <a href="https://t.me/mindwarriorgame_bot" target="_blank">Start playing on Telegram</a>
+        <div class="store-buttons">
+            <a class="store-badge telegram" href="https://t.me/mindwarriorgame_bot" target="_blank">
+                <img class="store-icon" src="/images/telegram.svg" alt="Telegram" />
+                <span class="store-label">Start playing on Telegram</span>
+            </a>
+            <a class="store-badge play-store" href="https://play.google.com/store/apps/details?id=com.mindwarrior.app" target="_blank">
+                <img class="play-badge" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play" />
+                <span class="store-label">Play on Android</span>
+            </a>
         </div>
     </div>
 
@@ -116,8 +123,15 @@ $LANG='en';
 </div>
 
 <div class="quickstart-parent">
-    <div class="telegram">
-        <img src="/images/telegram.svg" width="32" style="vertical-align: middle" /> <a href="https://t.me/mindwarriorgame_bot" target="_blank">Start playing on Telegram</a>
+    <div class="store-buttons">
+        <a class="store-badge telegram" href="https://t.me/mindwarriorgame_bot" target="_blank">
+            <img class="store-icon" src="/images/telegram.svg" alt="Telegram" />
+            <span class="store-label">Start playing on Telegram</span>
+        </a>
+        <a class="store-badge play-store" href="https://play.google.com/store/apps/details?id=com.mindwarrior.app" target="_blank">
+            <img class="play-badge" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play" />
+            <span class="store-label">Play on Android</span>
+        </a>
     </div>
 </div>
 

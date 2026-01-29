@@ -14,11 +14,18 @@ $LANG='de';
 
         <p><strong>MindWarrior</strong> ist ein Telegram-Spiel, das dir dabei <a href="/faq.<?=$LANG;?>.<?=$ext;?>#purpose">hilft, fokussiert zu bleiben</a> auf deine persönlichen Ziele, indem du <a href="/faq.<?=$LANG;?>.<?=$ext;?>#review">regelmäßig</a> eine <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula">private Nachricht</a> wieder aufrufst, die du dir selbst geschrieben hast.</p>
 
-        <div class="quickstart-parent">
-            <div class="telegram">
-                <img src="/images/telegram.svg" width="32" style="vertical-align: middle" /> <a href="https://t.me/mindwarriorgame_bot" target="_blank">Auf Telegram spielen</a>
-            </div>
+    <div class="quickstart-parent">
+        <div class="store-buttons">
+            <a class="store-badge telegram" href="https://t.me/mindwarriorgame_bot" target="_blank">
+                <img class="store-icon" src="/images/telegram.svg" alt="Telegram" />
+                <span class="store-label">Auf Telegram spielen</span>
+            </a>
+            <a class="store-badge play-store" href="https://play.google.com/store/apps/details?id=com.mindwarrior.app" target="_blank">
+                <img class="play-badge" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Bei Google Play herunterladen" />
+                <span class="store-label">Auf Android spielen</span>
+            </a>
         </div>
+    </div>
 
         <h2>Schnellstartanleitung</h2>
 
@@ -123,11 +130,18 @@ $LANG='de';
     </div>
 
 
-    <div class="quickstart-parent">
-        <div class="telegram">
-            <img src="/images/telegram.svg" width="32" style="vertical-align: middle" /> <a href="https://t.me/mindwarriorgame_bot" target="_blank">Zu Telegram</a>
-        </div>
+<div class="quickstart-parent">
+    <div class="store-buttons">
+        <a class="store-badge telegram" href="https://t.me/mindwarriorgame_bot" target="_blank">
+            <img class="store-icon" src="/images/telegram.svg" alt="Telegram" />
+            <span class="store-label">Zu Telegram</span>
+        </a>
+        <a class="store-badge play-store" href="https://play.google.com/store/apps/details?id=com.mindwarrior.app" target="_blank">
+            <img class="play-badge" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Bei Google Play herunterladen" />
+            <span class="store-label">Auf Android spielen</span>
+        </a>
     </div>
+</div>
 
 
 
