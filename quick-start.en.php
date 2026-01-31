@@ -27,10 +27,23 @@ $LANG='en';
         </div>
     </div>
 
-    <h2>Quick-start guide</h2>
+    </div>
 
-    <p>(Tap the images below to expand)</p>
-</div>
+    <div style="text-align: center;">
+        <h2>Quick-start guide</h2>
+        <h3>Select your platform:</h3>
+    </div>
+
+    <div class="quickstart-parent" data-platform-tabs data-target-panel-filter="quick-start" data-default-platform="telegram">
+        <div class="platform-tabs" role="tablist" aria-label="Choose platform">
+            <button class="platform-tab active" type="button" role="tab" aria-selected="true" data-platform-tab="telegram">Telegram</button>
+            <button class="platform-tab" type="button" role="tab" aria-selected="false" data-platform-tab="android">Android</button>
+        </div>
+
+        <div class="platform-content active" data-target-panel-filter="quick-start" data-platform-panel="telegram" role="tabpanel">
+        
+
+            <p>(Tap the images below to expand)</p>
 
 <div class="quickstart-parent">
     <div>
@@ -122,18 +135,30 @@ $LANG='en';
     </div>
 </div>
 
-<div class="quickstart-parent">
-    <div class="store-buttons">
-        <a class="store-badge telegram" href="https://t.me/mindwarriorgame_bot" target="_blank">
-            <img class="store-icon" src="/images/telegram.svg" alt="Telegram" />
-            <span class="store-label">Start playing on Telegram</span>
-        </a>
-        <a class="store-badge play-store" href="https://play.google.com/store/apps/details?id=com.mindwarrior.app" target="_blank">
-            <img class="play-badge" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play" />
-            <span class="store-label">Play on Android</span>
-        </a>
+        <div class="quickstart-parent">
+            <div class="store-buttons">
+                <a class="store-badge telegram" href="https://t.me/mindwarriorgame_bot" target="_blank">
+                    <img class="store-icon" src="/images/telegram.svg" alt="Telegram" />
+                    <span class="store-label">Start playing on Telegram</span>
+                </a>
+                <a class="store-badge play-store" href="https://play.google.com/store/apps/details?id=com.mindwarrior.app" target="_blank">
+                    <img class="play-badge" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play" />
+                    <span class="store-label">Play on Android</span>
+                </a>
+            </div>
+        </div>
+        </div>
+
+        <div class="platform-content" data-target-panel-filter="quick-start" data-platform-panel="android" role="tabpanel">
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.                
+            </div>
+            <div class="quickstart-step">
+                <h1>Lorem ipsum</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+            </div>
+        </div>
     </div>
-</div>
 
 
 
@@ -148,6 +173,6 @@ $MENU = include("includes/menu.$LANG.php");
 $TITLE="MindWarrior: Quick start";
 
 $CSS = ["includes/quick-start.css"];
-$JS = [];
+$JS = ["/includes/quick-start-tabs.js"];
 
 include("includes/layout.php");
