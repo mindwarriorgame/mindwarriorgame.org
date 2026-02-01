@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+    const hashTarget = window.location.hash ? window.location.hash.slice(1) : "";
     const tabGroups = document.querySelectorAll("[data-platform-tabs]");
     tabGroups.forEach((group) => {
         const panelFilter = group.getAttribute("data-target-panel-filter");
@@ -27,7 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
             tab.addEventListener("click", () => activate(tab.dataset.platformTab));
         });
 
-        const initial = group.dataset.defaultPlatform || "telegram";
+        const hasHashTarget = hashTarget && Array.from(tabs).some((tab) => tab.dataset.platformTab === hashTarget);
+        const initial = hasHashTarget ? hashTarget : (group.dataset.defaultPlatform || "telegram");
         activate(initial);
     });
 });
