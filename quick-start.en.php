@@ -18,7 +18,7 @@ $LANG='en';
         <div class="store-buttons">
             <a class="store-badge telegram" href="https://t.me/mindwarriorgame_bot" target="_blank">
                 <img class="store-icon" src="/images/telegram.svg" alt="Telegram" />
-                <span class="store-label">Start playing on Telegram</span>
+                <span class="store-label">Play on Telegram</span>
             </a>
             <a class="store-badge play-store" href="https://play.google.com/store/apps/details?id=com.mindwarrior.app" target="_blank">
                 <img class="play-badge" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play" />
@@ -135,31 +135,98 @@ $LANG='en';
     </div>
 </div>
 
-        <div class="quickstart-parent">
-            <div class="store-buttons">
-                <a class="store-badge telegram" href="https://t.me/mindwarriorgame_bot" target="_blank">
-                    <img class="store-icon" src="/images/telegram.svg" alt="Telegram" />
-                    <span class="store-label">Start playing on Telegram</span>
-                </a>
-                <a class="store-badge play-store" href="https://play.google.com/store/apps/details?id=com.mindwarrior.app" target="_blank">
-                    <img class="play-badge" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play" />
-                    <span class="store-label">Play on Android</span>
-                </a>
-            </div>
-        </div>
         </div>
 
         <div class="platform-content" data-target-panel-filter="quick-start" data-platform-panel="android" role="tabpanel">
-            <div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.                
+
+
+            <div class="quickstart-parent">
+                <div>
+                    <a href="/images/quickstart_android_en/01.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_android_en/01_cropped.png?<?=$ver;?>' width='250' /></a>
+                </div>
+                <div class="quickstart-step single">
+                    <h1>Press 🧪 (tube) button</h1>
+                </div>
             </div>
-            <div class="quickstart-step">
-                <h1>Lorem ipsum</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+
+            <div class="quickstart-parent">
+                <div>
+                    <a href="/images/quickstart_android_en/02.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_android_en/02_cropped.png?<?=$ver;?>' width='250' /></a>
+                </div>
+                <div class="quickstart-step single">
+                    <h1>Write your <a href="/faq.<?=$LANG;?>.<?=$ext;?>#formula" target="_blank"><i>Formula</i></a></h1>
+                </div>
             </div>
+
+            <div class="quickstart-parent">
+                <div>
+                    <a href="/images/quickstart_android_en/03.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_android_en/03_cropped.png?<?=$ver;?>' width='250' /></a>
+                </div>
+                <div class="quickstart-step">
+                    <h1>The game has started!</h1>
+                    <p>Go back to your daily routines.</p>
+                </div>
+            </div>
+
+            <div class="quickstart-parent">
+                <div class="quickstart-parent">
+                    ⌛ some time later... ⌛
+                </div>
+            </div>
+
+            <div class="quickstart-parent">
+                <div>
+                    <a href="/images/quickstart_android_en/04.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_android_en/04_cropped.png?<?=$ver;?>' width='250' /></a>
+                </div>
+                <div class="quickstart-step">
+                    <h1>Press the "Review Formula" button</h1>
+                    <p>
+                        (when you are back to the game)
+                    </p>
+                </div>
+            </div>
+
+            <div class="quickstart-parent">
+                <div>
+                    <a href="/images/quickstart_android_en/05.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_android_en/05_cropped.png?<?=$ver;?>' width='250' /></a>
+                </div>
+                <div class="quickstart-step">
+                    <h1>Review your <i>Formula</i></h1>
+                    <p>
+                        Get inpspired!
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="quickstart-parent">
+                <div>
+                    <a href="/images/quickstart_android_en/06.png?<?=$ver;?>" class="image-link"><img src='/images/quickstart_android_en/06_cropped.png?<?=$ver;?>' width='250' /></a>
+                </div>
+                <div class="quickstart-step">
+                    <h1>All done!</h1>
+                    <p>
+                        Collect your rewards. Be back soon!
+                    </p>
+                </div>
+            </div>
+
+
         </div>
     </div>
-
+    
+    <div class="quickstart-parent">
+        <div class="store-buttons">
+            <a class="store-badge telegram" href="https://t.me/mindwarriorgame_bot" target="_blank">
+                <img class="store-icon" src="/images/telegram.svg" alt="Telegram" />
+                <span class="store-label">Play on Telegram</span>
+            </a>
+            <a class="store-badge play-store" href="https://play.google.com/store/apps/details?id=com.mindwarrior.app" target="_blank">
+                <img class="play-badge" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play" />
+                <span class="store-label">Play on Android</span>
+            </a>
+        </div>
+    </div>
 
 
 
